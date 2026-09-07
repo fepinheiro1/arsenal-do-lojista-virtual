@@ -4,9 +4,12 @@ Skills para transformar as informações cruas de um produto em páginas que ven
 
 | Skill | O que faz |
 |-------|-----------|
-| [`descricao-que-converte`](descricao-que-converte/) | Descrição de produto com SEO + persuasão, pronta para colar na loja |
-
-Próximas skills desta frente: título que rankeia · bullets de benefício · FAQ do produto · tabela de medidas · texto de categoria.
+| [`descricao-que-converte`](descricao-que-converte/) | Descrição de produto com SEO + persuasão, pronta para colar |
+| [`titulo-que-rankeia`](titulo-que-rankeia/) | Título otimizado para busca, na ordem que Google e marketplaces entendem |
+| [`bullets-de-beneficio`](bullets-de-beneficio/) | Transforma specs cruas em bullets que começam pelo benefício |
+| [`faq-do-produto`](faq-do-produto/) | Perguntas frequentes que tiram o receio e aliviam o atendimento |
+| [`tabela-de-medidas`](tabela-de-medidas/) | Guia de tamanhos + "como medir" para reduzir troca por numeração |
+| [`texto-de-categoria`](texto-de-categoria/) | Texto de página de categoria otimizado para o termo amplo |
 
 ---
 Arsenal do Lojista · por **Performa.AI**
