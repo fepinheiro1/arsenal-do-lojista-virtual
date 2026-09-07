@@ -1,46 +1,90 @@
 ---
 name: descricao-que-converte
-description: Escreve ou reescreve a descrição de um produto de e-commerce unindo SEO e persuasão ética — headline de benefício, bullets, especificações e chamada final. Use ao cadastrar um produto novo ou melhorar a descrição de um produto que já vende.
+description: Cria ou otimiza a descrição de um produto de e-commerce com foco em conversão, clareza, SEO natural e precisão factual. Aceita dados soltos, uma descrição existente ou uma URL, detecta sozinha se é para criar ou melhorar, e adapta a estrutura à categoria e ao ticket do produto. Use ao cadastrar um produto novo ou melhorar a descrição de um que já vende.
 ---
 
 # Descrição que Converte
 
 ## O que faz
-Transforma as características cruas de um produto em uma descrição que vende: começa pelo benefício, organiza a informação na ordem em que a pessoa decide comprar e fecha com uma chamada clara — tudo já otimizado para busca (SEO) sem soar robótico.
+Escreve a descrição de um produto pronta para publicar — ou melhora uma que já existe — começando pelo benefício, na ordem em que a pessoa decide comprar, otimizada para busca sem soar robótica. Infere sozinha o que der (categoria, público, palavra-chave, tom, profundidade), pergunta pouco e nunca inventa dado que não recebeu.
+
+Regra de ouro: **simples na superfície, especialista por baixo.** O lojista não precisa saber copywriting, SEO ou estrutura de página — só dizer o que é o produto.
 
 ## Quando usar
-- Ao cadastrar um produto novo na loja.
-- Ao melhorar a descrição de um produto que já tem tráfego mas converte pouco.
-- Ao padronizar um catálogo inteiro no mesmo tom.
+- Cadastrar um produto novo, a partir de dados soltos, uma ficha, o que tiver.
+- Melhorar uma descrição fraca que já está no ar (cole o texto ou a URL).
+- Padronizar um catálogo inteiro no mesmo tom e na mesma estrutura.
 
 ## O que a IA precisa de você
-- `[produto]` — nome e o que é.
-- `[público]` — para quem vende (ex.: corredor amador, mãe de primeira viagem).
-- `[características]` — specs e diferenciais (material, tamanho, funções, garantia).
-- `[palavra-chave]` — o termo que a pessoa digita na busca (ex.: "tênis de corrida masculino").
-- `[tom da marca]` — como a loja fala (ex.: técnico e direto / acolhedor e próximo).
+No mínimo, **uma** destas coisas:
+- os **dados do produto** (nome + o que você souber: características, preço, público), ou
+- uma **descrição atual** para melhorar, ou
+- uma **URL** do produto (se você tiver navegação disponível; se não tiver, cole o texto da página).
+
+Todo o resto é **opcional** e só afina o resultado: palavra-chave alvo, tom da marca, diferenciais, prova (reviews), garantia, prazo, concorrentes. Se você não informar, a IA infere com segurança o que for possível e só pergunta 1 ou 2 coisas curtas quando a falta realmente impedir uma boa descrição.
+
+## Como funciona (por baixo)
+
+**1. Detecta o modo, sozinha.**
+- **Criar** — recebeu dados soltos/ficha, ou o pedido é "crie uma descrição". Monta do zero.
+- **Otimizar** — recebeu uma descrição pronta ou uma URL, ou o pedido é "melhore / revise / deixe mais persuasivo". Aí preserva os fatos, corta exagero, repetição e frase genérica, melhora hierarquia e benefícios, e devolve uma versão superior — sem reconstruir do zero à toa.
+
+**2. Infere com segurança (e pergunta pouco).** Do que recebeu, deduz o que der: tipo de produto, categoria, público provável, intenção de busca, palavra-chave principal, tom e profundidade. Só pergunta 1–2 coisas quando a ausência impede a qualidade. Sem interrogatório.
+
+**3. Palavra-chave natural.** Se você não deu a palavra-chave, ela infere a expressão que a pessoa realmente busca (ex.: "Tênis NimbusFlow, corrida, masculino" → *tênis de corrida masculino*). Usa essa expressão nos pontos que importam (headline, abertura, um subtítulo, um bullet) e variações naturais no resto. Nunca empilha palavra-chave nem sacrifica a leitura por SEO.
+
+**4. Adapta a estrutura à categoria.** Prioriza o que decide a compra naquele tipo de produto:
+
+| Categoria | Prioriza |
+|---|---|
+| Moda | tecido, composição, caimento, modelagem, ocasião, tamanho, cuidados |
+| Calçados | uso, conforto, amortecimento, solado, peso, ajuste, terreno, numeração |
+| Eletrônicos | função, desempenho, conectividade, compatibilidade, autonomia, garantia |
+| Casa & decoração | dimensões, material, ambiente, montagem, durabilidade, limpeza |
+| Beleza | finalidade, textura, modo de uso, ativos, indicação, restrições |
+| Alimentos & bebidas | sabor, composição, modo de consumo, origem, peso, conservação, alergênicos |
+| Infantil | faixa etária, segurança, material, certificações, cuidados |
+| Esporte | uso, nível, material, resistência, desempenho, contexto de prática |
+
+Outra categoria? Aplica o mesmo raciocínio: o que a pessoa precisa saber para decidir se aquilo serve para ela.
+
+**5. Adapta o tamanho ao ticket/complexidade.** Produto simples e barato (cabo, caneca) → descrição curta. Intermediário (tênis, eletroportátil) → média. Alto ticket / complexo (notebook, colchão) → detalhada, com mais especificação e redução de risco. A profundidade é decidida automaticamente.
+
+**6. Transforma característica em benefício — sem inventar.** Da especificação para o ganho, com a evidência junto e o benefício plausível:
+- Vira: *"Mais conforto nas passadas — entressola de 32 mm em espuma EVA."*
+- Não vira: *"protege seus joelhos"* (alegação não comprovada).
 
 ## Instruções (o cérebro da skill)
-Escreva a descrição nesta estrutura, nesta ordem:
-
-1. **Headline de benefício** (1 linha): o resultado que o produto entrega, não o que ele é. Inclua a `[palavra-chave]` de forma natural.
-2. **Abertura (2–3 frases)**: conecte o produto ao que o público quer alcançar. Contexto de uso real, sem drama.
-3. **Bullets de benefício (4–6)**: cada bullet começa pelo ganho para a pessoa e só depois cita a característica que o sustenta. Ex.: "Pé seco no treino inteiro — malha respirável que solta o calor".
-4. **Especificações técnicas**: lista limpa (material, medidas, conteúdo da embalagem, cuidados).
-5. **Segurança da compra**: garantia, troca, prazo — o que reduz o receio de comprar.
-6. **Chamada final (1 linha)**: convite objetivo à ação, no tom da marca.
-
-Regras de SEO: use a `[palavra-chave]` na headline, na primeira frase e mais 1–2 vezes ao longo do texto, sempre de forma natural. Nunca empilhe palavras-chave.
+1. Identifique o **modo** (criar / otimizar) e organize o que recebeu.
+2. Classifique a **categoria** e infira **público, palavra-chave, tom e profundidade** com segurança.
+3. Escreva na estrutura abaixo, benefício antes da característica, pensada para o celular:
+   - **Headline** — benefício principal + o produto, com a palavra-chave natural.
+   - **Abertura** — 2 a 4 frases: para quem é, para qual situação, por que importa.
+   - **Benefícios** — 4 a 6 bullets no formato `Benefício — característica que o sustenta`.
+   - **Especificações** — lista limpa, só fatos informados ou verificáveis.
+   - **Redução de risco** — garantia, troca, suporte, certificação (só se houver o dado).
+   - **CTA** — curto, no tom da marca.
+4. Rode o **Quality Gate** (abaixo) em silêncio e corrija antes de entregar.
+5. Entregue a descrição pronta para colar, com 2 variações de headline para teste.
 
 ## Regras de qualidade
-- Foque no benefício antes da característica.
-- Sem "o melhor do mundo", "imperdível", "última chance" ou garantia de resultado.
-- Sem escassez inventada. Se houver oferta real, ela é informada, não gritada.
-- Respeite o `[tom da marca]` — a descrição é da loja, não da Performa.
-- Frases curtas. Escaneável no celular (onde a maioria compra).
+- **Nunca invente** material, medida, certificação, origem, garantia, duração, performance, compatibilidade, benefício de saúde, resultado, estoque, prazo, avaliação ou prova social. Faltou o dado? Omita e, no fim, sinalize ao lojista em uma linha o que completaria a descrição.
+- **Distinga sempre**: fato informado (pode afirmar — "5000 mAh") · inferência segura (com cautela — "bateria de alta capacidade") · alegação não comprovada (proibida sem evidência — "dura o dia inteiro").
+- **Claims sensíveis** (saúde, cosmético, suplemento, infantil, segurança): nada de "elimina dores", "cura", "protege totalmente", "garante resultado". Só linguagem compatível com o dado real do produto.
+- **Persuasão ética**: sem "melhor do mundo", "imperdível", "última chance", urgência ou escassez falsa.
+- **Voz do lojista, não da Performa**: infira o tom pela categoria, faixa de preço, público e texto atual, e escreva como a loja falaria. Nunca use um tom genérico de fornecedor de tecnologia.
+- **Dados conflitantes** (ex.: "100% algodão" vs "95% algodão + 5% elastano"): não escolha no silêncio — peça uma confirmação curta.
+- **Mobile-first**: parágrafos e frases curtas, uma ideia por bullet, o que importa primeiro, sem parede de texto nem adjetivo vazio.
+
+### Quality Gate (silencioso, antes de entregar)
+Inventei algum dado? · Alguma promessa não comprovada? · Benefício veio antes da característica? · Ficou claro para quem o produto é? · Destaquei o diferencial? · Tem frase genérica pra cortar? · Soa humano e escaneável no celular? · O SEO ficou natural? · Repeti informação? · Omiti alguma característica que importa? · O CTA combina com a marca?
 
 ## Formato da saída
-Entregue a descrição pronta para colar na loja, com os blocos na ordem acima. Ao final, ofereça **2 variações de headline** alternativas para teste.
+Por padrão, **só a descrição pronta para copiar e colar** (headline, abertura, bullets, especificações, redução de risco, CTA) mais 2 variações de headline. Nada de análise, score ou lista de técnicas.
+
+Se faltou algo relevante, uma linha curta no fim — ex.: *"Se você me passar o tecido e a garantia, deixo a descrição bem mais específica."*
+
+Sob pedido (ou em modo avançado), a skill também entrega: SEO title, meta description, versão curta, versão para marketplace ou Google Merchant, ou mais variações de headline.
 
 ---
 Arsenal do Lojista · por **Performa.AI** — performance digital para e-commerce.
