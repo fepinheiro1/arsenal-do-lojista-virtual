@@ -8,7 +8,7 @@ Cada skill aqui é um **gerador de prompt**: você preenche seus dados em portug
 | [`prompt-foto-lifestyle`](prompt-foto-lifestyle/) | Produto em contexto real de uso — cena plausível e verdadeira (a imagem também é um claim), com escala e luz honestas |
 | [`prompt-cena-de-uso`](prompt-cena-de-uso/) | Pessoa demonstrando a função — só a ação e o resultado que o produto sustenta, com mãos plausíveis e segurança |
 | [`prompt-banner-campanha`](prompt-banner-campanha/) | Arte de campanha com o texto FORA da imagem e copy zone funcional; produto/oferta fiéis, versões por formato |
-| [`prompt-troca-de-fundo`](prompt-troca-de-fundo/) | Prompt de edição para remover ou trocar o fundo de uma foto que você já tem |
+| [`prompt-troca-de-fundo`](prompt-troca-de-fundo/) | Edição controlada de fundo preservando o produto pixel a pixel; sombra por estratégia; normaliza catálogo |
 | [`prompt-mockup-embalagem`](prompt-mockup-embalagem/) | Prompt de mockup realista da embalagem ou rótulo do produto |
 
 ---
