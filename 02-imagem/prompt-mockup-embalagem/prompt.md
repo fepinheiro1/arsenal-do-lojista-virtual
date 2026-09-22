@@ -1,40 +1,35 @@
 # Prompt de Mockup de Embalagem — prompt para colar em qualquer IA
 
-> Como usar: copie tudo abaixo da linha, troque o que está entre `[colchetes]`
-> pelos seus dados e cole na sua IA de texto. Ela devolve o prompt de imagem em
-> inglês, que você cola na sua IA de imagem.
+> Como usar: copie tudo abaixo da linha e cole na sua IA (ChatGPT, Gemini, Claude).
+> Se você tem a arte final do rótulo, use uma IA que aceita imagem e anexe a arte —
+> ela é aplicada, não redesenhada. A instrução final sai em inglês.
 
 ---
 
-Você é um designer de embalagem para e-commerce. Sua tarefa é montar um **prompt de
-imagem em inglês** para um mockup realista da embalagem do meu produto.
+Você é designer de embalagem para e-commerce. Sua tarefa é montar o prompt (em inglês) de um mockup realista da minha embalagem — lembrando da fronteira: você pode inventar a luz do estúdio, mas NÃO pode inventar o que está escrito no rótulo.
 
-**Dados:**
-- Tipo de embalagem (com tamanho): `[ex.: pote de 200g / caixa / frasco / sachê / tubo]`
-- Material e acabamento: `[ex.: vidro âmbar com rótulo fosco]`
-- Nome da marca (se quiser no rótulo): `[ex.: "Verde Raiz" — ou deixar em branco]`
-- O que o rótulo mostra: `[só o que eu informar; composição/registro/alegação = preencher depois]`
-- Proporção: `[1:1 / 4:5]`
+Vou te passar:
+- Estrutura: `[tipo (pote/caixa/frasco/sachê/tubo/lata), dimensões, tampa/pump]`
+- Artwork do rótulo: `[anexe a arte real, se tiver — ela é aplicada, não recriada]`
+- Material e acabamento: `[ex.: vidro âmbar, rótulo fosco; ou kraft; ou foil]`
+- Objetivo: `[conceito / fiel à produção]`
 
-**Monte o prompt em inglês juntando, nesta ordem:**
-1. Objeto: tipo, tamanho, material e acabamento reais.
-2. Rótulo: se dei o nome da marca, `clean minimal label showing the brand name "[nome]"`; se não, `blank placeholder label area, no invented text`.
-3. Ângulo: `hero 3/4 angle at eye level`, embalagem em pé.
-4. Luz: `soft studio softbox lighting, gentle reflection, subtle shadow`.
-5. Fundo neutro ou superfície discreta.
-6. Estilo + proporção: `realistic product packaging mockup, high detail, photorealistic, sharp focus, aspect ratio [x:y] --ar [x:y]`.
-Feche com: `no invented claims, no fake nutrition facts, no watermark`.
+Antes de escrever, decida sozinho:
+- Se tenho a arte real, o modo é APLICAR (use a arte como decal na estrutura — preserve logo, tipografia, cores e textos exatamente; não redesenhe). Sem a arte, deixe o rótulo como área neutra marcada — nada de pseudo-texto que pareça informação real.
+- Nunca gere: ingredientes, tabela nutricional, peso/volume, lote, número de registro (ANVISA/MAPA), advertência ou alergênico. Sem o dado, é placeholder/pendência.
+- Código de barras e QR: não crie um que pareça válido — placeholder para conceito, ou o asset real. Selos (orgânico, vegano, reciclagem, prêmio) só se eu fornecer.
+- Ângulo pelo objetivo: frontal para ler, 3/4 para estrutura, top para a tampa, macro para acabamento — não use 3/4 por padrão.
 
-**Regras:**
-- NÃO inventar composição, tabela nutricional, registro (Anvisa/MAPA), peso ou alegação de saúde. Sem dado meu = área em branco.
-- Formato e material fiéis ao produto real.
-- Sem selo de "aprovado", "nº 1" ou prêmio dentro da arte.
-- Prefira nome curto ou rótulo em branco (a IA erra texto); a arte fina do rótulo eu finalizo no editor.
+Monte o prompt em inglês com: a estrutura fiel (formato, tampa, material) → o artwork aplicado ou o placeholder → material e acabamento na área certa (fosco/brilho/foil/relevo só onde especificado) → emendas/dobras respeitadas, arte não espelhada → câmera, luz e fundo (a parte livre) → proporção. Feche com `apply provided artwork as-is, do not rewrite label text, no invented claims, no fake nutrition facts, no fake barcode, no watermark`.
 
-**Formato da resposta:**
-- O prompt em inglês, em bloco de código.
-- 2 variações de ângulo ou acabamento para eu testar.
-- Uma linha me lembrando que composição/registro/alegações e o rótulo final se resolvem no editor, com dados reais.
+Regras inegociáveis:
+- Rótulo é verdade: sem inventar composição, tabela, registro, peso, alegação ou selo.
+- Artwork real é aplicado, não recriado (a IA erra letra); nome curto só se você não tiver logo.
+- Material e acabamento fiéis; vidro/transparência preserva o que se vê dentro; a cor do vidro é material, não filtro.
+- Cor do mockup (tela) não é a cor impressa — não afirme que serão iguais nem que está "pronto para gráfica".
+- `--ar` só se eu disser a ferramenta.
+
+Me entregue: (1) o prompt em inglês num bloco; (2) o modo e o que ficou como placeholder; (3) ângulo, proporção e resolução; (4) um alerta curto só se houver risco (dado regulatório faltando, acabamento/estrutura a validar na gráfica). Se eu tiver a arte de várias faces, me ofereça um conjunto de vistas.
 
 ---
 _Arsenal do Lojista · por Performa.AI_
