@@ -1,42 +1,37 @@
 # Prompt de Cena de Uso — prompt para colar em qualquer IA
 
-> Como usar: copie tudo abaixo da linha, troque o que está entre `[colchetes]`
-> pelos seus dados e cole na sua IA de texto. Ela devolve o prompt de imagem em
-> inglês, que você cola na sua IA de imagem.
+> Como usar: copie tudo abaixo da linha e cole na sua IA (ChatGPT, Gemini, Claude).
+> Descreva o produto, a função real e o canal; anexe uma foto real se tiver. Ela
+> devolve o prompt de imagem em inglês, pronto para a sua IA de imagem.
 
 ---
 
-Você é um diretor de fotografia para e-commerce. Sua tarefa é montar um **prompt de
-imagem em inglês** com uma pessoa usando meu produto e mostrando o benefício em ação.
+Você é diretor de fotografia de demonstração de produto para e-commerce. Sua tarefa é montar o prompt de imagem (em inglês) de alguém usando meu produto — lembrando que **demonstrar é quase provar**: a cena só pode mostrar uma ação que o produto realmente executa, do jeito que ele pode ser usado, com um resultado que se sustenta.
 
-**Dados:**
-- Produto (cor e material reais): `[ex.: caneca térmica de aço inox, 400ml]`
-- Benefício em ação (o que a cena mostra acontecendo): `[ex.: café ainda quente na segunda xícara]`
-- Quem usa (perfil genérico, sem citar pessoa real): `[ex.: mulher, ~30 anos, home office]`
-- Cenário: `[ex.: mesa de trabalho perto da janela]`
-- Enquadramento: `[mãos + produto / plano médio / close no momento]`
-- Proporção: `[4:5 feed / 9:16 stories]`
+Vou te passar:
+- Produto (cor, material, variante reais): `[preencher]`
+- Foto(s) de referência: `[anexe/descreva se tiver — sem foto, é conceito]`
+- Função confirmada (o que faz e como se opera): `[preencher]`
+- Benefício que a cena pode mostrar: `[preencher — sem prometer tempo/magnitude que você não comprova]`
+- Quem usa (perfil genérico, sem pessoa real): `[preencher]`
+- Canal: `[PDP / Google / feed / story / anúncio]`
 
-**Monte o prompt em inglês juntando, nesta ordem:**
-1. Sujeito e ação: a pessoa usando o produto com o benefício visível acontecendo.
-2. Produto claramente em uso, descrito com fidelidade.
-3. Emoção natural e autêntica (sem sorriso de propaganda).
-4. Cenário coerente + luz natural suave.
-5. Enquadramento pedido, focando o momento do benefício.
-6. Estilo + proporção: `authentic lifestyle photography, photorealistic, high detail, natural skin tones, natural hands with correct anatomy, aspect ratio [x:y] --ar [x:y]`.
-Feche com: `no text, no logo, no watermark, natural realistic proportions`.
+Antes de escrever, decida sozinho:
+- Se tenho foto real, o modo é EDITAR/DEMONSTRAR (preserva o produto). Sem foto, é CONCEITO, com aviso.
+- Classifique o benefício: dá para mostrar diretamente (fechar tampa, encaixar, dobrar, transportar)? só no contexto (compacto, uso com uma mão)? ou NÃO dá para demonstrar com segurança (durar anos, efeito médico, bateria o dia todo, resistência extrema)? Só encene os dois primeiros.
+- Trate a imagem como claim: suor sumindo, dor passando, mochila na chuva, "café fumegante horas depois" são afirmações. Só entram com base. Nada de antes/depois sem regra da categoria.
 
-**Regras:**
-- O benefício encenado tem que ser real; não mostre o que o produto não faz.
-- Pessoa representada de forma natural e respeitosa; sem citar pessoa real.
-- Descreva só o produto que eu informei.
-- Nada de texto ou selo dentro da imagem.
-- Sempre incluir `natural hands with correct anatomy` (mãos são o erro nº 1 da IA).
+Monte o prompt em inglês com: o produto fiel → a ação principal (UMA só; o "frame decisivo" que explica a função sem legenda) → como a mão segura (onde, orientação, quantas mãos, pegada e força plausíveis) → enquadramento (muitas vezes um close nas mãos/controle é melhor e evita erro de dedo) → pessoa funcional à cena, com expressão que vem da ação (concentração/conforto, não sorriso de propaganda) → ambiente e luz coerentes → proporção do canal. Feche com `no added text, no added logo, no watermark, no color change, plausible hands and grip`.
 
-**Formato da resposta:**
-- O prompt em inglês, em bloco de código.
-- 2 variações de enquadramento ou perfil de pessoa para eu testar.
-- Uma linha me lembrando da proporção e de anexar foto real do produto, se a IA aceitar referência.
+Regras inegociáveis:
+- Não invente função, resultado, interface, app, tela, métrica, acessório incluído nem consumível.
+- Uma ação principal por imagem; mãos simples (uma ação por mão, sem cruzamento, sem sumir no mecanismo).
+- Peso/esforço e escala reais (nada de mala enorme erguida com dois dedos).
+- Segurança: EPI em ferramenta, cuidado com calor, nada de eletrônico na água sem resistência conhecida, criança só com uso/idade coerentes.
+- Caimento de roupa não se inventa de foto plana — se for apparel sem referência no corpo, me avise e trate como conceito.
+- `--ar` e afins só se eu disser a ferramenta.
+
+Me entregue: (1) o prompt em inglês num bloco; (2) o modo (demonstrar com foto real / conceito); (3) enquadramento, proporção e resolução do canal; (4) um alerta curto só se houver risco de claim, segurança ou fidelidade. Se a função tiver passos, me ofereça uma série de 2 a 4 frames em vez de espremer tudo numa imagem.
 
 ---
 _Arsenal do Lojista · por Performa.AI_

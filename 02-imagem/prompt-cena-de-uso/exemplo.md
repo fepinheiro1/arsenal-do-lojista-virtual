@@ -1,35 +1,78 @@
-# Prompt de Cena de Uso — exemplo real
+# Prompt de Cena de Uso — exemplos reais
 
-## Entrada
+## Exemplo A — Benefício com rigor (corrige o "horas depois")
+Entrada:
 ```
-Produto: caneca térmica de aço inox escovado, 400ml
-Benefício em ação: café ainda quente na segunda xícara, horas depois
-Quem usa: mulher, ~30 anos, home office
-Cenário: mesa de trabalho perto da janela
-Enquadramento: mãos + produto
-Proporção: 4:5 (feed)
+Produto: caneca térmica de aço inox escovado, 400ml (tenho foto)
+Função: mantém a temperatura da bebida
+Benefício que quero mostrar: "café ainda quente na segunda xícara, horas depois"
+Canal: feed (4:5)
+```
+Saída:
+```
+Modo: demonstrar com foto real
+
+Atenção: "ainda quente HORAS DEPOIS" é uma afirmação de duração específica — a imagem
+não consegue provar tempo, e cravar isso vira claim sem base. Então mostro o uso real
+(pessoa tomando um café quentinho no trabalho, com vapor leve), sem afirmar por quantas
+horas. Se você tem um dado oficial de retenção térmica, ele entra como texto na página,
+não na foto.
+
+Authentic photo, close-up of a person's hands at a work desk holding the brushed stainless
+steel thermal mug (400ml) from the attached photo, taking a sip of hot coffee with light
+steam, calm focused expression, soft daylight, the desk context softly present. Product
+kept exactly as photographed. Photorealistic, natural skin tones, plausible hands and grip.
+4:5 composition. No added text, no added logo, no watermark, no color change.
+```
+Enquadramento/proporção: close nas mãos, 4:5, alta resolução.
+
+## Exemplo B — Ação direta com close funcional
+Entrada:
+```
+Produto: garrafa esportiva com tampa de abertura rápida com uma mão (tenho foto)
+Função: abrir e beber com uma mão só, sem rosquear
+Canal: anúncio (9:16)
+```
+Saída:
+```
+Modo: demonstrar com foto real
+
+Vertical action close-up: one hand flipping open the quick-open cap of the sports bottle
+from the attached photo with the thumb, single-hand operation clearly visible, the bottle
+held naturally, the other hand out of frame. Keep the bottle exactly as photographed (color,
+cap, label). Dynamic but realistic, gym/outdoor light softly in the background.
+Photorealistic, plausible hand and grip, one single action. 9:16 composition. No added text,
+no added logo, no watermark, no color change.
+```
+Enquadramento/proporção: close na mão + tampa (o "frame decisivo" da abertura com uma mão),
+9:16 para o anúncio.
+(Uma ação só, uma mão só — é o que a IA acerta e o que explica o benefício.)
+
+## Exemplo C — Benefício não demonstrável (recusa honesta)
+Entrada:
+```
+Produto: suplemento em cápsulas (pré-treino)
+Benefício que quero mostrar: "energia explodindo", pessoa treinando muito mais forte
+Canal: feed
+```
+Saída:
+```
+Modo: conceito — com ressalva importante
+
+"Energia explodindo" e "treino muito mais forte" são resultados de performance que a
+imagem não pode provar — encenar isso vira claim de eficácia sem base (e é sensível em
+suplemento). Então NÃO faço a cena de super-força. O que dá para mostrar com honestidade
+é o contexto de consumo, se o modo de uso for o oficial:
+
+Lifestyle photo of a person taking a capsule with water before a workout, gym bag nearby,
+a calm everyday gym context, natural light, the supplement bottle shown exactly as it
+really is (preserve the real label — do not rewrite it). Photorealistic, natural. No added
+text, no added logo, no watermark.
+
+Se você tem um estudo/registro que sustente um resultado específico, ele entra como texto
+com a devida fonte — nunca como cena.
 ```
 
-## Saída
-```
-Authentic lifestyle photo, close-up on the hands of a woman in her 30s at a home-office
-desk near a window, holding a brushed stainless steel thermal mug, 400ml, with steam
-still rising from the coffee, relaxed genuine expression, natural soft daylight, cozy
-focused mood, shallow depth of field on the mug and hands, authentic lifestyle
-photography, photorealistic, high detail, natural skin tones, natural hands with correct
-anatomy, aspect ratio 4:5 --ar 4:5, no text, no logo, no watermark, natural realistic
-proportions
-```
-
-Variações para testar:
-```
-A) Medium shot of the same woman at the desk, mug in hand mid-sip, laptop softly blurred.
-B) Same scene with a man in his 40s, close-up on hands wrapping around the warm mug.
-```
-
-Proporção: 4:5 para feed; gere em 9:16 se for stories/reels. Se a sua IA de imagem
-aceitar referência, anexe a foto real da caneca para manter o produto fiel.
-
-> Referência: o benefício (café ainda quente, com vapor visível) é real e aparece em
-> ação, a pessoa está natural, a trava `natural hands with correct anatomy` evita o erro
-> clássico de mãos, e o prompt sai em inglês.
+> Referência: a cena só demonstra o que o produto faz de verdade; duração, "energia" e
+> performance viram texto com fonte, não imagem; uma ação e uma mão por vez mantêm as mãos
+> plausíveis; e o produto real nunca muda.
