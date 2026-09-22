@@ -1,33 +1,73 @@
-# Prompt de Foto Lifestyle — exemplo real
+# Prompt de Foto Lifestyle — exemplos reais
 
-## Entrada
+## Exemplo A — Você tem foto real (editar/compor)
+Entrada:
 ```
-Produto: caneca de cerâmica branca fosca, 350ml
-Público / momento: mãe, manhã, café antes de sair para o trabalho
-Ambiente: cozinha de madeira clara
-Clima: aconchegante
-Proporção: 4:5 (feed)
+Produto: caneca de cerâmica branca fosca, 350ml (tenho foto real)
+Uso: café/chá quente no dia a dia
+Público/ocasião: manhã, antes de sair para o trabalho
+Canal: feed social (4:5)
+```
+Saída:
+```
+Modo: editar foto real (preferido)
+
+Place the product from the attached photo into a lifestyle scene, keeping it exactly as
+photographed (matte white ceramic mug, 350ml, rounded handle — same shape, color, finish;
+do not recolor or reshape). Scene: the mug on a light wooden kitchen counter in the morning,
+light steam rising, soft daylight from a nearby window, a warm everyday atmosphere. Medium
+depth of field so the kitchen context stays readable. One or two ambient props (a folded
+linen napkin, a spoon) that clearly belong to the room, not to the box. Product is the main
+subject, with a natural realistic shadow and contact on the counter. Lifestyle product
+photography, photorealistic, natural colors. 4:5 composition. No added text, no added logo,
+no watermark, no color change.
+```
+Proporção/resolução: 4:5, alta resolução para o feed.
+(Repare: profundidade de campo média, não desfoque forçado — a cozinha faz parte da história.)
+
+## Exemplo B — A cena vira claim (mochila na chuva)
+Entrada:
+```
+Produto: mochila urbana de nylon
+Uso: dia a dia na cidade; NÃO sei se é impermeável
+Canal: minha loja
+```
+Saída:
+```
+Modo: conceito (sem foto do produto)
+
+Aviso importante: você não confirmou se a mochila é impermeável. Uma cena na chuva
+sugere resistência à água — se isso não é verdade, vira propaganda enganosa e gera
+devolução. Por isso montei uma cena SECA. Se você confirmar que é à prova d'água, aí
+sim dá para colocar chuva/respingos.
+
+Lifestyle photo of an urban nylon backpack worn casually on a city sidewalk on a clear
+day, natural daylight, a realistic urban background softly present, a person shown only as
+a partial body (shoulders and back), the backpack clearly the main subject, true material
+and color, natural contact and shadow. Photorealistic, natural colors. No added text, no
+added logo, no watermark.
 ```
 
-## Saída
+## Exemplo C — Escala honesta (produto pequeno)
+Entrada:
 ```
-Lifestyle photo of a matte white ceramic mug, 350ml, filled with fresh coffee, resting
-as the hero subject in the foreground on a light wooden kitchen counter, warm natural
-morning light coming from a nearby window, soft cozy atmosphere, shallow depth of field
-with the background gently blurred, a small linen napkin and a spoon as subtle supporting
-props, rule of thirds composition, lifestyle product photography, photorealistic, high
-detail, natural colors, aspect ratio 4:5 --ar 4:5, no text, no logo, no watermark
+Produto: mini umidificador de mesa, 15 cm de altura (tenho foto)
+Canal: Google lifestyle
 ```
+Saída:
+```
+Modo: editar foto real
 
-Variações para testar:
+Place the mini desk humidifier (15 cm tall) from the attached photo on a real work desk,
+next to a laptop and a coffee mug used as natural scale anchors so its small size reads
+correctly — do NOT enlarge the product to make it look bigger. Keep the product exactly as
+photographed. Soft daytime office light, the desk context clearly visible (medium depth of
+field), realistic shadow and contact with the desk surface. Photorealistic, natural colors.
+Square composition. No added text, no added logo, no watermark, no color change.
 ```
-A) Same mug on a bright minimal white table at midday, clean airy mood, soft daylight.
-B) Same mug held by a hand softly out of focus, cozy morning kitchen in the background.
-```
+Proporção/resolução: quadrada, alta resolução (Google lifestyle).
+(A âncora — notebook e caneca — mostra que ele é pequeno, sem exagerar o tamanho.)
 
-Proporção: 4:5 é ótimo para feed; gere em 16:9 se for virar banner de topo. Se a sua IA
-de imagem aceitar referência, anexe a foto real da caneca para manter a cor e o formato.
-
-> Referência: o produto é o protagonista e a cena existe para valorizá-lo, a luz natural
-> cria clima sem apelação, a cor do produto é a real, e o prompt sai em inglês para o
-> modelo entregar melhor.
+> Referência: o produto nunca muda; a cena só mostra o que é verdade (sem sugerir
+> impermeabilidade, resultado ou "eco" sem base); a escala é honesta; e luz/profundidade
+> se adaptam à história, em vez de um desfoque padrão.

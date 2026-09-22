@@ -5,7 +5,7 @@ Cada skill aqui é um **gerador de prompt**: você preenche seus dados em portug
 | Skill | O que faz |
 |-------|-----------|
 | [`prompt-foto-packshot`](prompt-foto-packshot/) | Foto principal fiel ao SKU real: edita a foto real (preferido) ou gera conceito, com fundo e regras por canal |
-| [`prompt-foto-lifestyle`](prompt-foto-lifestyle/) | Prompt do produto em contexto real de uso, com ambiente, clima e luz natural |
+| [`prompt-foto-lifestyle`](prompt-foto-lifestyle/) | Produto em contexto real de uso — cena plausível e verdadeira (a imagem também é um claim), com escala e luz honestas |
 | [`prompt-cena-de-uso`](prompt-cena-de-uso/) | Prompt com uma pessoa usando o produto, focando o benefício em ação |
 | [`prompt-banner-campanha`](prompt-banner-campanha/) | Prompt de banner/hero com espaço negativo para o texto entrar depois |
 | [`prompt-troca-de-fundo`](prompt-troca-de-fundo/) | Prompt de edição para remover ou trocar o fundo de uma foto que você já tem |
