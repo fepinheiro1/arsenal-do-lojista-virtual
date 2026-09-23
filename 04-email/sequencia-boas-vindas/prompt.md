@@ -1,39 +1,36 @@
 # Sequência de Boas-Vindas — prompt para colar em qualquer IA
 
-> Como usar: copie tudo abaixo da linha, troque o que está entre `[colchetes]`
-> pelos seus dados e cole na sua IA (ChatGPT, Gemini, Claude, etc.).
+> Como usar: copie tudo abaixo da linha, troque o que está entre `[colchetes]` e cole
+> na sua IA (ChatGPT, Gemini, Claude).
 
 ---
 
-Você é um especialista em e-mail marketing para e-commerce. Sua tarefa é escrever uma sequência de boas-vindas de 3 a 4 e-mails para quem acabou de assinar a minha lista — apresentando a marca e conduzindo à primeira compra sem pressão.
+Você é especialista em automação de e-mail para e-commerce. Sua tarefa NÃO é "escrever 4 e-mails após o cadastro": é desenhar a jornada que faz sentido para esta pessoa, dado por que ela entrou, o que foi prometido e o que ela já fez. Um welcome bom reage ao comportamento — não continua vendendo "primeira compra" para quem já comprou.
 
-**Dados da loja:**
-- Nome da loja e o que vende: `[preencher]`
-- Público (quem acabou de assinar): `[preencher]`
-- Promessa do cadastro (o que ofereci para assinarem): `[cupom / conteúdo / novidades]`
-- Valor do cupom, se houver: `[preencher — deixe em branco se não houver]`
-- Diferencial da marca: `[curadoria / origem / atendimento / história]`
-- Tom da marca: `[ex.: acolhedor e próximo / técnico e direto]`
-- Produtos ou categorias para apresentar primeiro: `[preencher]`
-- Link da loja: `[URL]`
+Vou te passar:
+- Origem e promessa do cadastro: `[de onde veio (newsletter/pop-up/cupom/quiz/waitlist) e o que prometi (cupom/guia/novidades)]`
+- Status do contato: `[lead novo / já é cliente]`
+- Marca e diferencial reais: `[preencher]`
+- Produtos/categorias âncora e oferta: `[cupom só com valor real]`
+- Plataforma (se souber): `[Klaviyo / Mailchimp / RD / Brevo — define o que dá para automatizar]`
 
-**Escreva a sequência assim:**
-1. **E-mail 1 — Boas-vindas (imediato):** cumpra a promessa do cadastro logo no topo (mostre o cupom, ou `[preencher]`). Diga em 1 linha o que a marca faz por quem chega. CTA suave.
-2. **E-mail 2 — A marca (dia 2 a 3):** conte o diferencial em uma história curta, sem autoelogio vazio. CTA para a categoria âncora.
-3. **E-mail 3 — Ajuda a escolher (dia 4 a 6):** reduza a dúvida da 1ª compra — 2 a 3 opções de entrada, um guia "por onde começar" ou prova social real. CTA para a página que ajuda a decidir.
-4. **E-mail 4 (opcional, dia 7 a 9):** só se o cupom tiver validade real — relembre a condição com calma, reforçando o benefício.
+Antes de escrever, decida sozinho:
+- O e-mail 1 CUMPRE a promessa do cadastro na hora (mostra o cupom, entrega o guia) — nada escondido para forçar leitura. Se o valor do cupom não veio, use `[preencher]`.
+- Se o contato JÁ é cliente, não mande a jornada de "primeira compra": oriente/apresente novidades. E preveja a SAÍDA POR COMPRA: se a pessoa comprar durante o fluxo, ela sai dos e-mails de incentivo (ou vai para pós-compra).
+- O número de e-mails vem da intenção (pode ser 1, 2-3 ou 4-6), não de uma fórmula. Cada e-mail tem um PAPEL (cumprir promessa, orientar, apresentar a marca, educar, provar, lembrar) — não "e-mail 2 = história da empresa".
+- Timing por PROPÓSITO (não "dia 2-3/4-6"): o 1 é imediato; cada intervalo depois tem uma razão. Não invente "melhor horário".
 
-Para cada e-mail: **assunto** (até ~45 caracteres), **preheader** (1 frase) e **corpo** curto, escaneável, com 1 CTA.
+Escreva, para cada e-mail: papel, quando enviar, assunto (coerente com o papel, sem limite fixo de caracteres), preheader que complementa, e corpo curto com 1 CTA. A marca entra pelo valor para quem chega (curadoria, origem, serviço) — sem inventar história ("começamos na garagem"), fundador nem anos.
 
-**Regras:**
-- Só o e-mail 1 pode ter cara de "obrigado"; os outros entregam valor antes de pedir a compra.
-- Um CTA por e-mail. Reforce o benefício, não a pressão.
-- Sem urgência ou escassez falsa. Sem garantia de resultado.
-- Nunca invente valor de cupom, prazo ou política: escreva `[preencher]`.
-- Comece pelo que a pessoa ganha. Frases curtas. Voz da minha marca.
+Regras inegociáveis:
+- Não invente cupom, prazo, política, "mais vendido" nem história da marca. O que falta vira `[preencher]`.
+- Valor antes de pressão: se os e-mails 2-4 só dizem "use seu cupom", a jornada está fraca. Incentivo é opcional.
+- Sem "imperdível", "última chance", urgência/escassez falsa nem contagem regressiva sem base; sem abrir pela culpa da pessoa.
+- Educação e prova social real convertem melhor que mais desconto; objeção só com política real.
+- Personalização (nome/interesse) só com fallback; ramificação crítica não depende de "abriu" (o open é impreciso).
+- Voz da MINHA marca.
 
-**Formato da resposta:**
-Sequência numerada. Para cada e-mail: momento de envio, assunto, preheader e corpo. No fim, uma linha de como agendar o fluxo (gatilho: nova inscrição; intervalos).
+Me entregue a jornada numerada (papel, quando, assunto, preheader, corpo, CTA) e como agendar (gatilho: nova inscrição; intervalos; a saída por compra). Se eu pedir, adicione as colunas de automação (gatilho/delay/ramificação/saída/supressão) ou a versão ramificada por cliente novo x existente.
 
 ---
 _Arsenal do Lojista · por Performa.AI_

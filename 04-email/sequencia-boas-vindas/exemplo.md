@@ -1,54 +1,77 @@
-# Sequência de Boas-Vindas — exemplo real
+# Sequência de Boas-Vindas — exemplos reais
 
-## Entrada
+## Exemplo A — Jornada de primeira compra (com saída por compra)
+Entrada:
 ```
-Loja: Raiz Verde — cosméticos naturais e veganos
-Público: mulheres 25–45 que buscam skincare sem ingredientes agressivos
-Promessa do cadastro: cupom de primeira compra
-Valor do cupom: não informado
-Diferencial: fórmulas veganas, testadas dermatologicamente, produção em pequenos lotes
-Tom da marca: acolhedor, honesto, sem prometer milagre
+Origem/promessa: pop-up com cupom de primeira compra
+Status do contato: lead novo
+Marca/diferencial: Raiz Verde — cosméticos veganos, testados dermatologicamente, lotes pequenos
 Produtos âncora: kit de limpeza facial, sérum de vitamina C
-Link da loja: https://raizverde.com.br
+Oferta: cupom (valor não informado)
+Plataforma: não informada
+```
+Saída:
+```
+Jornada: 3 e-mails (produto de decisão relativamente rápida; não precisa de 6). Objetivo:
+primeira compra. Cada e-mail tem um papel; a jornada SAI se a pessoa comprar.
+
+E-mail 1 — CUMPRIR A PROMESSA (imediato)
+Assunto: Seu cupom de boas-vindas
+Preheader: E uma palavra rápida sobre o que a gente faz por aqui.
+Corpo: Que bom ter você. Como combinado, seu cupom: [preencher código e valor]. A Raiz Verde
+faz skincare vegano, testado dermatologicamente, em lotes pequenos — fórmula fresca e cuidada.
+Sem pressa: dá uma olhada com calma.
+CTA: Conhecer a loja
+
+E-mail 2 — EDUCAR / AJUDAR A ESCOLHER (quando teve tempo de olhar; ~2 dias)
+Assunto: Por onde começar no skincare natural
+Preheader: Dois passos simples para quem está começando.
+Corpo: Não precisa de dez produtos, precisa dos certos.
+1. Kit de limpeza facial — limpa sem ressecar, para todos os tipos de pele.
+2. Sérum de vitamina C — o passo do viço, para usar de manhã.
+Comece por um e sinta como a sua pele responde.
+CTA: Ver o kit de início
+(Este e-mail educa em vez de repetir "use o cupom" — valor antes de pressão.)
+
+E-mail 3 — LEMBRETE (só se o cupom tiver validade real; ~5 dias; SÓ para quem não comprou)
+Assunto: Seu cupom ainda está com você
+Preheader: Quando quiser usar, ele está aqui.
+Corpo: Passando para lembrar que seu cupom continua disponível [validade: preencher]. Na dúvida
+por onde começar, o kit de limpeza é o caminho mais tranquilo. Qualquer coisa, é só responder.
+CTA: Usar meu cupom
+
+COMO AGENDAR
+Gatilho: nova inscrição pelo pop-up. Intervalos: E1 imediato; E2 ~2 dias; E3 ~5 dias.
+SAÍDA POR COMPRA (importante): se a pessoa comprar em qualquer ponto, retire-a desta jornada —
+principalmente do E3, para não lembrar de um cupom de primeira compra a quem já comprou. Ela
+deve migrar para o fluxo de pós-compra. Se o contato JÁ for cliente, não use esta jornada —
+mande uma orientação/novidades.
 ```
 
-## Saída
+## Exemplo B — Auditar (o fluxo manda cupom para quem já comprou)
+Entrada:
+```
+Audita meu welcome: são 4 e-mails em dias fixos (0, 2, 4, 7). O de dia 7 sempre manda "última
+chance do seu cupom". Uns clientes reclamaram que receberam isso DEPOIS de já ter comprado.
+```
+Saída:
+```
+O problema não é a copy — é a arquitetura do fluxo. Dois furos:
 
-**E-mail 1 — Boas-vindas (envio imediato)**
-- Assunto: Seu cupom de boas-vindas chegou
-- Preheader: E uma palavra rápida sobre o que a gente faz por aqui.
-- Corpo:
-  Que bom ter você aqui. Como combinado, seu cupom de primeira compra: **[preencher código e valor]**.
-  A Raiz Verde faz skincare vegano, testado dermatologicamente, em lotes pequenos — para a sua pele sentir a diferença de uma fórmula cuidada.
-  Sem pressa: dá uma olhada com calma.
-  **CTA: Conhecer a loja**
+1. Falta SAÍDA POR COMPRA (o mais grave). O e-mail de dia 7 sai para todo mundo, inclusive quem
+   já comprou. Isso irrita (a pessoa recebe "última chance de comprar" depois de comprar) e
+   queima confiança. Corrija: coloque a condição "não comprou" na entrada do último e-mail e
+   remova o contato da jornada assim que houver compra (migrando para o pós-compra).
 
-**E-mail 2 — A marca (dia 3)**
-- Assunto: Por que a gente faz em lotes pequenos
-- Preheader: Não é moda. É a forma de manter a fórmula honesta.
-- Corpo:
-  Produzir em pequenos lotes dá mais trabalho — e é de propósito. Assim cada fórmula sai fresca e a gente controla de perto o que entra em cada frasco.
-  Nada de ingrediente agressivo para "acelerar" resultado. A pele responde no tempo dela, e a gente respeita isso.
-  **CTA: Ver os queridinhos**
+2. "Última chance" com dia fixo é urgência artificial. Se o cupom tem validade real, comunique
+   a data com calma; se não tem validade, não crie uma. Troque "última chance" por um lembrete
+   útil ("seu cupom ainda está com você").
 
-**E-mail 3 — Ajuda a escolher (dia 5)**
-- Assunto: Por onde começar no skincare natural
-- Preheader: Dois passos simples pra pele que ainda está começando.
-- Corpo:
-  Se você está começando, não precisa de dez produtos. Precisa dos certos.
-  1. **Kit de limpeza facial** — limpa sem ressecar, bom para todos os tipos de pele.
-  2. **Sérum de vitamina C** — o passo que dá viço, para usar de manhã.
-  Comece por um, sinta como a sua pele responde, e vá montando a rotina no seu ritmo.
-  **CTA: Ver o kit de início**
+Sugestão menor: dias fixos (0/2/4/7) funcionam, mas o intervalo entre o e-mail educativo e o
+lembrete deveria dar tempo real de decisão — avalie pelo seu ciclo de compra, não pelo número.
+O resto do fluxo (boas-vindas + educação) pode ser mantido.
+```
 
-**E-mail 4 (opcional) — Lembrete gentil (dia 8)**
-- Assunto: Seu cupom ainda está com você
-- Preheader: Quando quiser usar, ele está aqui te esperando.
-- Corpo:
-  Só passando para lembrar que seu cupom de boas-vindas continua disponível [validade: preencher].
-  Se ficou na dúvida sobre por onde começar, o kit de limpeza é o caminho mais tranquilo. Qualquer dúvida, é só responder este e-mail.
-  **CTA: Usar meu cupom**
-
-Como agendar: gatilho = nova inscrição na lista. Intervalos sugeridos: E1 imediato, E2 no dia 3, E3 no dia 5, E4 no dia 8. Ative o E4 só se o cupom tiver validade real.
-
-> Referência: o e-mail 1 entrega a promessa (cupom) sem inventar o valor — ficou `[preencher]`; os seguintes constroem confiança antes de pedir a venda; o lembrete final é calmo, sem contagem regressiva nem "última chance"; tudo na voz honesta da marca, benefício antes da característica.
+> Referência: o e-mail 1 cumpre a promessa (cupom, sem inventar o valor), cada e-mail tem um
+> papel, o número vem da intenção (3, não 4 por regra), e a jornada REAGE — sai por compra e não
+> manda "primeira compra" para quem já é cliente. Nada de urgência falsa.
