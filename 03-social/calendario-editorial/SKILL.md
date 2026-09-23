@@ -1,47 +1,75 @@
 ---
 name: calendario-editorial
-description: Monta o plano de conteúdo do mês para as redes da loja — temas por semana, mix de formatos e objetivos — a partir do nicho, dos produtos e das datas do período. Use quando quer parar de postar no improviso e ter o mês inteiro planejado.
+description: Planeja o conteúdo social da loja como um sistema — partindo dos objetivos de negócio e das campanhas, respeitando a capacidade real de produção, e orquestrando a execução (cada linha aponta para a skill certa da frente 03). Ajusta cadência, pilares, formatos e canais ao que a loja consegue produzir, publicar, medir e aprender. Aceita negócio, produtos, datas, capacidade e assets. Use para planejar, auditar ou replanejar o período.
 ---
 
 # Calendário Editorial
 
 ## O que faz
-Transforma nicho, produtos e datas do mês em um plano de conteúdo pronto: o que postar em cada semana, em qual formato e com qual objetivo. Equilibra conteúdo que atrai (educativo/entretenimento), que aproxima (bastidor/prova social) e que vende (produto/oferta) — para as redes trabalharem com constância e propósito, não no improviso.
+Deixa de ser "uma tabela com ideias de post para o mês" e vira um **sistema que conecta o objetivo de negócio ao conteúdo, à capacidade de produção, à execução e ao aprendizado**. Parte do que a loja precisa alcançar, mapeia campanhas e datas reais, respeita quem produz o quê (e com que frequência dá para sustentar), e transforma cada linha num item **executável** que aponta para a skill de execução certa (`post-de-feed`, `legenda-que-engaja`, `roteiro-de-reels`, `carrossel-educativo`).
+
+Regra de ouro: **um calendário só é bom se a equipe consegue produzir, publicar, medir e aprender com ele.** A voz é da marca do lojista.
 
 ## Quando usar
-- No começo do mês, para planejar tudo de uma vez.
-- Quando a loja posta de forma reativa e sem direção.
-- Para garantir que nem todo post é venda direta (o que cansa a audiência).
+- Planejar o conteúdo de um período (mês, quinzena, campanha) com direção.
+- Auditar um plano existente (mix, capacidade, dependências, objetivos).
+- **Replanejar** o restante do período com novos resultados ou atrasos.
+- Transformar o calendário numa **agenda de produção** (dias de gravação, prazos).
 
 ## O que a IA precisa de você
-- `[loja / nicho]` — o que vende e para quem.
-- `[produtos-destaque do mês]` — o que quer empurrar neste período.
-- `[público]` — quem você quer atrair e converter.
-- `[datas do mês]` (opcional) — datas comerciais, sazonais ou eventos da loja.
-- `[frequência]` (opcional) — quantos posts por semana (padrão: 4).
-- `[formatos disponíveis]` (opcional) — o que a loja consegue produzir (feed, carrossel, Reels, stories).
-- `[tom da marca]` — como a loja fala.
+- `[loja / nicho]` e `[objetivo do negócio no período]` — lançamento, receita, awareness, aquisição, retenção, comunidade, giro de estoque, autoridade...
+- `[produtos/campanhas prioritários]` e o motivo (lançamento, margem, estoque, sazonal).
+- `[datas reais]` — comerciais, sazonais ou eventos da loja (as confirmadas; nada inventado).
+- `[capacidade de produção]` — quem faz, quantos posts por semana dá, quais formatos a loja consegue (só celular? designer 2x/semana? aprovação do dono?).
+- `[assets existentes]` e `[tom da marca]`.
+
+Sem alguns desses, a skill infere um plano enxuto e marca as dependências — em vez de prometer um calendário que a equipe não consegue executar.
+
+## Como funciona (por baixo)
+
+**1. Começa pelo objetivo de negócio, em camadas.** *Business goal* (o que a loja precisa no período) → *campaign goal* → *content goal* → *o job de cada post*. Conteúdo serve o negócio; sem essa hierarquia, o calendário vira uma lista de ideias soltas.
+
+**2. Pilares e jornada, próprios da loja.** Define os pilares que fazem sentido para aquele negócio (produto, educação, prova, comunidade, bastidor, oferta, autoridade...) — não uma lista universal — e cobre a jornada da audiência (descobrir, entender a necessidade, considerar, confiar, converter, reter) sem virar um funil rígido.
+
+**3. Mapeia as campanhas e datas antes de preencher posts.** Lançamentos, promoções, eventos e datas comerciais entram primeiro. Mas **data não é obrigação**: cada efeméride passa por relevância, fit com a marca e saturação — não se posta em toda data. E nada de inventar "Dia de X" nem oferta: o que não está confirmado vira dependência.
+
+**4. Planeja dentro da capacidade real.** Este é o coração da V2. A cadência **nasce da capacidade** (quantos posts, vídeos, quanto design, quantas pessoas, quanto tempo) — não de "4 posts por semana" nem de "um tema por semana" por regra. Para equipe pequena, **consistência sustentável vence frequência arbitrária**. Respeita as restrições reais (grava sexta, designer 2x/semana, só celular, aprovação do dono) — um plano impossível não é um bom plano.
+
+**5. Mix de formato e canal por intenção, não por lei.** Formato segue a ideia e a capacidade — sem codificar "educativo = carrossel" ou "demo = Reels" como regra (são forças: vídeo favorece ação/demo; carrossel, sequência/ensino; single, um foco visual; stories, frequência/interação). Não exige estar em todos os canais, e uma campanha tem a mesma tese com **execução própria** por canal — sem todos publicarem a mesma peça ao mesmo tempo.
+
+**6. Sequência de campanha, dependências e antecedência.** Lançamento pode pedir uma sequência (tease → revelar → educar → prova → oferta → lembrete → pós), com reforço por **variação de ângulo** (não o mesmo post repetido). Cada item registra suas **dependências** (foto, vídeo, preço, landing, estoque, depoimento, aprovação, link) e a **antecedência** que a produção exige. A skill detecta **conflitos** (dois lançamentos competindo, promoções emendadas, campanha sem landing pronta, post preso a um asset atrasado).
+
+**7. Espaço reativo, produção enxuta e aprendizado.** Não preenche 100% com antecedência: reserva **slots reativos** (trend, notícia, UGC, pergunta) — trend não se agenda como certeza um mês antes. Ajuda a **operação**: agrupa a produção por tipo (gravar, fotografar, desenhar, escrever), concentra roteiros no dia de gravação, aproveita um setup para vários assets, e checa o **inventário** de conteúdo antes de mandar produzir tudo novo (uma live/FAQ/review vira vários posts). E o calendário é **vivo**: planejar → produzir → publicar → medir → aprender → replanejar, com espaço para experimentos (com hipótese) e replanejamento no meio do período.
 
 ## Instruções (o cérebro da skill)
-1. **Defina 4 temas semanais** (um por semana) que conversem com o nicho, os produtos-destaque e as datas informadas. Cada semana tem um fio condutor.
-2. **Distribua os posts no mix de objetivos.** Use uma proporção equilibrada ao longo do mês — a maior parte atrai e aproxima, a menor parte vende direto (evite semana só de oferta). Marque o objetivo de cada post: atrair (educativo/entretenimento), aproximar (bastidor/prova social) ou converter (produto/oferta).
-3. **Escolha o formato de cada post** conforme o objetivo e o que a loja consegue produzir: educativo pede carrossel; demonstração pede Reels; prova social pede feed/print; bastidor pede stories/Reels.
-4. **Para cada post, entregue:** dia/semana, formato, objetivo, tema e uma **ideia/gancho em uma linha** (que a pessoa consiga usar depois com a skill de post, legenda, Reels ou carrossel).
-5. **Encaixe as datas** informadas nos posts certos (ex.: post de oferta na data comercial). Se não houver data, não invente uma.
-6. Se depender de dado que você não tem (data exata de uma campanha, preço, condição), marque `[preencher]`.
+1. Identifique o **modo** (criar / otimizar / auditar / replanejar / campanha / repurposar assets / agenda de produção / multicanal) e fixe o **Calendar Truth Lock** (objetivo, campanhas, produto, oferta, datas/atualidade, canais, capacidade, restrições, assets, dependências).
+2. Derive **objetivos → pilares → jornada** e ancore as **campanhas e datas reais**.
+3. Defina a **cadência pela capacidade** e o **mix de formato/canal** por intenção; reserve slots reativos.
+4. Monte o calendário com cada linha **executável** — objetivo, formato, ângulo, dependência — e **roteie** para a skill de execução.
+5. Rode o **Quality Gate**; entregue no **nível de detalhe** pedido (simples, operacional ou estratégico).
 
 ## Regras de qualidade
-- Nem todo post vende. Se o plano é só oferta, refaça o mix.
-- Cada linha do plano é acionável: dá para transformar em post sem começar do zero.
-- Sem "melhor do mundo", "imperdível", "última chance" ou garantia de resultado nas ideias.
-- Sem urgência ou escassez falsa; sem abrir pelo lado negativo/culpa da pessoa.
-- Não invente data comercial nem número. Dado ausente vira `[preencher]`.
-- Voz da marca do lojista, não da Performa.
+- **Executável dentro da capacidade**: nada de plano que a equipe não dá conta; cadência da capacidade, não de fórmula.
+- **Cada linha é acionável e roteada**: vira post sem começar do zero, apontando para a skill certa.
+- **Verdade**: produto, oferta e datas reais; sem inventar efeméride, número, estoque ou oferta — o que falta vira dependência / `[preencher]`.
+- **Mix intencional**: nem todo post vende; reforço por variação de ângulo, não repetição idêntica; sem fadiga de produto/formato/oferta.
+- **Datas e sazonal com relevância** (não postar toda data; conferir atualidade de datas móveis/trends).
+- **Dependências e conflitos mapeados**; antecedência de produção respeitada.
+- **KPI segue o objetivo** (não medir tudo por likes nem só por "quantos posts saíram"); experimento só com hipótese.
+- **Persuasão ética** (a mesma do Arsenal): sem "melhor do mundo", "imperdível", "última chance", urgência/escassez falsa; sem abrir pela culpa da pessoa.
+- **Voz da marca, não da Performa.**
+
+### Calendar Quality Gate (silencioso)
+Serve ao objetivo do negócio? · Datas corretas e reais? · Oferta/produto reais? · Capacidade respeitada? · Dependências mapeadas? · A produção tem antecedência? · O mix é intencional (não só oferta)? · O formato faz sentido? · Os canais são adequados? · Tem repetição/fadiga? · A campanha tem sequência? · Há espaço reativo quando útil? · KPI coerente? · Experimentos com hipótese? · Os assets existem? · Cada linha é executável e roteada? · Parece template genérico? — se falhar, replaneje.
 
 ## Formato da saída
-1. **Visão do mês** — 2 a 3 linhas: o foco do período e os 4 temas semanais.
-2. **Tabela do plano** — colunas: `Semana | Dia | Formato | Objetivo | Tema | Ideia/gancho`.
-3. **Nota de equilíbrio** — uma linha dizendo como ficou o mix (quantos atraem, aproximam, convertem).
+Adaptado ao que você precisa — **não despeja todas as colunas** para um lojista simples:
+
+- **Simples** (padrão): uma visão do período (foco + pilares) e a tabela `Data | Canal | Formato | Objetivo | Tema/Ângulo | Skill` (a coluna Skill indica com qual skill da frente 03 executar cada linha), mais uma nota de equilíbrio do mix.
+- **Operacional** (sob pedido): acrescenta `Status | Responsável | Asset | Deadline | Dependência | KPI` e um bloco de **produção** (dias de gravação, batching, gaps de asset).
+- **Estratégica** (sob pedido): acrescenta `Objetivo de negócio | Campanha | Pilar | Estágio da jornada | Hipótese`.
+
+Sob pedido: um **mini-brief** por item (objetivo, público, ângulo, formato, mensagem, verdade/dado, CTA, assets, prazo, skill), o **replanejamento** do restante do período, ou o plano **multicanal** coordenado. Nada de relatório por padrão.
 
 ---
 Arsenal do Lojista · por **Performa.AI** — performance digital para e-commerce.
