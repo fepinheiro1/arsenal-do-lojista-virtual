@@ -1,39 +1,40 @@
 # Copy para Performance Max — prompt para colar em qualquer IA
 
-> Como usar: copie tudo abaixo da linha, troque o que está entre `[colchetes]`
-> pelos seus dados e cole na sua IA (ChatGPT, Gemini, Claude, etc.).
+> Como usar: copie tudo abaixo da linha, troque o que está entre `[colchetes]` e cole
+> na sua IA (ChatGPT, Gemini, Claude). Antes de publicar, confira campos e limites no
+> próprio Google Ads — ele mostra o contador de cada campo.
 
 ---
 
-Você é um especialista em Google Ads para e-commerce. Sua tarefa é escrever o conjunto completo de assets de texto de uma campanha Performance Max, respeitando os limites de caracteres de cada campo. Como o PMax combina os assets sozinho, cada linha precisa fazer sentido isolada.
+Você é especialista em Google Ads para e-commerce. Sua tarefa NÃO é "preencher todos os campos do Performance Max": é escrever textos verdadeiros e distintos para UM grupo de recursos — cada texto funcionando sozinho, valendo para todos os produtos do grupo e batendo com o meu feed e a minha página.
 
-**Dados:**
-- Produto ou coleção: `[o que o grupo de recursos promove]`
-- Público: `[para quem fala]`
-- Benefícios e diferenciais reais: `[frete, garantia, condições — só o que existe]`
-- Palavras-chave / temas: `[termos que o público associa ao produto]`
-- Nome da empresa: `[a marca, até 25 caracteres]`
-- Tom da marca: `[ex.: técnico e direto / acolhedor e próximo]`
+Vou te passar:
+- Produtos que o grupo cobre: `[produto ou coleção — e, se tiver feed, quais itens estão no grupo]`
+- Objetivo: `[vender / gerar contato / girar estoque]`
+- Marca: `[nome comercial exato — e uma forma curta aprovada se passar de 25 caracteres]` · Tom: `[preencher]`
+- Página de destino: `[URL]`
+- Benefícios e características CONFIRMADOS (ficha técnica/página): `[preencher]`
+- Oferta real (se houver), e para QUAIS produtos vale: `[frete, preço, parcelamento, cupom, validade]`
+- (opcional) Uso feed no Merchant Center? A expansão de URL e os textos gerados automaticamente estão ligados? `[sim/não/não sei]`
 
-**O que você deve gerar (conte os caracteres de cada linha, incluindo espaços, e mostre a contagem entre parênteses):**
-1. **15 títulos, até 30 caracteres cada.** Variados: palavra-chave, benefício, diferencial real, convite à ação. Cada um se sustenta sozinho.
-2. **5 títulos longos, até 90 caracteres cada.** Benefício + prova ou + condição real, sem repetir os títulos curtos.
-3. **1 descrição curta, até 60 caracteres.**
-4. **4 descrições, até 90 caracteres cada.** Benefício primeiro, característica depois.
-5. **Nome da empresa, até 25 caracteres.**
-6. Sugira 1 chamada para ação entre as opções do Google (Comprar, Saiba mais, Ver mais), a que combina com a etapa do público.
+Antes de escrever, decida sozinho:
+- Os produtos do grupo são coerentes o bastante para dividir os mesmos textos? Todo claim tem que valer para TODOS. Se só um modelo tem frete para todo o Brasil, isso não entra num grupo misto. Se forem muito diferentes, me sugira dividir o grupo.
+- Atributo informado não autoriza efeito não provado: "alta absorção" não vira "menos impacto no joelho"; "respirável" não vira "pé seco o treino todo".
+- Cada texto tem um PAPEL (produto, categoria, benefício, característica, oferta, confiança, uso, marca, ação). Trocar a ordem das palavras não é variedade.
 
-**Regras:**
-- Benefício antes de característica. Frases curtas.
-- Sem "melhor do mundo", "imperdível", "última chance", "explosão de vendas" ou garantia de resultado.
-- Sem urgência ou escassez falsa. Oferta só se for real e eu tiver informado.
-- Todo item dentro do limite (30, 90, 60, 25). Se estourar, reescreva mais curto.
-- Variedade real entre os itens — assets parecidos demais derrubam a força do anúncio.
-- Sem emojis.
-- Diferencial não informado (prazo, desconto, número de vendas) vira `[preencher]`, nunca inventado.
+Regras inegociáveis:
+- Campos do PMax (conferir os vigentes): até 15 títulos de 30 caracteres, até 5 títulos longos de 90, descrições de até 90 com pelo menos uma curta de até 60, nome da empresa até 25. Conte EXATAMENTE, com espaços e acentos — se puder executar código, conte com código. O que estourar: reescreva, nunca corte.
+- Não preencha campo só para ocupar espaço. Se os fatos sustentam 11 títulos, entregue 11 e diga o que destravaria mais.
+- Cada título curto, título longo e descrição tem que fazer sentido SOZINHO (nada de "essa oferta" sem dizer qual).
+- Não invente preço, frete, prazo, estoque, selo, nota, depoimento, "mais vendido", "oficial" nem URL. O que faltar vira pendência — nunca texto final com [preencher].
+- Nome da empresa = o que eu informei, sem slogan.
+- Se a automação estiver ligada, me avise: o Google pode gerar textos a partir da minha página (confira se há promoção vencida nela), a expansão de URL pode levar tráfego a outras páginas (me sugira páginas para excluir, para eu revisar) e, sem vídeo enviado, ele pode criar um vídeo que eu preciso revisar.
+- Temas de pesquisa e sinais de público orientam, não restringem quem vê o anúncio.
+- CTA: escolha entre as opções da interface do Google (ou automática), sem inventar rótulo.
+- Sem CAIXA ALTA, "!!!", emojis, "melhor do mundo", "imperdível", "última chance", urgência ou escassez falsa, garantia de resultado. Categoria sensível: me avise para revisar a política.
+- Voz da MINHA marca.
 
-**Formato da resposta:**
-Cinco blocos rotulados — Títulos (até 30), Títulos longos (até 90), Descrição curta (até 60), Descrições (até 90) e Nome da empresa (até 25) — cada linha numerada com a contagem entre parênteses. Depois, a Chamada para ação sugerida e um aviso se algo ficou como `[preencher]`.
+Me entregue: uma linha com o escopo do grupo; Títulos (até 30), Títulos longos (até 90), Descrições (até 90, com a curta até 60) e Nome da empresa (até 25), cada linha numerada com a contagem exata e o papel; 1 CTA sugerida; e as pendências (feed, página, automação, o que destravaria mais textos). Se eu pedir: auditoria do grupo atual, variações de teste com hipótese, ou lista de exclusões de URL.
 
 ---
 _Arsenal do Lojista · por Performa.AI_
