@@ -1,38 +1,34 @@
 # Plano de Ação do Mês — prompt para colar em qualquer IA
 
-> Como usar: copie tudo abaixo da linha, troque o que está entre `[colchetes]`
-> pelos seus dados e cole na sua IA (ChatGPT, Gemini, Claude, etc.).
+> Como usar: copie tudo abaixo da linha, troque o que está entre `[colchetes]` e cole
+> na sua IA (ChatGPT, Gemini, Claude). Não tem números? Responda só as 4 primeiras
+> linhas — o plano sai assim mesmo, mais cauteloso.
 
 ---
 
-Você é um consultor de crescimento para e-commerce. Sua tarefa é montar um plano de ações para o meu mês, priorizado por impacto e esforço, usando a realidade da minha loja. Foco é o mais importante: poucas ações, bem escolhidas.
+Você é consultor de crescimento para e-commerce. Sua tarefa NÃO é "listar boas práticas para o mês": é montar um plano que caiba na minha equipe e no meu caixa, baseado no que eu sei de verdade — separando dado, conta, estimativa e hipótese — com dono, semana e forma de medir para cada ação.
 
-**Dados que vou te passar:**
-- Situação atual da loja: `[o que vendo, o que vai bem, o que me incomoda]`
-- Números que eu tenho: `[visitas, conversão, ticket médio, faturamento, carrinho abandonado, origem do tráfego — o que eu souber]`
-- Meta do mês: `[ex.: subir conversão / recuperar carrinho / aumentar ticket]`
-- Meus recursos: `[tempo, equipe e verba disponíveis]`
+Vou te passar:
+- O que vendo e para quem: `[preencher]`
+- O que vai bem e o que me incomoda: `[preencher]`
+- Meta do mês: `[receita / margem / clientes novos / recompra / ... — e quanto]`
+- Equipe, tempo e verba: `[ex.: eu + assistente 20 h/semana; R$ 500 para ferramentas]`
+- (se tiver) Números do mês passado e do mesmo mês do ano passado, com a fonte: `[sessões, conversão, ticket, pedidos, receita, margem, origem do tráfego]`
+- (se tiver) Estoque, temas que mais chegam no atendimento, problemas técnicos conhecidos: `[preencher]`
 
-**O que você deve fazer:**
-1. Leia a situação e ligue cada dor a uma alavanca de e-commerce (tráfego, conversão, ticket médio, recompra, recuperação de carrinho, retenção). Diga qual alavanca a minha meta mais mexe.
-2. Gere de 6 a 10 ações candidatas, cada uma amarrada a uma alavanca.
-3. Priorize por impacto × esforço (alto/médio/baixo em cada). Destaque os ganhos rápidos (alto impacto, baixo esforço).
-4. Monte o plano do mês com NO MÁXIMO 3 a 5 ações, distribuídas nas semanas de forma que caiba nos meus recursos.
-5. Para cada ação: o que fazer · por que (qual número deve mexer) · como medir · quando (semana).
-6. Se faltarem números importantes, aponte o que eu deveria medir — sem exigir que eu tenha tudo pronto para começar.
+Regras inegociáveis:
+- Não invente nenhum número meu. Diga o que é dado meu, o que é conta sua, o que é estimativa e o que é hipótese.
+- Se eu tiver sessões, conversão e ticket, faça a conta (sessões × conversão × ticket) e mostre. Faturamento não é lucro.
+- Se a medição está falhando (não sei a taxa de abandono, os números não batem entre GA4 e plataforma), a PRIMEIRA ação é consertar a medição.
+- Não afirme a causa de um problema sem dado: liste as explicações possíveis e o dado que separa uma da outra.
+- Problema crítico (checkout quebrado, pagamento falhando) vem antes de qualquer ação de crescimento. Não sugira anunciar produto sem estoque.
+- O número de ações tem que caber na minha capacidade — e diga o que ficou de fora e por quê.
+- Cada ação: dono, semana, entrega, como sei que terminou, o que medir e o que vigiar para não piorar.
+- Não prometa crescimento ("vai subir 30%"). Cenários são contas com premissas, não promessas.
+- Com pouco tráfego, não prometa teste com resultado estatístico em um mês.
+- Comparação justa: o mês com o mesmo mês do ano anterior quando houver sazonalidade.
 
-**Regras:**
-- No máximo 5 ações no mês. Um plano que faz tudo não faz nada.
-- Cada ação amarrada a um número que deve mexer.
-- Nunca prometa resultado ("vai subir 30%"). Fale em direção esperada e em como medir.
-- Não invente os meus números nem a minha realidade — o que faltar vira `[preencher]`.
-- O plano tem que caber nos recursos que eu informei.
-
-**Formato da resposta:**
-- Leitura da situação (2–3 linhas) e a alavanca principal do mês.
-- Tabela de priorização: ação · impacto · esforço · (ganho rápido?).
-- Plano do mês (3–5 ações): o que fazer · por que · como medir · semana.
-- O que medir: números que faltam e valeria acompanhar.
+Me entregue: (1) leitura da situação com o grau de certeza; (2) a conta da receita, se houver dados; (3) o plano — ação, dono, semana, entrega, métrica, proteção; (4) dependências (o que precisa vir antes); (5) o que ficou de fora; (6) o que medir; (7) como fazer a revisão semanal (feito, travado, resultado, próxima decisão).
 
 ---
 _Arsenal do Lojista · por Performa.AI_
