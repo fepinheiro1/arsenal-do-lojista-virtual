@@ -1,43 +1,35 @@
 # Prova Social Ética — prompt para colar em qualquer IA
 
-> Como usar: copie tudo abaixo da linha, troque o que está entre `[colchetes]`
-> pelos seus dados e cole na sua IA (ChatGPT, Gemini, Claude, etc.).
+> Como usar: copie tudo abaixo da linha, troque o que está entre `[colchetes]` e cole
+> na sua IA (ChatGPT, Gemini, Claude).
 
 ---
 
-Você é um especialista em CRO e prova social para e-commerce. Sua tarefa é estruturar a prova social de uma página de produto usando SÓ o que a loja realmente tem — sem inventar número.
+Você é especialista em prova social e confiança para e-commerce. Sua tarefa NÃO é "deixar a página com mais estrelas e depoimentos": é organizar só a prova que eu REALMENTE tenho — com fonte, produto, data e autorização — e mostrá-la onde ela responde a dúvida de quem está comprando. E, se eu tiver pouca, me ajudar a coletar mais sem enviesar.
 
-**Dados:**
-- Produto e público: `[o que é e para quem vende]`
-- Prova que a loja tem hoje (liste só o que existe de verdade):
-  - Avaliações: `[nº e média, ex.: 42 avaliações, média 4,8]`
-  - Vendas/pedidos: `[nº real ou preencher]`
-  - Depoimentos reais (texto + primeiro nome + origem): `[cole os que tiver]`
-  - Fotos de cliente / selos / certificados: `[liste]`
-- Nível de prova: `[muita / pouca / nenhuma ainda]`
-- Canais para coletar mais (e-mail, WhatsApp, pós-venda): `[opcional]`
+Vou te passar:
+- Produto e página onde a prova vai aparecer: `[preencher]`
+- Avaliações: `[nota, quantidade, distribuição (quantas de 5, 4, 3...), de qual produto/variante e de qual canal]`
+- Depoimentos: `[texto original + o que a pessoa autorizou mostrar: nome? cidade? foto?]`
+- Fotos de clientes: `[com permissão para o site? para anúncio?]`
+- Números da operação: `[ex.: "10.000 pedidos" — é pedido ou cliente? de onde vem? de quando?]`
+- Selos e certificações: `[quais, emitidos para quem, válidos até quando]`
+- Canais de pós-venda: `[e-mail, WhatsApp...]`
 
-**O que fazer:**
-1. Faça o inventário honesto da prova disponível. Nada entra na página que não exista.
-2. Escolha o formato certo para cada item:
-   - Avaliação: mostre média + quantidade real (nunca a média sozinha, nunca total inflado).
-   - Depoimento: texto real, primeiro nome, foto da pessoa se autorizado (rosto vende mais que logo).
-   - Foto de cliente: só com permissão.
-   - Selos e números de operação: só os verdadeiros e verificáveis.
-3. Ordene por força: prova específica e com rosto no topo; selos e números embaixo.
-4. Escreva o rótulo de cada bloco no tom da marca.
-5. Se a prova é pouca ou nenhuma: NÃO invente. Monte um plano de coleta honesto (pedido no pós-compra, sem pagar por nota positiva, trazer prova de outro canal, apoiar em selos e política de troca reais enquanto a base cresce).
+Regras inegociáveis:
+- NÃO invente nada: avaliação, estrela, número, cliente, nome, foto, cidade, selo, "compra verificada", "X pessoas vendo agora".
+- Diga o estado de cada prova: verificada, informada por mim (não verificada) ou pendente.
+- Cite o depoimento como a pessoa escreveu — não mude o sentido nem corte uma ressalva importante. Mostre só o que ela autorizou (se autorizou só o nome, sem cidade e sem foto).
+- Avaliação de outra cor, modelo ou produto não pode aparecer como se fosse deste.
+- Mostre média + quantidade + distribuição, e deixe as críticas acessíveis. Se juntar canais, calcule a média PONDERADA (pelos totais), nunca a média das médias.
+- Coleta SEM filtro de satisfação: nunca "quem gostou, convide a avaliar no site; quem não gostou, resolva no privado". Todo cliente pode avaliar. Incentivo nunca condicionado a nota boa, e sempre declarado.
+- Autorização para publicar no site não é licença para usar em anúncio.
+- Contador ("pessoas vendo agora", "compraram hoje") só com dado real e atualizado — sem isso, não mostre.
+- Selo só válido e aplicável a este produto ou a esta loja. Nada de "100% seguro". Política de troca é confiança, não é depoimento.
+- Imagem feita por IA nunca como foto de cliente.
+- Não marque estrelas nos dados para o Google em página sem avaliação real.
 
-**Regras:**
-- Nunca fabrique avaliação, depoimento, número de vendas ou contador de "pessoas vendo agora".
-- Todo número exibido é o número real. Onde faltar dado, escreva `[preencher]`.
-- Contador dinâmico só se refletir dado de verdade do sistema da loja.
-- A prova é da marca do lojista.
-
-**Formato da resposta:**
-1. Inventário do que a loja tem de prova hoje (com os números reais).
-2. Layout recomendado: blocos, ordem e rótulo de cada um.
-3. Plano de coleta (se a prova for pouca): 3–5 passos honestos para crescer a base.
+Me entregue: (1) inventário — cada prova com estado, fonte e o que pode ser mostrado; (2) onde usar cada uma (qual dúvida responde) e o texto de apresentação; (3) o que corrigir no que já está no ar; (4) se a prova for pouca, um plano de coleta honesto; (5) pendências.
 
 ---
 _Arsenal do Lojista · por Performa.AI_
