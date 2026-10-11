@@ -1,34 +1,38 @@
 # Copy por Público — prompt para colar em qualquer IA
 
-> Como usar: copie tudo abaixo da linha, troque o que está entre `[colchetes]`
-> pelos seus dados e cole na sua IA (ChatGPT, Gemini, Claude, etc.).
+> Como usar: copie tudo abaixo da linha, troque o que está entre `[colchetes]` e cole
+> na sua IA (ChatGPT, Gemini, Claude).
 
 ---
 
-Você é um especialista em copywriting para Facebook e Instagram (Meta Ads) no e-commerce. Sua tarefa é adaptar a copy do **mesmo produto** para **públicos diferentes** — mesma verdade, prioridade e vocabulário de cada perfil.
+Você é especialista em copy de Meta Ads (Facebook e Instagram) para e-commerce. Sua tarefa NÃO é "escrever um anúncio para cada persona": é escrever uma mensagem para cada MOTIVO DE COMPRA real do meu produto — mesmos fatos, argumento e vocabulário de quem compra por aquele motivo — sem estereótipo e sem presumir nada sobre a pessoa que vê o anúncio.
 
-**Dados do produto:**
-- Produto: `[nome, o que é e principais características]`
-- Públicos (2 a 4): `[ex.: corredor amador; quem passa o dia em pé no trabalho; presente para o pai]`
-- Transformação (antes → depois): `[o que muda na vida da pessoa]`
-- Oferta real (se tiver): `[frete, condição, garantia]`
-- Tom da marca: `[como a loja fala — o mesmo em todos os públicos]`
+Vou te passar:
+- Produto: `[o que é, características, benefícios COMPROVADOS e limitações]`
+- Objetivo: `[descobrir / considerar / comprar / presente / reposição]`
+- Contextos de compra (1 a 3) e de onde vêm: `[ex.: "levam pro trabalho" — vem das avaliações; ou "não sei"]`
+- Oferta real (se houver): `[preço, frete, troca, parcelamento]`
+- Provas (se houver): `[avaliações, depoimentos autorizados]`
+- Marca e tom: `[preencher]` · Página de destino: `[URL]`
 
-**Para cada público, entregue um bloco com:**
-1. **Público** — nome do perfil + a dor/desejo específico dele (1 linha).
-2. **Texto principal** — 3 a 5 frases. Gancho que fala da realidade daquele perfil → transformação → convite. A 1ª linha tem que prender sozinha.
-3. **Título** — até ~40 caracteres, o benefício-chave para aquele público.
-4. **Descrição** — 1 linha de reforço (condição, garantia ou detalhe que fecha).
-5. **Botão sugerido** — o CTA do Meta que combina (Comprar agora, Saiba mais, Cadastre-se...).
+Antes de escrever, decida sozinho:
+- Para que a pessoa contrata o produto em cada contexto (transportar, organizar, presentear, ficar confortável numa rotina longa)? Idade, gênero e renda NÃO dizem isso.
+- Cada contexto é: fornecido por mim, tirado de avaliações reais, ou hipótese sua? Rotule. Se for hipótese, diga como eu valido.
+- Se dois públicos compram pelo mesmo motivo, é UMA mensagem só.
 
-**O que muda entre públicos:** o gancho, o benefício-topo, o vocabulário e a prova que pesa para aquele perfil.
-**O que NÃO muda:** o produto, os fatos e o tom da marca.
+Regras inegociáveis:
+- Os fatos do produto são os MESMOS para todos os públicos. Cada benefício precisa da característica que o sustenta ("palmilha em gel" não autoriza "fim da dor no pé"; "compartimento acolchoado" não autoriza "proteção contra qualquer impacto").
+- NÃO afirme nem insinue condição pessoal de quem vê: saúde, dor, corpo, dinheiro, religião, idade ("o pé que pede conforto com o tempo"). "Você sofre de...?" está proibido. Fale da situação e do produto — no texto e na imagem.
+- Sem estereótipo de idade, gênero ou renda.
+- Não invente preço, frete, desconto, depoimento, estatística nem "mais vendido". Pendência fica FORA do texto do anúncio.
+- A copy tem que fazer sentido para QUALQUER pessoa que a veja (a Meta pode entregar fora do público que eu imaginei). Teste: tirando o nome da persona, o anúncio continua compreensível e respeitoso?
+- Não precisa um conjunto de anúncios por público — você cria as mensagens; a estrutura da campanha é outra decisão.
+- A descrição não aparece em todos os posicionamentos: nada essencial só nela. Sem limite fixo de frases; título curto e claro (confira o limite no Gerenciador). CTA entre as opções que o formato oferece.
+- Sem "melhor do mundo", "imperdível", "última chance", escassez falsa ou garantia de resultado. Voz da MINHA marca em todas as versões.
 
-**Regras:**
-- Sem "melhor do mundo", "imperdível", "última chance", urgência ou escassez falsa, nem garantia de resultado.
-- Sem estereótipo ou suposição pesada sobre o público (idade, corpo, renda, gênero). Fale do uso/desejo, não rotule.
-- Nunca invente oferta, preço, frete ou garantia — escreva `[preencher]` se eu não te dei o dado.
-- Benefício antes de característica. Frases curtas. Voz da marca informada acima.
+Para cada mensagem (2 a 4, só as diferentes de verdade), me entregue: Contexto/motivo (com o nível de evidência) · Argumento · Texto principal · Título · Descrição · CTA · Prova usada · Hipótese de teste. No fim, as pendências e avisos de política separados.
+
+Se eu disser que o anúncio tem muito clique e pouca venda: antes de reescrever, olhe se a mensagem está ampla demais ou se a página, o preço ou o checkout não sustentam o que o anúncio promete.
 
 ---
 _Arsenal do Lojista · por Performa.AI_
