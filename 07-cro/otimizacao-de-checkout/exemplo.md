@@ -1,44 +1,86 @@
-# Otimização de Checkout — exemplo real
+# Otimização de Checkout — exemplos reais
 
-## Entrada
+## Exemplo A — Auditoria por descrição (relato, não navegação)
+Entrada:
 ```
-Fluxo atual: 4 telas — (1) criar conta obrigatório, (2) endereço, (3) frete, (4) pagamento.
-Campos do formulário: nome, e-mail, CPF, RG, telefone, data de nascimento, endereço completo.
-Frete: só aparece na tela 3, depois de já ter cadastrado tudo. Frete grátis acima de R$ 199.
-Meios de pagamento: só cartão de crédito.
-Plataforma: Nuvemshop.
-Onde abandona: não tenho o número, mas o suporte diz que reclamam "não tem Pix".
+Fluxo (descrito pelo lojista): 4 telas — (1) criar conta obrigatório, (2) endereço, (3) frete,
+  (4) pagamento
+Campos: nome, e-mail, CPF, RG, telefone, data de nascimento, endereço completo
+Frete: só aparece na tela 3. Frete grátis acima de R$ 199 (regiões: não informado)
+Pagamento: só cartão de crédito · Plataforma: Nuvemshop (gateway: não informado)
+Atendimento: clientes reclamam "não tem Pix"
+```
+Saída:
+```
+O que examinei: só a descrição do lojista. Não naveguei pelo checkout: tudo abaixo é relato ou
+hipótese. Prints do celular confirmariam vários pontos.
+
+Etapa      | Achado                          | Evidência          | Gravid. | Ação                                   | Depende de
+Pagamento  | sem Pix; clientes pedem         | relatado (atend.)  | alta    | ver se o gateway atual oferece Pix na  | gateway/
+           |                                 |                    |         | Nuvemshop; se não, avaliar trocar      | plataforma
+Frete      | custo só aparece na tela 3,     | relatado (lojista) | alta    | mostrar estimativa de frete e prazo    | plataforma
+           | depois de preencher tudo        |                    |         | cedo (no carrinho), dizendo que depende|
+           |                                 |                    |         | do CEP                                 |
+Frete grátis| regra de R$ 199, regiões      | relatado           | média   | confirmar regiões e exclusões antes de | lojista
+           | desconhecidas                   |                    |         | mostrar "faltam R$ X"                  |
+Conta      | criação obrigatória             | relatado           | média   | ativar compra como convidado, se nada  | plataforma
+           |                                 |                    |         | na operação exigir conta               |
+Campos     | RG e data de nascimento         | relatado           | média   | PERGUNTAR por que são pedidos (gateway,| lojista/
+           |                                 |                    |         | antifraude, produto com restrição de   | gateway
+           |                                 |                    |         | idade?). Só remover se não houver motivo|
+Celular, erros, acessibilidade | não verificado | —              | —       | enviar prints do celular               | lojista
+
+Se o Pix entrar, o fluxo precisa de: prazo de expiração real exibido, QR e copia-e-cola, caminho
+de volta à loja e o pedido tratado como PENDENTE até o pagamento ser confirmado.
+
+Fora, de propósito:
+- "Adicionar Pix — esforço baixo na Nuvemshop": depende do gateway e do plano; conferir antes.
+- "Juntar endereço e frete numa tela" como regra: menos telas não é automaticamente melhor. Pode
+  virar teste.
+- "Selo de compra segura": só se houver um verdadeiro.
+- E-mail "seu carrinho está guardado": só se a plataforma reserva o carrinho. A mensagem de
+  recuperação fica com a recuperacao-de-carrinho (frente 04).
+
+Plano
+Ajustes rápidos: compra como convidado; estimativa de frete cedo (se a Nuvemshop/tema permitir).
+Projeto: Pix (gateway). Investigar: RG e data de nascimento.
+Medir depois: início do checkout → pagamento iniciado → pedido criado → pagamento aprovado.
 ```
 
-## Saída
+## Exemplo B — Diagnóstico com números (que não batem entre si)
+Entrada:
 ```
-RESUMO
-O maior vazamento está no pagamento (só cartão, sem Pix) e no frete que só aparece
-na tela 3, depois de a pessoa preencher tudo. Somados a conta obrigatória e campos
-demais, esses pontos empurram a desistência antes do "confirmar".
+30 dias. Plataforma: 820 pedidos criados (Pix 380, cartão 440)
+Gateway: 700 pagamentos aprovados (Pix 260, cartão 440); 150 tentativas de cartão recusadas
+  (não viraram pedido); 120 Pix expiraram sem pagamento
+GA4: 610 eventos de compra (disparam na página de "obrigado")
+```
+Saída:
+```
+Primeiro, reconciliar: 610 (GA4) × 820 (pedidos criados) × 700 (pagos). São três definições:
+- "Pedido criado" inclui Pix que nunca foi pago. Venda é o APROVADO: 700.
+- O evento do GA4 dispara na página de "obrigado". Quem paga o Pix no app do banco e não volta,
+  quem bloqueia cookies ou volta de um gateway em outro domínio não é contado. E ele pode estar
+  contando Pix pendente como compra. Conferir onde e quando o evento dispara antes de usar o GA4
+  como verdade.
 
-TABELA
-Ponto                 | Atrito encontrado                          | Correção
-Número de etapas      | 4 telas, uma só para criar conta           | Juntar endereço+frete numa tela; remover a etapa de conta
-Login obrigatório     | Exige criar conta antes de comprar         | Ativar compra como convidado; oferecer conta no fim (opcional)
-Campos do formulário  | Pede RG e data de nascimento sem necessidade | Manter nome, CPF, e-mail, telefone e endereço; cortar RG e nascimento; autopreencher endereço pelo CEP
-Frete                 | Só aparece na tela 3                        | Calcular frete no carrinho; mostrar "faltam R$ X para o frete grátis"
-Meios de pagamento    | Só cartão de crédito                        | Adicionar Pix (na Nuvemshop, via gateway já integrado) e boleto; deixar parcelamento claro: [preencher condições]
-Custo total           | Total só na última tela                     | Mostrar subtotal + frete no carrinho, antes de iniciar o checkout
-Confiança no pagamento| Sem selo/política visível                   | Exibir selo de compra segura e prazo de troca: [preencher]
-Erros e recuperação   | Sem lembrete de carrinho                    | Ativar e-mail de carrinho abandonado como convite ("seu carrinho está guardado"), sem contador falso
+Achados (medido, pelas fontes acima)
+1. Pix: 120 de 380 cobranças expiraram (32%). Medido. Hipóteses: prazo de expiração curto ou pouco
+   visível, instrução confusa, falta de caminho de volta. Validar: tempo de expiração real e teste
+   com usuários no celular. Um lembrete honesto antes de expirar fica com a recuperacao-de-carrinho.
+2. Cartão: 150 recusas em 590 tentativas (25%). Medido, mas a causa não: separar pelos códigos do
+   gateway (emissor, antifraude, dado inválido) antes de agir. Não contornar o antifraude. Depois
+   de uma recusa, oferecer tentar de novo ou pagar com Pix, sem perder o carrinho e sem cobrar
+   duas vezes.
+3. Medição: o GA4 subconta e mistura pendentes. Corrigir o evento para refletir a aprovação e
+   checar a deduplicação.
 
-PLANO PRIORIZADO
-1. Adicionar Pix como meio de pagamento (impacto alto · esforço baixo na Nuvemshop)
-2. Mostrar frete já no carrinho + "faltam R$ X para o grátis" (impacto alto · esforço baixo)
-3. Ativar compra como convidado (impacto alto · esforço baixo)
-4. Cortar RG e data de nascimento; autopreencher endereço pelo CEP (impacto médio · esforço baixo)
-5. Juntar endereço e frete numa etapa (impacto médio · esforço médio)
-6. E-mail de carrinho abandonado como convite honesto (impacto médio · esforço médio)
-7. Selo de segurança e política de troca visíveis [preencher] (impacto médio · esforço baixo)
+Prioridade: (1) e (2) são falhas, não desistência — vêm antes de qualquer teste de layout.
+Proteção ao mudar algo: taxa de aprovação, fraude, chamados no atendimento.
+Sem "vai aumentar X%": medir de novo em 30 dias, com as mesmas definições.
 ```
 
-> Referência: ataca primeiro o que mais pesa no abandono (Pix e frete cedo), respeita
-> o que a Nuvemshop permite, transforma o lembrete de carrinho em convite sem culpa
-> nem contador falso, e marca `[preencher]` nas condições de parcelamento e política
-> que o lojista não informou.
+> Referência: a auditoria diz que trabalhou com relato e não finge ter navegado; investiga por que
+> um campo é pedido antes de mandar remover; não promete capacidade da plataforma; trata Pix
+> pendente como não pago; separa desistência de falha de pagamento; reconcilia GA4, plataforma e
+> gateway antes de concluir; e não cria reserva nem selo que não existem.
