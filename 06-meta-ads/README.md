@@ -4,7 +4,7 @@ Skills para criar anúncios de Facebook e Instagram que conversam com cada públ
 
 | Skill | O que faz |
 |-------|-----------|
-| [`angulos-de-anuncio`](angulos-de-anuncio/) | Gera 5 ângulos diferentes para o mesmo produto: dor, desejo, prova, comparação e história |
+| [`angulos-de-anuncio`](angulos-de-anuncio/) | Ângulos sustentados por fatos e realmente diferentes, cada um com conceito visual e hipótese de teste — sem depoimento inventado, sem diagnosticar quem vê, e "criativo cansou" investigado antes |
 | [`copy-por-publico`](copy-por-publico/) | Adapta a copy do produto para cada público — texto principal, título e descrição sob medida |
 | [`roteiro-de-criativo-video`](roteiro-de-criativo-video/) | Roteiro de vídeo cena a cena com gancho nos 3 primeiros segundos, corpo e CTA |
 | [`variacoes-teste-ab`](variacoes-teste-ab/) | Variações da copy para teste A/B mudando uma variável por vez (gancho, prova, CTA) |

@@ -1,62 +1,144 @@
-# Ângulos de Anúncio — exemplo real
+# Ângulos de Anúncio — exemplos reais
 
-## Entrada
+## Exemplo A — Dados bons, com uma limitação que muda a decisão
+Entrada:
 ```
-Produto: Cafeteira italiana (moka) em alumínio, 3 xícaras
-Público: quem ama café e faz em casa, 25–45 anos, mora em apto
-Transformação: sai do café passado ralo/apressado para um café encorpado de cafeteria em 5 min
-Diferenciais: alumínio que aquece rápido, válvula de segurança, sem filtro de papel, não usa energia
-Provas: 4,8 de 5 em 320 avaliações
-Tom da marca: próximo, para quem curte ritual de café, sem esnobismo
+Produto: cafeteira italiana (moka) em alumínio, 3 xícaras
+Atributos: aquece rápido, válvula de segurança, sem filtro de papel. O lojista escreveu
+  "não usa energia".
+Objetivo: comprar · Público: quem faz café em casa, 25–45 anos, mora em apartamento
+Prova real: 4,8 de 5 em 320 avaliações na loja
+Objeção real (atendimento): "funciona no meu fogão?"
+Oferta: nenhuma · Orçamento: R$ 40/dia · Onde: Feed e Reels · Tom: próximo, sem esnobismo
+```
+Saída:
+```
+Antes dos ângulos, duas correções de verdade do produto:
+- "Não usa energia" não é verdade: a moka usa o calor do fogão. O que dá para dizer é que ela não
+  precisa de tomada nem de cápsula.
+- O público mora em apartamento, e muitos apartamentos têm cooktop de indução. Moka de alumínio
+  costuma NÃO funcionar em indução sem adaptador. Confirmar com o fabricante e dizer isso no
+  anúncio e na página. Do jeito que está, "faça no seu fogão" pode enganar justamente esse
+  comprador.
+
+ÂNGULO 1 — Demonstração do preparo
+Tese: ver como é simples faz a pessoa se imaginar fazendo.
+Por que pode funcionar: o produto tem uma ação visual clara (montar, encher, levar ao fogo, o café
+  subindo) e o atendimento mostra dúvida sobre como usar.
+Gancho: Água, pó, fogão. Em poucos minutos, o café sobe.
+Conceito visual: vídeo vertical, mãos montando a moka e o café subindo, em fogão a gás (o tipo de
+  fogão aparece, para não insinuar compatibilidade que não existe).
+Texto-base: Sem filtro de papel e sem cápsula: só a moka, o pó e o fogão. A válvula de segurança
+  fica na base. Confira na página em quais fogões ela funciona.
+CTA: Ver a cafeteira
+Prova necessária: o próprio vídeo do preparo, real e sem cortes enganosos.
+Hipótese: para quem ainda não tem moka, ver o preparo de ponta a ponta gera mais cliques
+  qualificados do que só a foto do produto. Sinal observado: taxa de clique e visitas à página.
+
+ÂNGULO 2 — Prova social sem distorção
+Tese: quem comprou aprovou, e isso reduz o risco de quem está em dúvida.
+Por que pode funcionar: a nota é real e o volume (320) é relevante.
+Gancho: Nota 4,8 de 5 em 320 avaliações de quem comprou.
+Conceito visual: o produto em uso e um trecho de avaliação real, com autorização e sem cortar
+  contexto.
+Texto-base: Moka em alumínio para 3 xícaras, com válvula de segurança e sem filtro de papel. Veja o
+  que dizem as avaliações na página.
+CTA: Ver avaliações
+Prova necessária: as 320 avaliações na página; o trecho citado com autorização.
+Hipótese: para quem já conhece moka, a nota reduz a dúvida mais que a descrição. Sinal: conversão.
+(Fora de propósito: "gente que entende de café já aprovou" — quem avaliou foi quem comprou, não
+especialista.)
+
+ÂNGULO 3 — Comparação justa com a cápsula
+Tese: para quem usa cápsula, a moka é outro jeito de fazer café em casa, sem descartável.
+Por que pode funcionar: a diferença é concreta e verificável: a moka usa só o pó.
+Gancho: Só pó e fogão. Nenhuma cápsula para descartar.
+Conceito visual: lado a lado, de um lado o lixo de cápsulas, do outro a moka e o pó.
+Texto-base: A moka usa o seu café em pó, sem cápsula e sem filtro descartável. É outro ritual:
+  mais manual, com o café encorpado típico da moka.
+CTA: Conhecer a moka
+Prova necessária: nenhuma além do produto. "Sai por centavos" só entra com a conta (preço do pó
+  por dose versus preço da cápsula, com premissas) — hoje, pendência.
+Hipótese: o público que usa cápsula responde ao argumento do descartável. Sinal: taxa de clique
+  nesse público.
+(Fora: "dura anos" — durabilidade não foi comprovada.)
+
+Por que não 5 ângulos: "desejo" e "ritual" repetiriam o ângulo 1 com outras palavras, e a
+"história da Marina" seria uma cliente inventada. Uma história de cliente só entra se for real e
+autorizada.
+
+ORDEM DOS TESTES (R$ 40/dia → um teste por vez)
+1. Ângulo 1 × Ângulo 2, com o mesmo produto, a mesma página e sem oferta, para comparar só o ângulo.
+2. O vencedor contra o Ângulo 3.
+É hipótese, não previsão de resultado.
+
+PENDÊNCIAS
+- Compatibilidade com indução (fabricante) e aviso na página.
+- Trecho de avaliação autorizado.
+- Cálculo de custo por dose, se quiser usar economia.
 ```
 
-## Saída
+## Exemplo B — Categoria sensível, com dados incompletos
+Entrada:
 ```
-1) ÂNGULO DE DOR
-Ideia central: o café de casa não precisa ser aquele ralo e sem graça da correria.
-Gancho: Aquele café aguado das 7h já virou rotina?
-Texto principal: O da cafeteria você sente no primeiro gole — o de casa some no leite.
-A moka muda isso: café encorpado no fogão, pronto em 5 minutos, sem filtro de papel.
-Mesmo grão, resultado de outro nível.
-Melhor para: quem toma café todo dia e acha que "café bom" só na rua.
+Produto: sérum facial com niacinamida 10%, 30 ml
+Lojista quer: "Você sofre com manchas e acne?" + foto de antes e depois
+Provas: nenhuma avaliação ainda; o fabricante não forneceu estudos
+Objeção real (direct do Instagram): "deixa a pele oleosa?"
+Objetivo: comprar
+```
+Saída:
+```
+Dois bloqueios antes de criar:
+1. "Você sofre com manchas e acne?" afirma uma condição de saúde de quem vê o anúncio, o que as
+   políticas da Meta não permitem. Reescrita: falar do produto e da rotina, não da pele da pessoa.
+2. Antes e depois sem estudo nem avaliação: não entra. Seria resultado prometido sem prova, e
+   cosmético é categoria de revisão reforçada.
 
-2) ÂNGULO DE DESEJO
-Ideia central: o ritual de café de fim de semana, todo dia, na sua cozinha.
-Gancho: O cheiro que toma a cozinha inteira antes do primeiro gole.
-Texto principal: Aquele café encorpado, aromático, feito com calma. A moka italiana entrega
-isso no seu fogão em poucos minutos. Um pequeno ritual que começa o dia do seu jeito.
-Melhor para: quem valoriza a experiência, não só a cafeína.
+ÂNGULO 1 — Transparência de fórmula
+Gancho: Niacinamida 10%, em 30 ml.
+Conceito visual: o frasco, o rótulo legível e a textura na mão.
+Texto-base: Um sérum com 10% de niacinamida para incluir na sua rotina de cuidados. Veja na página
+  a composição completa e o modo de uso.
+Prova necessária: o rótulo e a composição. Nenhum efeito prometido além do que o fabricante
+  declara oficialmente no rótulo.
+Hipótese: quem já pesquisa ativos responde ao ingrediente e à concentração. Sinal: cliques.
 
-3) ÂNGULO DE PROVA
-Ideia central: gente que entende de café já aprovou.
-Gancho: 4,8 de 5 em 320 avaliações de quem faz café em casa.
-Texto principal: A moka em alumínio virou a queridinha de quem trocou o café ralo pelo
-encorpado. Aquece rápido, tem válvula de segurança e dispensa filtro de papel. Café de
-verdade, no fogão. [preencher: 1 depoimento curto de cliente, se tiver]
-Melhor para: quem está em cima do muro e quer ver que outros já aprovaram.
+ÂNGULO 2 — Objeção real: a textura
+Gancho: Como é a textura? Veja na mão.
+Conceito visual: o sérum aplicado no dorso da mão, mostrando a textura real, sem filtro.
+Texto-base: [só depois de confirmar com o fabricante como é a textura — se for "leve, de rápida
+  absorção", isso entra; se não houver informação, o vídeo mostra e o texto não afirma]
+Hipótese: responder a dúvida mais frequente reduz a hesitação. Sinal: conversão.
+(Observação: o texto-base do ângulo 2 NÃO está pronto para publicar — depende da confirmação.)
 
-4) ÂNGULO DE COMPARAÇÃO
-Ideia central: cápsula sai caro e vira lixo; a moka é o café de verdade que dura anos.
-Gancho: Cada café, uma cápsula no lixo. Dá pra fazer diferente.
-Texto principal: A moka usa só o pó e o fogão — sem cápsula, sem filtro descartável, sem
-recarga. Um café encorpado que sai por centavos e um equipamento que dura anos.
-Melhor para: quem já cansou de repor cápsula toda semana.
-
-5) ÂNGULO DE HISTÓRIA
-Ideia central: a moka virou o começo de dia da Marina.
-Gancho: A Marina jurava que não sabia fazer café bom em casa.
-Texto principal: Passava, saía ralo, desistia e ia pra padaria. Ganhou uma moka, seguiu o
-passo a passo uma vez e no dia seguinte já era o cafezinho dela — encorpado, do jeito que
-ela gostava. Hoje é a primeira coisa que ela faz ao acordar.
-Melhor para: quem acha que "não leva jeito" pra fazer café.
-
-—
-Testaria primeiro: o ângulo de DOR. O público toma café todos os dias e a frustração do
-café ralo da correria é imediata e reconhecível — o gancho para o dedo no feed. Prova como
-segunda aposta, porque a nota alta reforça a decisão de quem já se identificou com a dor.
+Só 2 ângulos: sem prova social e sem resultado comprovado, o resto seria invenção.
+Pendências: ficha técnica com a textura; avaliações (quando houver, com autorização); revisão de
+política antes de publicar.
 ```
 
-> Referência de qualidade: 5 ângulos genuinamente diferentes do MESMO produto, cada gancho
-> se sustenta sozinho, a prova usa o dado real (4,8/320) e marca `[preencher]` onde faltou
-> depoimento, a comparação bate no método antigo (cápsula) sem citar marca, e nenhum ângulo
-> promete resultado garantido nem cria urgência falsa.
+## Exemplo C — "O criativo cansou"
+Entrada:
+```
+"O CPA subiu de R$ 38 para R$ 61 em 2 semanas, o criativo cansou. Me dá 5 ângulos novos."
+Dados que o lojista tinha: frequência de 1,9 (estável), CTR estável em 1,4%, taxa de conversão
+  da página caiu pela metade. Na mesma semana, o frete grátis mudou de R$ 199 para R$ 299.
+```
+Saída:
+```
+Antes de criar peças novas: os dados não apontam cansaço do criativo. A frequência está estável e
+o CTR também — as pessoas continuam clicando no mesmo ritmo. O que caiu foi a conversão DEPOIS do
+clique, e coincidiu com a mudança do frete grátis (de R$ 199 para R$ 299).
+
+Hipótese principal: o novo frete pesou no checkout, não no anúncio.
+Investigar primeiro: abandono no checkout antes e depois da mudança, preço, estoque e se a medição
+da compra continua funcionando.
+Se for o frete, ângulos novos não resolvem — e trocar o criativo agora ainda apagaria a leitura do
+que mudou. Ângulos novos fazem sentido quando a frequência sobe e o CTR cai.
+```
+
+> Referência: só entram ângulos que os fatos sustentam e que são de fato diferentes; a limitação
+> do produto (indução) aparece em vez de ser escondida; a prova é citada sem distorção; não existe
+> cliente inventada; o anúncio fala do produto, nunca da condição de quem vê; o visual também
+> passa pela checagem; os testes cabem no orçamento; e "o criativo cansou" é investigado antes de
+> virar trabalho novo.
