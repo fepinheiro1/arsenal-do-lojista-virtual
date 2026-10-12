@@ -44,7 +44,7 @@ Opcional (afina o resultado): canal de destino, palavra-chave alvo, variantes. S
 
 > Os limites de marketplace mudam com frequência. A skill usa essas referências como ponto de partida, mas prioriza **precisão e clareza sobre encaixar num número** — e, para um canal específico, confere a documentação oficial vigente antes de cravar um limite.
 
-**3. Infere com segurança.** Categoria, marca/modelo, intenção de busca e palavra-chave, a partir do que recebeu. Palavra-chave explícita do lojista tem prioridade.
+**3. Infere com segurança.** Categoria, marca/modelo, intenção de busca e palavra-chave, a partir do que recebeu. Palavra-chave explícita do lojista tem prioridade. Palavra-chave inferida é **sugestão de linguagem**, não volume validado: sem dado de busca (ferramenta, Search Console, painel do marketplace), a skill não diz que um termo "tem mais buscas" ou "rankeia melhor".
 
 **4. Decide a ordem pelo contexto — não começa sempre pelo tipo.** Marca forte e modelo conhecido vêm na frente (*Nike Air Max 90*); marca fraca ou desconhecida cede a frente para o tipo (*Cafeteira Italiana Moka BrewCo Classic*). A ordem por categoria é referência, não fórmula cega:
 
@@ -75,8 +75,11 @@ Opcional (afina o resultado): canal de destino, palavra-chave alvo, variantes. S
 - **Sem keyword stuffing**: nada de repetir tipo/marca, empilhar sinônimos ou singular+plural (*"Tênis Masculino Tênis Corrida Tênis Esportivo"* é proibido).
 - **Sem promoção no título**, especialmente no Merchant: fora "frete grátis", "promoção", "50% OFF", "compre agora", "oferta", "mais barato", "última chance".
 - **Dados conflitantes** (ex.: "128 GB" e "256 GB"): não escolha no silêncio — pergunte de forma curta qual é o certo.
-- **Sem termo subjetivo vazio**: "confortável", "original", "top" não identificam o produto nem ajudam na busca; corte.
-- No **modo em lote**, diferencie SKUs por um atributo real — não invente código interno só para forçar unicidade.
+- **Sem termo subjetivo vazio**: "confortável", "original", "top" não identificam o produto; corte.
+- **Número ambíguo**: modelo, tamanho e capacidade podem ser o mesmo número ("Pegasus 42", "tam 42"). Se a entrada não deixa claro e isso muda o título, pergunte — de preferência já mostrando as versões possíveis.
+- **Marketplace sem a doc vigente**: diga que limite e padrão precisam ser confirmados no canal; não apresente regra de memória como atual.
+- **URL sem acesso real**: não diga que leu a página — peça os dados.
+- No **modo em lote**, diferencie SKUs por um atributo real — não invente código interno só para forçar unicidade. Preserve SKU, variante e ordem; não leve atributo de um item para outro; aponte títulos duplicados; confira o total recebido × entregue.
 
 ### Quality Gate (silencioso, antes de entregar)
 Dá para entender o que é na hora? · Marca/modelo/tipo claros? · Corresponde ao jeito que a pessoa busca? · Os atributos importam? · Tudo é factual? · Respeita o canal? · O essencial está cedo (sobrevive ao truncamento)? · Tem repetição? · O SKU é distinguível? · Parece título de produto, não lista de keywords?

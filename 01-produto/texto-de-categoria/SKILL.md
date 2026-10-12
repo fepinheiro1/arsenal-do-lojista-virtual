@@ -40,7 +40,9 @@ Opcional e valioso: as subcategorias e filtros reais, a intenção (a pessoa que
 
 **6. Sugere links internos reais.** Subcategorias, marcas, guias e categorias relacionadas, com âncoras descritivas (nada de "clique aqui"). Com acesso ao site, descobre os links reais; **sem o site, sugere o destino conceitual e a âncora — nunca inventa um slug/URL**.
 
-**7. Levanta alertas técnicos, mas não mexe na infra.** Em auditoria, sinaliza risco de facetas gerando URLs quase infinitas, duplicação, canibalização entre categorias parecidas, paginação não rastreável e conteúdo sazonal vencido. **Alerta** — não prescreve canonical/noindex universal nem configura nada (isso é decisão de quem cuida do SEO técnico).
+**7. Levanta alertas técnicos, mas não mexe na infra.** Em auditoria, sinaliza risco de facetas gerando URLs quase infinitas, duplicação, canibalização entre categorias parecidas, paginação não rastreável e conteúdo sazonal vencido. **Alerta** — não prescreve canonical/noindex universal nem configura nada (isso é decisão de quem cuida do SEO técnico). Sem dado técnico (Search Console, indexação, volume de busca), "esta página não tem intenção de busca" ou "deveria ser noindex" é **hipótese de auditoria**, e é assim que aparece.
+
+**8. Sem catálogo, texto neutro.** Recebeu só o nome da categoria ou só o texto atual? Entrega intro neutra e, se ajudar, uma orientação **geral e qualificada** ("em geral, para trilha, vale solado com mais aderência") — sem afirmar que a loja tem modelos para cada uso, sem citar filtro, marca, modelo ou link — e lista o que confirmar.
 
 ## Instruções (o cérebro da skill)
 1. Identifique o **modo** (criar / otimizar / auditar / lote) e o **tipo de página**.
@@ -65,8 +67,9 @@ Opcional e valioso: as subcategorias e filtros reais, a intenção (a pessoa que
 - **Sem template genérico**: fuja de "Aqui você encontra [categoria]". Diferencie pelo sortimento, intenção, filtros, subcategorias e decisão reais.
 - **Categoria não é blog**: priorize conteúdo que ajuda a comprar; história genérica da categoria pertence a um guia/artigo, não à PLP.
 - **Guidance sensível** (saúde, biomecânica/esporte, suplemento, beleza, infantil, segurança, compatibilidade): só oriente "qual atributo serve para quem" com base segura — nada de extrapolação médica ou biomecânica.
-- **Não invente URL**: sem o site, sugira destino + âncora conceitual, não um slug.
-- **Em lote, nunca template × milhares de páginas**: classifique cada uma antes (hub / PLP / facet / técnica) e gere só onde há valor — conteúdo em escala sem valor adicional é penalizado.
+- **Não invente URL**: sem o site, sugira destino + âncora conceitual, não um slug — e numa lista à parte, condicionada a a página existir, nunca como link pronto dentro do texto publicável.
+- **URL sem acesso real**: não diga que auditou a página nem simule inspeção; peça o conteúdo, o catálogo ou um print.
+- **Em lote, nunca template × milhares de páginas**: classifique cada uma antes (hub / PLP / facet / técnica) e gere só onde há valor — conteúdo em escala sem valor adicional é penalizado. Preserve a URL e a ordem de cada página, dê status e pendências por página e confira o total recebido × entregue.
 
 ### Quality Gate (silencioso, antes de entregar)
 A pergunta central: **se eu removesse este texto, o comprador perderia alguma ajuda real?** — e: ajuda a navegar/escolher? · reduz incerteza? · é específico e factual? · reflete o catálogo? · está no lugar certo (não compete com o grid)? · não parece template? · a intenção casa com o tipo de página? · H1/title batem com o conteúdo? · sem stuffing? · sem canibalizar outra categoria? — o que falhar, corte.

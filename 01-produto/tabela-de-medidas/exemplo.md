@@ -1,4 +1,6 @@
-# Tabela de Medidas — exemplos reais
+# Tabela de Medidas — exemplos ilustrativos
+
+> Casos de demonstração: cada afirmação da saída vem da entrada — o que não veio vira pergunta ou pendência.
 
 ## Exemplo A — Corpo ou peça? (a skill pergunta)
 Entrada:
@@ -8,15 +10,16 @@ P 48
 M 51
 G 54
 ```
-Como a skill age: um número só por tamanho, sem rótulo. Antes de montar qualquer tabela, ela confirma o que esses números significam — porque muda tudo.
+Como a skill age: um número só por tamanho, sem rótulo e sem unidade. Antes de montar qualquer tabela, ela confirma o que esses números significam e em que unidade estão — não presume centímetro.
 
 Saída:
 ```
 Antes de montar o guia, preciso confirmar uma coisa:
 
-Esses números (48, 51, 54 cm) são:
+Esses números (48, 51, 54) são:
 (a) a largura da peça, medida de axila a axila com a camiseta esticada na mesa; ou
 (b) a circunferência do corpo (busto) indicada para cada tamanho?
+E estão em centímetros?
 
 É a diferença entre um "guia da peça" e um "guia do corpo", e cada um leva uma
 instrução de medição diferente. Me diga qual é e eu monto a tabela certa.
@@ -71,35 +74,43 @@ número que pode fazer a pessoa comprar errado.
 Duas formas de resolver:
 1. Me mande a tabela de conversão oficial da marca (quase toda tem) e eu monto a
    equivalência certinha.
-2. Ou publicamos a tabela em comprimento do pé (cm), que vale para qualquer sistema
-   e é a informação mais segura para o cliente acertar.
+2. Ou, se você tiver a medida de cada número em centímetros (o comprimento interno
+   ou da palmilha, por exemplo), publicamos a tabela em cm, que não depende de sistema.
+   Sem essa medida, eu não monto tabela em cm — não tenho de onde tirar os valores.
 ```
 
-## Exemplo D — Calçado (medir o pé; número só com tabela oficial)
+## Exemplo D — Calçado com comprimento interno (não é o tamanho do pé)
 Entrada:
 ```
 Tênis. Tabela oficial de comprimento interno:
 38 = 24,0 cm · 39 = 24,7 cm · 40 = 25,4 cm · 41 = 26,1 cm
 ```
-Como a skill age: como a tabela oficial comprimento→número foi fornecida, monta a equivalência e ensina a medir o pé do jeito certo.
+Como a skill age: comprimento interno é medida do produto (o espaço dentro do calçado), não do pé — então ela preserva a grandeza como veio. Não manda medir o pé e escolher pela tabela, porque o pé precisa de folga lá dentro e quanto de folga é regra da marca, que não veio. E não chama a numeração de "BR": o sistema não foi informado.
 
 Saída:
 ```
 ## Guia de tamanhos
-A medida abaixo é o comprimento do pé (do calcanhar à ponta do dedo maior). Sistema BR.
+As medidas abaixo são o comprimento interno do calçado (o espaço por dentro,
+do calcanhar à ponta) — não o tamanho do pé.
 
-| Tamanho | Comprimento do pé |
+| Tamanho | Comprimento interno (cm) |
 |---|---:|
-| 38 | 24,0 cm |
-| 39 | 24,7 cm |
-| 40 | 25,4 cm |
-| 41 | 26,1 cm |
+| 38 | 24,0 |
+| 39 | 24,7 |
+| 40 | 25,4 |
+| 41 | 26,1 |
 
-### Como medir
-- De pé sobre uma folha, marque do calcanhar até a ponta do dedo maior.
-- Meça os dois pés e use o maior (é normal um ser um pouco maior que o outro).
-- Escolha o tamanho cujo comprimento seja igual ou logo acima da sua medida.
+### Como usar esta tabela
+- Pegue um calçado seu que veste bem e meça por dentro, do calcanhar à ponta
+  (se a palmilha sair, meça a palmilha).
+- Compare essa medida com a coluna acima.
 ```
+Antes de publicar, confirme:
+- o sistema da numeração 38–41 (BR? EU?) — veio sem sistema;
+- se a marca indica quanto de folga deixar ou tem uma tabela pelo comprimento do pé.
+  Com isso eu acrescento o "meça o seu pé" com a regra certa; sem isso, recomendar
+  tamanho pelo pé faria a pessoa comprar apertado.
 
-> Referência: sempre rotular corpo/peça/produto, converter só o físico (cm↔pol),
-> e nunca inventar equivalência internacional nem "suba um tamanho" sem regra.
+> Referência: sempre rotular corpo/peça/produto e manter a grandeza que veio
+> (comprimento interno não vira pé), não presumir unidade nem sistema, converter só o
+> físico (cm↔pol) e nunca inventar equivalência internacional nem "suba um tamanho" sem regra.

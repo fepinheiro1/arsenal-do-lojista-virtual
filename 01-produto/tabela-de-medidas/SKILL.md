@@ -23,7 +23,7 @@ Uma coisa é decisiva e a skill vai querer saber: **as medidas são do corpo, da
 
 ## Como funciona (por baixo)
 
-**1. Separa cinco coisas que não se misturam.** Medida do **corpo** (busto, cintura, pé) · medida da **peça** (largura plana, comprimento, manga) · **dimensão do produto** (anel, colchão) · **tamanho comercial** (P/M/G, 38, US 8, Queen) · **recomendação de fit** (veste justo, suba um tamanho). Tratar uma como a outra é o erro que gera devolução.
+**1. Separa cinco coisas que não se misturam.** Medida do **corpo** (busto, cintura, pé) · medida da **peça** (largura plana, comprimento, manga) · **dimensão do produto** (anel, colchão, comprimento interno do calçado) · **tamanho comercial** (P/M/G, 38, US 8, Queen) · **recomendação de fit** (veste justo, suba um tamanho). Tratar uma como a outra é o erro que gera devolução.
 
 **2. Rotula sempre a tabela.** Toda saída diz, no topo: *"As medidas abaixo são do corpo / da peça / do produto."* Se não dá para identificar pelo que você mandou, pergunta antes de montar.
 
@@ -35,7 +35,7 @@ Uma coisa é decisiva e a skill vai querer saber: **as medidas são do corpo, da
 
 **6. Valida a consistência e marca o estranho (não conserta sozinha).** Detecta sequência fora de ordem (P 70 / M 68 / G 80), tamanho duplicado, unidade ausente ou misturada, coluna faltante, salto improvável, range com mínimo > máximo, zero/negativo, sistemas misturados. Um outlier não é erro automático — marca para você confirmar.
 
-**7. Trata cada categoria com seu preset.** Tops (busto/ombro/manga/comprimento) · bottoms (cintura/quadril/entrepernas, com `32×34` preservando cintura×entrepernas) · calçados (comprimento do pé → número **só com tabela oficial**; "meça os dois pés e use o maior") · largura de calçado (só quando existe) · anéis (diâmetro/circunferência; número só com tabela oficial) · cama (a dimensão física é mais confiável que "Queen/King", que muda por país). Ranges (`M: busto 96–104 cm`) são nativos.
+**7. Trata cada categoria com seu preset.** Tops (busto/ombro/manga/comprimento) · bottoms (cintura/quadril/entrepernas, com `32×34` preservando cintura×entrepernas) · calçados (comprimento do pé → número **só com tabela oficial**; "meça os dois pés e use o maior". **Comprimento interno ou da palmilha é medida do produto, não do pé** — nunca renomeie; recomendar tamanho pelo pé exige a regra de folga ou a tabela da marca) · largura de calçado (só quando existe) · anéis (diâmetro/circunferência; número só com tabela oficial) · cama (a dimensão física é mais confiável que "Queen/King", que muda por país). Ranges (`M: busto 96–104 cm`) são nativos.
 
 **8. Nunca calcula o que o material não permite.** Elastano não diz quanto estica; algodão não diz quanto encolhe; tolerância (±) só aparece se informada. Reviews podem revelar "veste pequeno", mas percepção de poucos compradores não vira regra oficial de modelagem.
 
@@ -52,15 +52,18 @@ Uma coisa é decisiva e a skill vai querer saber: **as medidas são do corpo, da
 ## Regras de qualidade
 - **Nunca invente** medida, sistema de tamanho, equivalência internacional, recomendação de fit, tolerância, elasticidade, encolhimento, largura, dimensão, prioridade de medida ou compatibilidade dimensional.
 - **Tamanho comercial não é conta**: não gere BR↔US↔EU por cálculo. Se a fonte só dá aproximação, rotule "conversão aproximada".
-- **"40" isolado não tem sistema**: não assuma BR nem EU — pergunte ou registre como veio.
+- **"40" isolado não tem sistema**: não assuma BR nem EU — pergunte ou registre como veio. Uma tabela 38–41 sem sistema informado também não é "BR": rotule "sistema não informado".
+- **Unidade não informada não é centímetro**: "P 48 / M 51 / G 54" sem unidade → pergunte a unidade junto com o tipo (corpo/peça).
+- **A grandeza não muda de nome**: comprimento interno não vira "comprimento do pé"; largura plana não vira "busto". Sem medidas por número, não ofereça tabela em cm — não há de onde tirar os valores.
+- **URL sem acesso real**: não diga que consultou a página; peça a tabela colada ou um print.
 - **Não recomende maior/menor sem evidência** de modelagem. (Corrige a dica automática da V1.)
 - **Cama**: nunca assuma Queen/King globalmente — a dimensão física manda; sem dimensão/sistema/mercado, peça o dado.
-- **Variantes**: se o tamanho identifica o SKU, preserve o valor por SKU; não consolide tamanhos distintos.
+- **Variantes e lote**: se o tamanho identifica o SKU, preserve o valor por SKU; não consolide tamanhos distintos nem misture medidas entre itens. Em lote, mantenha ordem e identificação (SKU/URL/variante), confira o total recebido × entregue, marque pendências por item e não libere recomendação de tamanho para item com ambiguidade crítica (tipo, unidade ou sistema).
 - **Contexto regional**: sistema e equivalência dependem do país — não importe a tabela de outro mercado.
 - **Mobile-first**: tabela curta, só as colunas que importam; muitas dimensões → separe em blocos em vez de uma tabela horizontal gigante.
 
 ### Quality Gate (silencioso, antes de entregar)
-O tipo (corpo/peça/produto) está claro? · Unidade em tudo? · Sistema conhecido quando necessário? · Sequência e ranges plausíveis? · Falta dimensão importante? · A conversão foi só física (não comercial inventada)? · A recomendação de fit tem base? · O tamanho bate com o SKU? · As medidas combinam com a categoria? · O comprador sabe como medir? · A tabela é legível no celular? · Equivalências e fit têm fonte? — falha crítica vira pendência, não publicação.
+O tipo (corpo/peça/produto) está claro? · A grandeza manteve o nome que veio? · Unidade em tudo — informada, não presumida? · Sistema conhecido quando necessário? · Sequência e ranges plausíveis? · Falta dimensão importante? · A conversão foi só física (não comercial inventada)? · A recomendação de fit tem base? · O tamanho bate com o SKU? · As medidas combinam com a categoria? · O comprador sabe como medir? · A tabela é legível no celular? · Equivalências e fit têm fonte? — falha crítica vira pendência, não publicação.
 
 ## Formato da saída
 Por padrão, o **guia pronto para a página**:

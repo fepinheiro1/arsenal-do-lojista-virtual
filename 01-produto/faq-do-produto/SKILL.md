@@ -45,10 +45,11 @@ Opcional e muito valioso: as **fontes oficiais** (rótulo, manual, ficha técnic
 **5. Mede a evidência antes de responder.**
 - Hierarquia da fonte: **A** oficial (manual, rótulo, fabricante, política) → **B** explícito na PDP → **C** reviews/Q&A (revelam, não provam tema técnico) → **D** inferência segura (sugere a pergunta, não sustenta fato forte) → **E** desconhecido (não responder como fato).
 - Confiança da resposta: **confirmada** (fonte oficial) e **apoiada** (boa evidência) podem ser publicadas; **incerta** e **desconhecida** viram pendência ou pergunta ao lojista — nunca fato.
+- O que o lojista declara sobre o próprio produto ("tem Bluetooth") é fonte da loja e pode virar resposta — mas só o fato declarado: o adjetivo sem prova ("de última geração") sai, e o detalhe que ninguém declarou (versão, alcance) vira pendência.
 
 **6. Prioriza por impacto na compra.** Ranqueia as perguntas por: impacto na decisão + frequência real + quanto reduz a incerteza + relevância ao público + evidência disponível + diferenciação + prevenção de devolução/de ticket/de quebra de confiança − duplicação − risco da resposta. A FAQ reflete a decisão de compra, não a lista de dados disponíveis.
 
-**7. Deduplica, checa contradição e atualidade.** "Serve no iPhone 15?", "Funciona no iPhone 15?" e "É compatível com iPhone 15?" viram um cluster (escolhe a formulação mais natural). Se descrição, ficha e manual divergem, não escolhe no silêncio — sinaliza o conflito. Compatibilidade, software, garantia e políticas envelhecem: prefere a fonte oficial mais nova.
+**7. Deduplica, checa contradição e atualidade.** "Serve no iPhone 15?", "Funciona no iPhone 15?" e "É compatível com iPhone 15?" viram um cluster (escolhe a formulação mais natural). Frequência é contada em **menções**, não em clientes — duas mensagens da mesma pessoa são 2 menções e 1 pessoa; só fala em "clientes" quando o histórico identifica quem perguntou. Se descrição, ficha e manual divergem, não escolhe no silêncio — a pergunta contestada **não entra na FAQ publicada**: vai para a lista de conflitos, com as duas versões, até a confirmação. Compatibilidade, software, garantia e políticas envelhecem: prefere a fonte oficial mais nova.
 
 ## Instruções (o cérebro da skill)
 1. Identifique o **modo** e reúna as fontes (produto, URL, atendimento, reviews, specs, políticas).
@@ -74,6 +75,10 @@ Opcional e muito valioso: as **fontes oficiais** (rótulo, manual, ficha técnic
 - **Sem pergunta promocional**: "Por que é o melhor?", "Por que você vai amar?", "Por que comprar agora?" são copy, não FAQ — proibidas.
 - **Contradição entre fontes**: pergunte de forma curta qual é a correta, não escolha em silêncio.
 - **Links**: pode resumir e apontar para o manual/política oficial; nunca invente um link.
+- **Não afirme o que a página tem sem saber**: "confira a tabela de medidas", "veja o vídeo", "baixe o manual" só se você confirmou que existe.
+- **Dado pessoal nunca sai**: nome, telefone, e-mail, endereço, CPF e número de pedido do histórico de atendimento não aparecem na FAQ, nos clusters nem em nenhuma saída pública.
+- **URL sem acesso real**: não diga que leu a página — peça o conteúdo colado.
+- **Lote**: uma FAQ por SKU, só com os dados daquele item — preserve SKU, variante e ordem, não leve resposta de um produto para outro, confira o total recebido × entregue e marque pendências por item.
 
 ### Quality Gate (silencioso, antes de entregar)
 É pergunta real? · Tem impacto na compra? · Tem evidência? · A resposta é exata e defensável? · É específica? · Repete outra? · Está atualizada? · Vale para a variante certa? · O escopo de política está correto? · Claim sensível tem prova? · Voz natural? · Concisa? · Ajuda a agir? — se falhar, corrige ou retira.
