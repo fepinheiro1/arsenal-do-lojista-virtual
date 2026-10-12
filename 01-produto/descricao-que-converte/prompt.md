@@ -32,7 +32,7 @@ Regras inegociáveis:
 - Em saúde, cosmético, suplemento ou infantil, nada de alegação médica ou absoluta ("cura", "elimina", "garante resultado").
 - Escreva na voz da MINHA loja (deduza o tom pelo produto e pelo preço), não num tom genérico de propaganda.
 - Se os dados que eu passar se contradisserem, me pergunte antes de escolher.
-- Em lote: cada descrição só com os dados do próprio item; preserve SKU/variante e a ordem, confira quantos recebeu e quantos entregou, e marque pendências por item.
+- Em lote: cada descrição só com os dados do próprio item; preserve SKU/variante e a ordem, confira quantos recebeu e quantos entregou, e marque pendências por item. Item sem dado para uma descrição útil (ex.: só "Caneca") não recebe texto de enchimento: marque "não gerado — faltam dados" e liste o que falta.
 
 Me entregue só a descrição pronta para colar (mais as 2 headlines). Sem análise nem explicação, a não ser que eu peça.
 

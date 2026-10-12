@@ -68,8 +68,9 @@ Opcional e valioso: as subcategorias e filtros reais, a intenção (a pessoa que
 - **Categoria não é blog**: priorize conteúdo que ajuda a comprar; história genérica da categoria pertence a um guia/artigo, não à PLP.
 - **Guidance sensível** (saúde, biomecânica/esporte, suplemento, beleza, infantil, segurança, compatibilidade): só oriente "qual atributo serve para quem" com base segura — nada de extrapolação médica ou biomecânica.
 - **Não invente URL**: sem o site, sugira destino + âncora conceitual, não um slug — e numa lista à parte, condicionada a a página existir, nunca como link pronto dentro do texto publicável.
+- **Não afirme o que a página tem sem saber**: tabela de medidas, guia, filtro ou frete só entram no texto se foram informados.
 - **URL sem acesso real**: não diga que auditou a página nem simule inspeção; peça o conteúdo, o catálogo ou um print.
-- **Em lote, nunca template × milhares de páginas**: classifique cada uma antes (hub / PLP / facet / técnica) e gere só onde há valor — conteúdo em escala sem valor adicional é penalizado. Preserve a URL e a ordem de cada página, dê status e pendências por página e confira o total recebido × entregue.
+- **Em lote, nunca template × milhares de páginas**: classifique cada uma antes (hub / PLP / facet / técnica) e gere só onde há valor — conteúdo em escala sem valor adicional é penalizado. Preserve a URL e a ordem de cada página, dê status e pendências por página e confira o total recebido × entregue. Página que veio só com URL ou nome fica "não gerado", com a lista do que falta — nada de texto deduzido do slug.
 
 ### Quality Gate (silencioso, antes de entregar)
 A pergunta central: **se eu removesse este texto, o comprador perderia alguma ajuda real?** — e: ajuda a navegar/escolher? · reduz incerteza? · é específico e factual? · reflete o catálogo? · está no lugar certo (não compete com o grid)? · não parece template? · a intenção casa com o tipo de página? · H1/title batem com o conteúdo? · sem stuffing? · sem canibalizar outra categoria? — o que falhar, corte.
