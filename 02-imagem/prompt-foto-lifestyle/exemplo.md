@@ -1,4 +1,6 @@
-# Prompt de Foto Lifestyle — exemplos reais
+# Prompt de Foto Lifestyle — exemplos ilustrativos
+
+> Casos de demonstração: o produto só tem os atributos que vieram na entrada, e a cena só sugere o que é verdade.
 
 ## Exemplo A — Você tem foto real (editar/compor)
 Entrada:
@@ -34,17 +36,19 @@ Canal: minha loja
 ```
 Saída:
 ```
-Modo: conceito (sem foto do produto)
+Modo: conceito (você não mencionou foto do produto)
 
 Aviso importante: você não confirmou se a mochila é impermeável. Uma cena na chuva
 sugere resistência à água — se isso não é verdade, vira propaganda enganosa e gera
 devolução. Por isso montei uma cena SECA. Se você confirmar que é à prova d'água, aí
 sim dá para colocar chuva/respingos.
+Outro ponto: a cor e o modelo não vieram — sem foto, a IA vai desenhar uma mochila
+qualquer. Serve para testar a cena, não como imagem do seu produto.
 
 Lifestyle photo of an urban nylon backpack worn casually on a city sidewalk on a clear
 day, natural daylight, a realistic urban background softly present, a person shown only as
-a partial body (shoulders and back), the backpack clearly the main subject, true material
-and color, natural contact and shadow. Photorealistic, natural colors. No added text, no
+a partial body (shoulders and back), the backpack clearly the main subject, nylon material,
+natural contact and shadow. Photorealistic, natural colors. No added text, no
 added logo, no watermark.
 ```
 
@@ -59,14 +63,14 @@ Saída:
 Modo: editar foto real
 
 Place the mini desk humidifier (15 cm tall) from the attached photo on a real work desk,
-next to a laptop and a coffee mug used as natural scale anchors so its small size reads
+next to a coffee mug and a pen used as natural scale anchors so its small size reads
 correctly — do NOT enlarge the product to make it look bigger. Keep the product exactly as
 photographed. Soft daytime office light, the desk context clearly visible (medium depth of
 field), realistic shadow and contact with the desk surface. Photorealistic, natural colors.
 Square composition. No added text, no added logo, no watermark, no color change.
 ```
 Proporção/resolução: quadrada, alta resolução (Google lifestyle).
-(A âncora — notebook e caneca — mostra que ele é pequeno, sem exagerar o tamanho.)
+(A âncora — caneca e caneta — mostra que ele é pequeno, sem exagerar o tamanho. Sem notebook do lado: aparelho que solta névoa ao lado de eletrônico sugere um uso que ninguém confirmou. Requisitos da imagem lifestyle no Merchant: conferir a regra vigente.)
 
 > Referência: o produto nunca muda; a cena só mostra o que é verdade (sem sugerir
 > impermeabilidade, resultado ou "eco" sem base); a escala é honesta; e luz/profundidade

@@ -57,6 +57,8 @@ Regra de ouro: **a criatividade pode mudar a atmosfera; não pode mudar o produt
 - **Pessoas** só quando fortalecem o conceito (product-led / person-led / balanced), sem roubar o hero, sem celebridade ou pessoa real inventada, sem estereótipo.
 - **Sazonal/local**: atual (sem reusar data de outro ano) e sem clichê obrigatório (Natal não exige neve; "winter sale" no Brasil não herda neve europeia).
 - **Resolução pelo destino**, sem "8K" default; decoração e motion não alteram o produto.
+- **Cor da marca não informada não é inventada**: sem paleta, fundo neutro e aviso.
+- **Imagem que a IA não vê não é descrita**: se a foto/arte anexada não abriu ou a IA não lê imagem, ela diz isso e usa só o texto do lojista — nunca descreve detalhe "da foto" que não viu.
 
 ### Campaign Quality Gate (silencioso)
 SKU fiel? · Sortimento real? · Oferta não inventada? · Claim visual sustentado? · Marca coerente? · Copy zone suficiente e com contraste? · Focal point claro? · O CTA terá espaço? · Crop e mobile funcionam? · A UI não cobre elementos? · Sazonalidade atual? · Bundle/escassez/popularidade não foram sugeridos falsamente? · Peso/LCP considerado? · Os formatos irmãos parecem a mesma campanha? — se falhar, reformule a composição.

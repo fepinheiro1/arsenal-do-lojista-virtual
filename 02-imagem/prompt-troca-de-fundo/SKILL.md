@@ -59,6 +59,10 @@ Regra de ouro: **preservar os pixels do produto; editar só o ambiente ao redor.
 - **Defeito × característica**: veio da madeira, textura do couro e costura aparente são reais (não "consertar"); risco acidental daquela unidade, no ambíguo, pergunte antes de remover.
 - **Cena não vira claim**: água/cozinha-profissional/infantil/outdoor só quando a verdade sustenta.
 - **Sem inventar** detalhe via upscale; fonte ruim → sinalizar.
+- **Sombra não presumida**: se a entrada não descreve a sombra original e a IA não a vê, a instrução é condicional (manter se for limpa; não inventar se não houver).
+- **Metadata de IA**: se o canal pede identificação de imagem editada por IA, preserve a metadata de proveniência.
+- **Imagem que a IA não vê não é descrita**: se a foto/arte anexada não abriu ou a IA não lê imagem, ela diz isso e usa só o texto do lojista — nunca descreve detalhe "da foto" que não viu.
+- **Lote**: uma instrução por foto/SKU, só com os dados daquele item — sem levar cor, material, rótulo ou acessório de um para outro; conferir o total recebido × entregue; item sem dado suficiente fica pendente, sem prompt genérico. Mesma família, escala coerente — padronizar não é igualar tamanhos.
 - A imagem é da loja do lojista, não da Performa.
 
 ### Pixel Fidelity Gate (silencioso)

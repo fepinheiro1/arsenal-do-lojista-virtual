@@ -1,4 +1,6 @@
-# Prompt de Mockup de Embalagem — exemplos reais
+# Prompt de Mockup de Embalagem — exemplos ilustrativos
+
+> Casos de demonstração: o rótulo só tem o que veio na arte real — o resto fica em branco.
 
 ## Exemplo A — Você tem a arte final (aplicar como decal)
 Entrada:
@@ -24,7 +26,8 @@ no watermark.
 ```
 Modo: aplicar artwork · Ângulo: frontal (para ler o rótulo).
 Observação: a cor na tela (RGB) é aproximada — não é a cor de impressão. Para a gráfica, use a
-prova e os valores reais.
+prova e os valores reais. E "200 g" é o conteúdo, não o tamanho do pote: com a altura e o
+diâmetro, a proporção sai fiel — sem eles, a IA escolhe um formato plausível.
 
 ## Exemplo B — Sem a arte (conceito com placeholder seguro)
 Entrada:
@@ -49,6 +52,7 @@ No invented claims, no fake nutrition facts, no fake barcode, no watermark.
 Modo: conceito · 3/4 (para ver a estrutura, já que o objetivo é o formato).
 Atenção: é um CONCEITO do formato — os textos obrigatórios (composição, peso, registro) e a
 arte final entram depois, com os dados reais. A IA deixou tudo isso em branco de propósito.
+Confira a grafia de "Verde Raiz" no resultado: nome gerado por IA pode sair com letra trocada.
 
 ## Exemplo C — Comparar acabamentos (mesma arte)
 Entrada:

@@ -57,6 +57,10 @@ O ideal é **foto/vídeo real** do produto (e das superfícies que a ação toca
 - **Casting funcional, expressão da ação**; sem inferir atributo sensível do público; sem fantasiar especialista.
 - **Apparel/wearable**: caimento e posição no corpo não se inventam de uma foto plana — exija referência ou marque conceito.
 - Em série (storyboard), mantenha variante, pessoa, roupa, ambiente, luz e quantidade constantes.
+- **Sem foto, sem rótulo legível**: no modo conceito, o produto aparece sem texto legível (de costas, desfocado) — a IA de imagem inventaria o rótulo. Em suplemento, cosmético, alimento e remédio, rótulo inventado nunca vai para publicação.
+- **Modo de uso não informado não é encenado**: dose, quantidade e momento de uso vêm do rótulo/manual; sem eles, a cena mostra o contexto, não o consumo.
+- **Imagem que a IA não vê não é descrita**: se a foto/arte anexada não abriu ou a IA não lê imagem, ela diz isso e usa só o texto do lojista — nunca descreve detalhe "da foto" que não viu.
+- **Lote**: um prompt por SKU, só com os dados daquele item — sem levar cor, material, rótulo ou acessório de um para outro; conferir o total recebido × entregue; item sem dado suficiente fica pendente, sem prompt genérico.
 - A cena é da loja do lojista, não da Performa.
 
 ### Visual Claim + Safety + Continuity Gate (silencioso)

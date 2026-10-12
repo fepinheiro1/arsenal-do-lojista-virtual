@@ -1,4 +1,6 @@
-# Prompt de Foto Packshot — exemplos reais
+# Prompt de Foto Packshot — exemplos ilustrativos
+
+> Casos de demonstração: o prompt só descreve o que veio na entrada; requisito de canal é ponto de partida — confira a regra vigente.
 
 ## Exemplo A — Você tem foto real (modo editar)
 Entrada:
@@ -20,7 +22,7 @@ centered with safe margins (do not crop the handle or rim). Photorealistic, comm
 e-commerce catalog style. Square 1:1 composition. No added text, no added logo, no
 watermark, no invented parts, no color change.
 ```
-Proporção/resolução: 1:1, mire em 2048×2048 para a loja.
+Proporção/resolução: 1:1, mire em 2048×2048 para a loja (referência comum da Shopify — confira a recomendação vigente do seu tema).
 (Loja própria aceita mais liberdade que marketplace — dá para usar um fundo levemente degradê.)
 
 ## Exemplo B — Você só tem a descrição (conceito, com aviso)
@@ -36,8 +38,7 @@ Modo: conceito (sem foto — fidelidade baixa para o produto real)
 
 Studio packshot of a matte white ceramic mug, 350ml, with a smooth rounded handle, no
 print. Single unit, centered and isolated on a seamless soft-white background, soft even
-softbox studio lighting, gentle natural shadow beneath, subtle realistic reflection.
-Photorealistic commercial product photography, sharp focus, high detail, e-commerce catalog
+softbox studio lighting, gentle natural shadow beneath. Photorealistic commercial product photography, sharp focus, high detail, e-commerce catalog
 style. Square 1:1 composition. No added text, no added logo, no watermark, no extra objects,
 realistic colors.
 ```
@@ -65,7 +66,7 @@ lighting that reveals the amber glass without false color, keep glass transparen
 realistic refraction, gentle contact shadow. Product clearly shown, centered. Photorealistic,
 e-commerce catalog. No added text, no added graphics, no watermark, no color change.
 ```
-Proporção/resolução: quadrada, 1500×1500 ou mais (recomendação do Google Shopping).
+Proporção/resolução: alta resolução, para o produto aparecer nítido e com zoom — confira o mínimo e o recomendado vigentes no Merchant Center. Quadrada é padronização da loja, não exigência do Google.
 Atenção: nunca deixe a IA "reescrever" o texto do rótulo — modelos erram letra. Sempre
 editando a foto real. E, se o canal pedir identificação de conteúdo gerado por IA, não
 remova a metadata de origem da imagem.

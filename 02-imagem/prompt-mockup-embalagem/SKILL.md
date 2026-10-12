@@ -57,6 +57,8 @@ Sem a arte final: a skill usa **placeholder** (área neutra) e marca `[preencher
 - **Estrutura/material/acabamento fiéis**: sem inventar estrutura, sem espelhar a arte, sem foil/relevo/spot onde não foi especificado; volume não define geometria.
 - **Cor não é prova de impressão** (RGB ≠ CMYK/Pantone); não afirme conformidade nem "print-ready".
 - **Variante** só com a arte real daquela variante (não troque só uma cor e ache que criou o SKU); multipack com a quantidade real.
+- **Imagem que a IA não vê não é descrita**: se a foto/arte anexada não abriu ou a IA não lê imagem, ela diz isso e usa só o texto do lojista — nunca descreve detalhe "da foto" que não viu.
+- **Lote**: um prompt por SKU, só com os dados daquele item — sem levar cor, material, arte ou acabamento de um para outro; conferir o total recebido × entregue; item sem dado suficiente fica pendente, sem prompt genérico.
 - A embalagem é da marca do lojista, não da Performa.
 
 ### Packaging Quality Gate (silencioso)

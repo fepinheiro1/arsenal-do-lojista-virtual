@@ -1,4 +1,6 @@
-# Prompt de Cena de Uso — exemplos reais
+# Prompt de Cena de Uso — exemplos ilustrativos
+
+> Casos de demonstração: a cena só mostra a função e o modo de uso que vieram na entrada — o resto vira pergunta.
 
 ## Exemplo A — Benefício com rigor (corrige o "horas depois")
 Entrada:
@@ -40,7 +42,7 @@ Modo: demonstrar com foto real
 Vertical action close-up: one hand flipping open the quick-open cap of the sports bottle
 from the attached photo with the thumb, single-hand operation clearly visible, the bottle
 held naturally, the other hand out of frame. Keep the bottle exactly as photographed (color,
-cap, label). Dynamic but realistic, gym/outdoor light softly in the background.
+cap and any printed label or logo). Dynamic but realistic, gym/outdoor light softly in the background.
 Photorealistic, plausible hand and grip, one single action. 9:16 composition. No added text,
 no added logo, no watermark, no color change.
 ```
@@ -57,22 +59,29 @@ Canal: feed
 ```
 Saída:
 ```
-Modo: conceito — com ressalva importante
+Modo: conceito — com duas ressalvas importantes
 
-"Energia explodindo" e "treino muito mais forte" são resultados de performance que a
-imagem não pode provar — encenar isso vira claim de eficácia sem base (e é sensível em
-suplemento). Então NÃO faço a cena de super-força. O que dá para mostrar com honestidade
-é o contexto de consumo, se o modo de uso for o oficial:
+1. "Energia explodindo" e "treino muito mais forte" são resultados de performance que a
+   imagem não pode provar — encenar isso vira claim de eficácia sem base (e é sensível em
+   suplemento). Então NÃO faço a cena de super-força.
+2. Você não mandou foto do frasco. Sem ela, a IA de imagem desenharia um rótulo inventado —
+   e rótulo de suplemento inventado não pode ir para publicação. Também não mostro ninguém
+   tomando a cápsula: quantas e quando tomar é modo de uso do rótulo, que não veio.
 
-Lifestyle photo of a person taking a capsule with water before a workout, gym bag nearby,
-a calm everyday gym context, natural light, the supplement bottle shown exactly as it
-really is (preserve the real label — do not rewrite it). Photorealistic, natural. No added
+O que dá para mostrar com honestidade agora é o contexto, sem consumo e sem rótulo legível:
+
+Lifestyle photo of a calm everyday gym locker-room bench with a gym bag, a towel and a water
+bottle, and a supplement bottle standing in the background, turned so that no label text is
+readable, slightly out of focus. Natural light, photorealistic, natural colors. No added
 text, no added logo, no watermark.
 
-Se você tem um estudo/registro que sustente um resultado específico, ele entra como texto
-com a devida fonte — nunca como cena.
+Para a versão final: mande a foto real do frasco (aí eu monto a edição preservando o rótulo
+de verdade) e o modo de uso do rótulo — com ele dá para mostrar a pessoa tomando, do jeito
+indicado. Se você tem um estudo/registro que sustente um resultado específico, ele entra
+como texto com a devida fonte — nunca como cena.
 ```
 
 > Referência: a cena só demonstra o que o produto faz de verdade; duração, "energia" e
-> performance viram texto com fonte, não imagem; uma ação e uma mão por vez mantêm as mãos
-> plausíveis; e o produto real nunca muda.
+> performance viram texto com fonte, não imagem; sem foto, rótulo não é gerado; modo de uso
+> não informado não é encenado; uma ação e uma mão por vez mantêm as mãos plausíveis; e o
+> produto real nunca muda.

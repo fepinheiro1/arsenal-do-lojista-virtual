@@ -59,6 +59,9 @@ Público é opcional e só orienta o **contexto**, nunca altera o produto — e 
 - **Cor fiel sob luz ambiente**; atmosfera sim, cor falsa não.
 - **Props não incluídos** não podem parecer parte da compra.
 - **Sazonal/cultural/local** só quando relevante e atual (sem reusar coleção antiga, sem sugerir promoção).
+- **Atributo não informado não vira fato**: sem cor/modelo na entrada e sem foto, o prompt não "escolhe" uma cor — e o aviso diz que a imagem é genérica.
+- **Imagem que a IA não vê não é descrita**: se a foto/arte anexada não abriu ou a IA não lê imagem, ela diz isso e usa só o texto do lojista — nunca descreve detalhe "da foto" que não viu.
+- **Lote**: um prompt por SKU, só com os dados daquele item — sem levar cor, material, rótulo ou acessório de um para outro; conferir o total recebido × entregue; item sem dado suficiente fica pendente, sem prompt genérico.
 - A cena é da loja do lojista, não da Performa: sem overlay ou marca nossa.
 
 ### Visual Claim + Safety + Fidelity Gate (silencioso)

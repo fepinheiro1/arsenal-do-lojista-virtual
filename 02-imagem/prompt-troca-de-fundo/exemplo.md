@@ -1,4 +1,6 @@
-# Prompt de Troca de Fundo — exemplos reais
+# Prompt de Troca de Fundo — exemplos ilustrativos
+
+> Casos de demonstração: a instrução só usa o que veio na entrada — o que a entrada não diz (a sombra original, o tamanho de cada item) não é presumido.
 
 ## Exemplo A — Fundo branco de marketplace (Amazon MAIN)
 Entrada:
@@ -22,7 +24,9 @@ add new text, preserve existing product text and labels exactly, no added logo, 
 photorealistic result.
 ```
 Modo: fundo neutro · Canal: Amazon MAIN (branco puro, alta resolução para zoom).
-(A sombra real, que era boa, foi preservada e limpa — não inventei uma nova.)
+(A sombra real, que você disse ser boa, foi preservada e limpa — não inventei uma nova.)
+Atenção: calçado tem regra própria de imagem principal na Amazon (posição e quantidade de
+pés, por exemplo) — confira a regra vigente da sua categoria antes de subir.
 
 ## Exemplo B — Produto difícil (vidro transparente)
 Entrada:
@@ -39,9 +43,10 @@ Edit the attached photo of the transparent glass perfume bottle with amber liqui
 transparent product: preserve the glass transparency, the refraction and the highlights, and
 let the new clean light-gray background show THROUGH the glass plausibly — do not fill the
 glass with a flat false color and do not make it opaque. Keep the amber liquid color, the cap
-and the printed label exactly. Replace only the surrounding background, keep a soft real
-contact shadow, precise edges with no halo. Do not add new text, preserve existing label text
-exactly, no added logo, no watermark.
+and the printed label exactly. Replace only the surrounding background. If the original photo
+has a clean contact shadow, keep a soft version of it; if it has none, do not invent one.
+Precise edges with no halo. Do not add new text, preserve existing label text exactly, no
+added logo, no watermark.
 ```
 Modo: fundo neutro · Canal: loja própria.
 Atenção: vidro/transparência é o caso mais difícil de recorte. Use uma ferramenta com máscara
@@ -60,24 +65,34 @@ Modo: normalizar catálogo
 
 Padrão de catálogo (aplique o MESMO em todas as fotos, sem alterar cada produto):
 - Fundo: branco puro e limpo
-- Enquadramento: produto centralizado, ocupando ~80% da altura, margem igual em volta
+- Enquadramento: produto centralizado, com a mesma margem em volta. Dentro de uma mesma
+  família (ex.: canecas de 300 e 500 ml), escala coerente entre si — a menor não é ampliada
+  para parecer do tamanho da maior.
 - Base: todos alinhados na mesma linha de base (baseline)
-- Sombra: contato leve e na mesma direção em todas
+- Sombra: decidida foto a foto — a sombra real de contato é preservada e limpa quando é boa;
+  onde falta ou está ruim, uma sombra de contato leve, na mesma direção do resto. Nunca
+  sombra projetada inventada.
 - Cor: white balance neutro, sem grading; cada produto mantém a cor real
 - Proporção: 1:1
 
 Instrução por foto (em inglês):
 Edit the attached photo. Preserve the product pixel for pixel (shape, color, texture, label,
-logo). Replace only the background with pure clean white, center the product at ~80% height
-with even margins, align it to the same baseline, keep a light soft contact shadow, neutral
-white balance. Square 1:1. Do not add new text, preserve existing product text exactly, no
-added logo, no watermark.
+logo) and do not resize it relative to other items of the same product family. Replace only
+the background with pure clean white, center the product with even margins, align it to the
+same baseline. If the original contact shadow is clean, keep a soft version of it; if it is
+missing or messy, add only a light soft contact shadow under the base, same direction as the
+rest of the catalog. Neutral white balance. Square 1:1. Do not add new text, preserve existing
+product text exactly, no added logo, no watermark.
 
 Exceções para revisar à mão (saem do fluxo automático): itens de vidro/transparentes, com
 pelo/pelúcia, muito reflexivos (metal espelhado), com rótulo complexo, ou fotos de baixa
 resolução.
+
+Conferência: ao final, confira se saíram as 40 imagens, cada uma com o mesmo nome de
+arquivo/SKU da original — nenhuma trocada, nenhuma faltando.
 ```
 
-> Referência: o produto é preservado pixel a pixel; a sombra é decidida (preservada, não
-> inventada); vidro/pelo/reflexo viram exceção sinalizada; e o maior valor costuma ser
-> padronizar o catálogo inteiro no mesmo fundo — sem mudar cada SKU.
+> Referência: o produto é preservado pixel a pixel; a sombra é decidida foto a foto
+> (preservada quando boa, nunca inventada por padrão); padronizar não faz itens de tamanhos
+> diferentes parecerem iguais; vidro/pelo/reflexo viram exceção sinalizada; e o lote é
+> conferido no fim — sem mudar cada SKU.

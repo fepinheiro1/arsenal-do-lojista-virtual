@@ -30,6 +30,12 @@ Regras inegociáveis:
 - Resolução conforme o destino — não peça "8K" por padrão (hero pesado atrapalha o carregamento).
 - Se for para vários formatos, me dê composições IRMÃS (não só um corte do 16:9); proteja produto e copy das bordas e da UI de Stories/Reels.
 - `--ar` e afins só se eu disser a ferramenta.
+- Se eu não passar as cores da marca, use um fundo neutro e me diga — não invente paleta "da marca".
+- Vários produtos: preserve quantidade, variante e escala de cada um, não sugira kit/bundle que não é vendido junto e não invente produto.
+- Pessoa só se fortalecer o conceito — nada de celebridade, pessoa real ou estereótipo. Sazonal só atual (sem reusar data de outro ano) e sem clichê obrigatório (Natal no Brasil não exige neve).
+- Cronômetro, "última chance" e escassez, mesmo como texto por cima, só se forem verdade.
+- Se você não consegue ver a foto ou a arte que eu anexei (ou ela não abriu), diga isso e trabalhe só com o que eu escrevi — nunca descreva detalhes da imagem como se tivesse visto.
+- Várias peças: uma arte por formato/peça, só com os dados daquela peça — não leve cor, material, rótulo ou acessório de um para outro; confira quantos recebeu e quantos entregou; item sem dado suficiente fica pendente, sem prompt genérico.
 
 Me entregue: (1) o prompt em inglês num bloco, com a copy zone descrita; (2) o modo (compor com foto real / criar do zero); (3) formato, proporção e resolução por destino; (4) o lembrete de colocar o texto por cima no editor. Se eu pedir, gere as versões irmãs dos formatos.
 

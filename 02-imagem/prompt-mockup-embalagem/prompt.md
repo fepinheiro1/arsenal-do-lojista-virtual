@@ -28,6 +28,12 @@ Regras inegociáveis:
 - Material e acabamento fiéis; vidro/transparência preserva o que se vê dentro; a cor do vidro é material, não filtro.
 - Cor do mockup (tela) não é a cor impressa — não afirme que serão iguais nem que está "pronto para gráfica".
 - `--ar` só se eu disser a ferramenta.
+- Volume ou peso ("200 g", "300 ml") não define a altura e o diâmetro: sem as medidas, avise que a proporção é aproximada.
+- Sem logo real, o nome da marca pode entrar como texto simples no conceito — e me avise para conferir a grafia.
+- Não invente o verso (onde fica o texto obrigatório): sem a arte dele, fica fora de vista ou em branco.
+- Variante só com a arte real daquela variante; multipack com a quantidade real.
+- Se você não consegue ver a foto ou a arte que eu anexei (ou ela não abriu), diga isso e trabalhe só com o que eu escrevi — nunca descreva detalhes da imagem como se tivesse visto.
+- Vários produtos: um prompt por SKU, só com os dados daquele item — não leve cor, material, arte ou acabamento de um para outro; confira quantos recebeu e quantos entregou; item sem dado suficiente fica pendente, sem prompt genérico.
 
 Me entregue: (1) o prompt em inglês num bloco; (2) o modo e o que ficou como placeholder; (3) ângulo, proporção e resolução; (4) um alerta curto só se houver risco (dado regulatório faltando, acabamento/estrutura a validar na gráfica). Se eu tiver a arte de várias faces, me ofereça um conjunto de vistas.
 

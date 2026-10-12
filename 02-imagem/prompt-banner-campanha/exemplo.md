@@ -1,4 +1,6 @@
-# Prompt de Banner de Campanha — exemplos reais
+# Prompt de Banner de Campanha — exemplos ilustrativos
+
+> Casos de demonstração: a arte usa só o produto, as cores e o conceito que vieram na entrada.
 
 ## Exemplo A — Compor packshot real + copy zone funcional
 Entrada:
@@ -60,14 +62,16 @@ Modo: compor com packshot real
 
 Bold Black Friday campaign background for a feed post. Place the real headphones from the
 attached photo (exact model and color) as the focal point, slightly off-center, against a
-clean dark brand-colored backdrop with a subtle energetic light accent — NO explosions, NO
+clean dark backdrop with a subtle energetic light accent — NO explosions, NO
 countdown, NO "sold out" shelves, NO crowd. Keep a calm high-contrast area for the offer text
 to be added later. Modern, high-energy but honest mood. 1:1 composition. No added text, no
 added letters, no added logo, no watermark, no color change.
 ```
 Modo: compor com foto real · Formato: 1:1, resolução de feed.
-Atenção: energia sim, urgência falsa não. "50% OFF", "última chance" e o cronômetro entram
-(ou não) por cima como texto, com o desconto REAL — a arte não encena uma escassez que não existe.
+Atenção: energia sim, urgência falsa não. O desconto entra por cima como texto, com o número
+REAL; "última chance" e cronômetro só se o prazo for verdadeiro — a arte não encena uma
+escassez que não existe. As cores da marca não vieram: usei fundo escuro neutro — me diga as
+cores e eu ajusto o fundo.
 
 > Referência: o texto e a oferta sempre por cima (a IA erra letra e não pode inventar
 > número); a copy zone é uma área de contraste de verdade, não só "vazio"; cada formato ganha

@@ -63,6 +63,8 @@ Rode o **Anti-Hallucination Gate** e entregue.
 - **Metadata de IA**: se a imagem é gerada/editada por IA e o canal (ex.: Google Merchant) pede identificação de origem, **preservar** a metadata de proveniência — nunca sugerir removê-la para "parecer foto real".
 - **Cleanup permitido** (poeira, sujeira, marca de fundo) sim; remover costura, textura ou característica real do material, não. Defeito daquela unidade vs característica do material: no caso ambíguo, não apague em silêncio.
 - **Conflito referência × texto**: se a foto e a descrição divergem, pergunte — não escolha sozinho.
+- **Imagem que a IA não vê não é descrita**: se a foto/arte anexada não abriu ou a IA não lê imagem, ela diz isso e usa só o texto do lojista — nunca descreve detalhe "da foto" que não viu.
+- **Lote**: um prompt por SKU, só com os dados daquele item — sem levar cor, material, rótulo ou acessório de um para outro; conferir o total recebido × entregue; item sem dado suficiente fica pendente, sem prompt genérico.
 - A imagem é da loja do lojista, não da Performa: nenhum overlay ou marca nossa na arte.
 
 ### Visual Anti-Hallucination Gate (silencioso, antes de entregar)
