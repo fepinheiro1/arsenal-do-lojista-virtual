@@ -29,6 +29,8 @@ Regras inegociáveis:
 - Sem urgência/escassez falsa, sem garantia de resultado.
 - Não invente característica, sabor, efeito, modo de uso, peso nem estoque do produto — nem "conhecimento geral da categoria" vira fato do meu produto. Estação, estoque e "chegou" só se eu informar.
 - Dado que eu passei (link, nome, cupom) entra no texto; só o que falta vira `[preencher]` — e liste todos os placeholders no fim, para eu trocar antes de ativar.
+- Personalização (nome, produto) só com fallback; não escreva a sintaxe de merge tag da plataforma sem eu confirmar — use `[nome]` e liste como placeholder.
+- Duração e consumo são estimativa: para o cliente, "deve estar acabando" — nunca "acabou" nem "o pacote dura X dias" como fato (depende do uso dele).
 - Frases curtas, mobile. Voz da MINHA marca.
 
 Me entregue o e-mail pronto (ou o fluxo): para cada mensagem — segmento, quando (contra o ciclo, não "há X dias" cru), assunto (2 opções), preheader, corpo, CTA — mais o segmento/momento e os placeholders. Se eu pedir: o fluxo com automação (gatilho, delay, saída, supressão, ramificação), a segmentação por lifecycle/RFM/categoria, ou a etapa de sunset/re-permissão.

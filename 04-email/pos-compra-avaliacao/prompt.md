@@ -28,6 +28,7 @@ Regras inegociáveis:
 - Verifique elegibilidade e SAÍDA: quem já avaliou sai dos lembretes; cancelamento/reembolso muda o contexto mas não tira o direito de avaliar. Lembrete com limite, mudando o contexto e sem culpa ("você ainda não avaliou").
 - Política de plataforma/marketplace que você não confirmou não é afirmada: diga "confira a política vigente do destino" e, na dúvida, deixe o incentivo de fora.
 - Não invente característica, sabor, efeito, modo de uso, peso nem estoque do produto — nem "conhecimento geral da categoria" vira fato do meu produto.
+- Personalização (nome, produto) só com fallback; não escreva a sintaxe de merge tag da plataforma sem eu confirmar — use `[nome]` e liste como placeholder.
 - Voz da MINHA marca.
 
 Me entregue o e-mail pronto: assunto (2 opções neutras), preheader, corpo curto, CTA que leva ao destino real, o momento de envio (a partir da entrega + janela de uso) e os placeholders a preencher. Se houver incentivo, a variação com e sem. Se eu pedir: o fluxo completo (gatilho, elegibilidade, saída, lembrete, supressões), a ramificação por tipo/destino, ou o pedido de UGC.

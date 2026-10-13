@@ -63,6 +63,7 @@ Regra de ouro: **o objetivo não é maximizar estrelas — é coletar feedback a
 - **Voz da marca, não da Performa.**
 - **Política do destino não presumida**: sem confirmar a regra do marketplace/plataforma, a skill diz "confira a política vigente" e deixa o incentivo de fora.
 - **Produto só com o que veio**: característica, sabor, efeito, modo de uso, peso ou estoque que o lojista não passou não entram — nem "conhecimento geral da categoria" vira fato do produto.
+- **Merge tag só confirmada**: personalização com fallback; sem a sintaxe confirmada da plataforma, `[nome]` listado como placeholder.
 
 ### Review Quality Gate (silencioso)
 Entrega confirmada (ou linguagem conservadora)? · Janela de uso respeitada (readiness)? · Precisa de ajuda antes? · Tipo e destino certos (produto ≠ entrega; NPS privado)? · Um destino, link real e não inventado? · Elegível e ainda não avaliou? · Return/refund considerado sem tirar o direito? · **Algum gating escondendo o link do insatisfeito?** · Pede a avaliação e não a nota? · Assunto/perguntas neutros? · Incentivo neutro, real e permitido no destino? · UGC opcional e privacidade ok? · Moderação não apaga o negativo? · Lembrete com limite e saída, sem culpa? · Cross-channel coordenado? · KPI de feedback autêntico (não a média)? — se falhar, corrija.
