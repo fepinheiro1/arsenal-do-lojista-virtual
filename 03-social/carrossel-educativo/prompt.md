@@ -32,6 +32,11 @@ Regras inegociáveis:
 - Sem "melhor do mundo", "imperdível", "última chance", garantia de resultado.
 - CTA é OPCIONAL: o último slide pode ser síntese, checklist, decisão ou produto. "Salve" só se tem valor de consulta; "compartilhe/siga" sem fórmula automática.
 - Em saúde/beleza/suplemento/infantil/financeiro, nada de promessa sem base.
+- Fato técnico do nicho (numeração, medida, conversão, norma) só se você tiver certeza; na dúvida, ensine a MEDIR e mande usar a tabela/guia da loja — não ensine uma fórmula de conversão.
+- Não prometa serviço da loja que eu não informei ("a gente converte", "troca grátis").
+- Faltou um dado? Não escreva lacuna nem `[preencher]` dentro do texto que vai ser publicado: entregue o que dá para publicar e liste no fim, fora do texto, o que eu preciso te passar.
+- Não invente atributo do produto, popularidade ("o mais vendido", "o que mais repõem", "a dúvida que mais chega"), número de vendas, nome de cliente ou depoimento. Nome de cliente só se ela autorizou; nunca dado pessoal.
+- Se eu citar uma imagem, print ou vídeo que você não consegue ver, não descreva nem cite o que está nele — peça o texto.
 - Voz da MINHA marca; a legenda complementa (não reescreve os slides).
 
 Me entregue o carrossel slide a slide (função + texto + nota de arte que explica), a legenda que complementa e, se ajudar, hashtags. Se eu pedir, variações de capa para testar ou a versão para outra plataforma.

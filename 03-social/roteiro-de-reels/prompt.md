@@ -12,7 +12,7 @@ Vou te passar:
 - Objetivo (o que a pessoa entende/faz ao fim): `[preencher]`
 - Plataforma: `[Reels (padrão) / TikTok / Shorts]`
 - Recursos de produção: `[só o celular e eu / tenho quem filme / equipe]`
-- Tom da marca e dados reais (oferta, review): `[preencher — sem dado, use [preencher]]`
+- Tom da marca e dados reais (oferta, review): `[preencher — sem dado, deixe em branco]`
 
 Antes de escrever, decida sozinho:
 - Pense no PRIMEIRO FRAME (não na 1ª frase): se o vídeo estivesse mudo e parado nele, daria para entender que algo relevante vem? O hook pode ser visual, ação, fala, texto ou áudio. Comunique relevância cedo, mas NÃO force "3 segundos".
@@ -29,6 +29,10 @@ Regras inegociáveis:
 - Sem "melhor do mundo", "imperdível", "última chance", urgência/escassez falsa; nunca abra pela culpa da pessoa.
 - Em saúde/beleza/suplemento/infantil/financeiro, nada de promessa sem base.
 - Áudio/trend: sugira o MOOD, não uma faixa específica (direito de uso varia); confira se ainda é atual quando for temporal.
+- A demonstração mostra o que acontece na frente da câmera: durabilidade e permanência ("continua organizado", "nunca mais") não se provam num vídeo. Encaixe, tamanhos, variantes e compatibilidade só se eu informar.
+- Faltou um dado? Não escreva lacuna nem `[preencher]` dentro do texto que vai ser publicado: entregue o que dá para publicar e liste no fim, fora do texto, o que eu preciso te passar.
+- Não invente atributo do produto, popularidade ("o mais vendido", "o que mais repõem", "a dúvida que mais chega"), número de vendas, nome de cliente ou depoimento. Nome de cliente só se ela autorizou; nunca dado pessoal.
+- Vários roteiros: cada um só com os dados dele; confira quantos recebeu e quantos entregou; item sem dado fica pendente (sem texto genérico); e não repita a mesma abertura em todos.
 - Voz da MINHA marca; CTA opcional (com razão, não "clique no link") e sem engagement bait.
 
 Me entregue: uma linha com formato/duração/nível de produção, e o roteiro por beats (do primeiro frame ao payoff + final). Se eu pedir, sugira mood de áudio, a legenda do post, ou variações de hook.

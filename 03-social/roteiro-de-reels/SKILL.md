@@ -20,7 +20,7 @@ Regra de ouro: **retenção não é truque de edição — é consequência de r
 - `[objetivo]` — o que a pessoa deve entender/fazer ao fim.
 - `[plataforma]` — Reels, TikTok ou Shorts (default Reels); cada uma tem seu contexto.
 - `[recursos de produção]` — só o celular, você sozinho? tem quem filme? Isso define o que é gravável.
-- `[tom da marca]` e `[dados reais]` (oferta, review) quando houver — senão, `[preencher]`.
+- `[tom da marca]` e `[dados reais]` (oferta, review) quando houver — senão, o roteiro sai sem eles e a falta vira pedido no fim.
 
 ## Como funciona (por baixo)
 
@@ -54,6 +54,9 @@ Regra de ouro: **retenção não é truque de edição — é consequência de r
 - **Persuasão ética** (a mesma do Arsenal): sem "melhor do mundo", "imperdível", "última chance", urgência/escassez falsa; nunca abrir pela culpa da pessoa.
 - **Claims sensíveis** (saúde, beleza, suplemento, infantil, financeiro, esporte): rigor elevado, sem promessa/transformação sem base.
 - **Áudio/trend**: sugerir mood, não faixa; conferir atualidade quando temporal.
+- **Demo prova o que a câmera vê**: permanência e durabilidade ("continua organizado") não se provam num vídeo; encaixe, tamanhos e compatibilidade só com dado.
+- **Lacuna fora do texto publicável**: o que falta não vira `[preencher]` no meio da legenda/slide/fala — vira uma lista curta no fim, fora do material que vai ao ar.
+- **Sem popularidade, atributo ou cliente inventados**: "o mais vendido", "o que mais repõem", "a dúvida que mais chega" só com dado; nome de cliente só com autorização; nunca dado pessoal.
 - **Voz da marca, não da Performa**; CTA opcional, sem engagement bait.
 
 ### Short-Form Quality Gate (silencioso)

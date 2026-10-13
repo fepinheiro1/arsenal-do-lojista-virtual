@@ -26,12 +26,16 @@ Escreva a legenda na voz da marca:
 - Benefício antes de característica quando ajuda (em legenda técnica/educativa, pode começar por contexto/dado).
 
 Regras inegociáveis:
-- Não invente característica, resultado, oferta, número, avaliação ou depoimento. Faltou o dado → `[preencher]`.
+- Não invente característica, resultado, oferta, número, avaliação ou depoimento. Se a arte e os dados não trazem atributo do produto, a legenda não cria razão de compra — me peça.
+- Faltou um dado? Não escreva lacuna nem `[preencher]` dentro do texto que vai ser publicado: entregue o que dá para publicar e liste no fim, fora do texto, o que eu preciso te passar.
+- Não invente atributo do produto, popularidade ("o mais vendido", "o que mais repõem", "a dúvida que mais chega"), número de vendas, nome de cliente ou depoimento. Nome de cliente só se ela autorizou; nunca dado pessoal.
 - Sem "melhor do mundo", "imperdível", "última chance", urgência ou escassez falsa; nunca abra pela culpa da pessoa.
 - Aspas só em depoimento literal; não invente história de bastidor ("começamos na garagem").
 - Sem engagement bait ("comente EU QUERO", "marque 3 amigos") nem "vai bombar". Pergunta só se for genuína.
 - Emojis, @menções e hashtags opcionais e da voz da marca; nunca invente um @handle.
 - Português do meu mercado (moeda, datas, expressões).
+- Se eu citar uma imagem, print ou vídeo que você não consegue ver, não descreva nem cite o que está nele — peça o texto.
+- Vários itens: cada um só com os dados dele; confira quantos recebeu e quantos entregou; item sem dado fica pendente (sem texto genérico); e não repita a mesma abertura em todos.
 
 Me entregue a legenda pronta. Se ajudar, inclua hashtags específicas ou 2 variações de abertura que testem hipóteses DIFERENTES (não sinônimos). Se eu pedir, adapte para outra plataforma.
 

@@ -1,4 +1,6 @@
-# Calendário Editorial — exemplos reais
+# Calendário Editorial — exemplos ilustrativos
+
+> Casos de demonstração: datas, ofertas e números vêm da entrada; a nota de mix confere com a tabela.
 
 ## Exemplo A — Calendário pela capacidade (com skill routing)
 Entrada:
@@ -28,23 +30,26 @@ S1 Qui | Feed  | Carrossel | Educar    | Torra média x escura: qual combina com
 S1 Sex | Reels | Vídeo     | Educar    | Café de torra média na prensa em 4 passos     | roteiro-de-reels
 S2 Ter | Feed  | Foto      | Aproximar | O ritual de café que abre o dia aqui          | legenda-que-engaja
 S2 Qui | Feed  | Carrossel | Prova     | O que os clientes falam da torra média        | carrossel-educativo [dep: depoimentos reais]
-S2 Sex | Reels | Vídeo     | Oferta    | Dia do Café (14/04): faça o seu melhor em casa | roteiro-de-reels [dep: oferta real [preencher]]
+14/04  | Reels | Vídeo     | Oferta    | Dia do Café: faça o seu melhor em casa         | roteiro-de-reels [dep: oferta real]
 S3 Ter | —     | REATIVO   | —         | espaço para trend/pergunta/UGC da semana       | —
 S3 Qui | Feed  | Carrossel | Educar    | Como guardar o café para durar o sabor         | carrossel-educativo
 S3 Sex | Reels | Vídeo     | Aproximar | A origem da nossa torra média (bastidor)       | roteiro-de-reels
 
 NOTA DE MIX E PRODUÇÃO
-9 posts em 3 semanas: 5 educam, 2 aproximam, 1 prova, 1 oferta — a venda aparece só na data
-real (14/04), o resto sustenta autoridade e giro. Todos os vídeos caem na sexta (seu dia de
-gravação). Pendências antes de publicar: o depoimento real (S2 Qui) e a oferta do Dia do Café
-(S2 Sex). Quer a versão com status/responsável/deadline? É só pedir.
+8 posts + 1 espaço reativo em 3 semanas: 4 educam, 2 aproximam, 1 prova, 1 oferta — a venda
+aparece só na data real (14/04), o resto sustenta autoridade e giro. Todos os vídeos são
+GRAVADOS na sexta (seu dia de gravação); o do Dia do Café é gravado na sexta anterior e
+PUBLICADO no dia 14, seja qual for o dia da semana (data fixa não se move para caber na
+agenda). Se o 14 cair num dia que já tem post, aquele post muda de dia.
+Pendências antes de publicar: o depoimento real (S2 Qui) e a oferta do Dia do Café (14/04).
+Quer a versão com status/responsável/deadline? É só pedir.
 ```
 
 ## Exemplo B — Replanejar no meio do período
 Entrada:
 ```
-Replaneja o resto: o Reels de sexta da S2 (Dia do Café) não saiu porque eu não fechei a
-oferta a tempo. E a torra média já vendeu mais rápido do que eu esperava.
+Replaneja o resto: o Reels do Dia do Café (14/04) não saiu porque eu não fechei a oferta a
+tempo. E a torra média já vendeu mais rápido do que eu esperava.
 ```
 Saída:
 ```
@@ -53,18 +58,22 @@ torra média — que era o motivo do giro — está saindo sozinho. Isso muda a 
 
 Ajustes no restante:
 - Reels de oferta do Dia do Café: a data passou; não force uma oferta atrasada (soa
-  desculpa). Reaproveite a gravação como conteúdo de valor: "como aproveitamos o Dia do Café
-  por aqui", sem oferta. (roteiro-de-reels)
+  desculpa). Se você chegou a gravar, reaproveite como conteúdo de valor: "como aproveitamos
+  o Dia do Café por aqui", sem oferta. Se não gravou, esse espaço fica livre. (roteiro-de-reels)
 - Como a torra média já está girando, tire o pé da venda dela e promova o KIT DE PRENSA (o
-  secundário) na S3 Qui, que estava livre — ele acompanha bem o Reels de método.
+  secundário): na S3 Qui, troque "como guardar o café" (pode esperar a próxima rodada) por um
+  carrossel de prensa francesa com o kit — ele acompanha bem o Reels de método.
   (carrossel-educativo, depois post de produto)
 - Mantenha o slot reativo da S3 Ter: com a torra vendendo, um post de prova social ("a torra
-  média está saindo rápido") pode reforçar — só se o estoque baixo for real. [preencher]
+  média está saindo rápido") pode reforçar — só se o estoque baixo for real. Me confirme
+  quanto sobrou antes de publicar.
 
-O resto do plano (educação + origem) continua válido e não depende do que mudou.
+O resto do plano (educação + origem) continua válido e não depende do que mudou; "como
+guardar o café" volta no próximo período.
 ```
 
 > Referência: o calendário parte do objetivo de negócio (girar estoque), a cadência respeita
 > a capacidade real (3/semana, vídeos só na sexta), cada linha aponta a skill que executa, as
 > dependências ficam explícitas, e o replanejamento reage a resultados/atrasos sem jogar o
-> plano fora — nada de data ou oferta inventada.
+> plano fora — nada de data ou oferta inventada. A data fixa manda no dia de publicar (gravar
+> é outra coisa) e a nota de mix confere com a tabela.

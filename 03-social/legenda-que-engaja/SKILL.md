@@ -19,7 +19,7 @@ Regra de ouro: **a melhor legenda acrescenta ao visual exatamente a informação
 - `[a arte/post]` — descrição da imagem, o roteiro do reel, o carrossel, o texto que já está na arte, ou o post existente. **Quanto mais contexto visual, menos a legenda repete o óbvio.**
 - `[objetivo]` — o que a legenda deve cumprir.
 - `[tom da marca]` — como a loja escreve (e o que nunca diria).
-- `[dados reais]` (quando houver) — oferta, depoimento, número. Sem isso, `[preencher]`.
+- `[dados reais]` (quando houver) — oferta, depoimento, número. Sem isso, a legenda sai sem eles e a falta vira pedido no fim.
 
 Público e plataforma são inferidos se você não informar (default Instagram).
 
@@ -48,7 +48,11 @@ Público e plataforma são inferidos se você não informar (default Instagram).
 
 ## Regras de qualidade
 - **Complementa, não repete a arte.** Se é só reescrever o que a imagem já diz, a legenda não está fazendo o trabalho dela.
-- **Verdade**: sem inventar característica, resultado, oferta, número, avaliação ou depoimento; `[preencher]` no que faltar.
+- **Verdade**: sem inventar característica, resultado, oferta, número, avaliação ou depoimento. Sem atributo do produto na entrada, a legenda não cria razão de compra — pede.
+- **Lacuna fora do texto publicável**: o que falta não vira `[preencher]` no meio da legenda/slide/fala — vira uma lista curta no fim, fora do material que vai ao ar.
+- **Sem popularidade, atributo ou cliente inventados**: "o mais vendido", "o que mais repõem", "a dúvida que mais chega" só com dado; nome de cliente só com autorização; nunca dado pessoal.
+- **Imagem que a IA não vê não é descrita**: print, arte ou vídeo citado e não lido → pede o texto, não cita o conteúdo.
+- **Lote**: cada item só com os próprios dados; conferir recebido × entregue; item sem dado fica pendente; diversidade real de abertura.
 - **Uma ideia central**; sem tentar educar, vender, contar bastidor e pedir comentário no mesmo texto.
 - **Hook honesto** (cumpre o que promete) e **CTA com razão**; sem engagement bait nem promessa de performance.
 - **Persuasão ética** (a mesma do Arsenal): sem "melhor do mundo", "imperdível", "última chance", urgência ou escassez falsa; nunca abrir pela culpa da pessoa — o problema é mostrado pela estrutura.

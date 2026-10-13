@@ -1,4 +1,6 @@
-# Legenda que Engaja — exemplos reais
+# Legenda que Engaja — exemplos ilustrativos
+
+> Casos de demonstração: a legenda só afirma o que veio na entrada — atributo, popularidade e nome de cliente que não vieram não aparecem.
 
 ## Exemplo A — Preencher o gap (a arte já mostra o preço)
 Entrada:
@@ -11,19 +13,17 @@ Plataforma: Instagram
 ```
 Saída:
 ```
-(A arte já diz "tênis" e "R$ 299" — então a legenda NÃO repete isso. Ela faz o trabalho que
-falta: por que esse preço vale e tirar o atrito do frete.)
+(A arte já diz "tênis" e "R$ 299" — então a legenda NÃO repete isso. O gap real que os dados
+permitem preencher é o frete.)
 
-Esse é o modelo que a galera do corre diário mais repõe quando gasta o primeiro.
-
-Amortecimento para asfalto, leve para não pesar no fim do dia, e um cabedal que respira de
-verdade. À vista sai por R$ 299 — e passando de R$ 200 o frete é por nossa conta, então dá
-para levar já com um par de meias de corrida.
-
-Tamanhos do 38 ao 44 no site.
+Os R$ 299 à vista já chegam sem frete: passando de R$ 200, a entrega é por nossa conta.
 ```
-Sem hook teatral: abre por reconhecimento e a 1ª linha se sustenta sozinha. O preço, que já
-está na arte, entra só para amarrar o frete grátis — o gap real.
+Antes de publicar: a entrada não traz nada do tênis (amortecimento, peso, para que tipo de
+corrida, numeração disponível) nem dado de vendas — então a legenda não inventa "o modelo
+que mais repõem" nem "leve" ou "respira de verdade". Me passe 2 ou 3 fatos do produto e eu
+acrescento a razão de compra.
+
+Sem hook teatral: a 1ª linha se sustenta sozinha e entrega o que a arte não diz.
 
 ## Exemplo B — Micro caption (menos é mais)
 Entrada:
@@ -54,21 +54,22 @@ melhores! Corre pro link!"
 Saída:
 ```
 Diagnóstico rápido: a legenda repete o que a arte já mostra (o depoimento e as 5 estrelas),
-usa "os melhores" (claim sem base) e um CTA genérico. O trabalho que falta é dar CONTEXTO ao
-depoimento e uma razão real para clicar.
+usa "os melhores" (claim sem base) e um CTA genérico ("corre pro link").
 
-Legenda reescrita:
-A Marina comprou para resolver [preencher: o problema/uso que ela cita no depoimento] — e foi
-esse ponto exato que ela destacou.
+Legenda reescrita (já publicável):
+Retorno de cliente é o que a gente mais gosta de receber — e esse veio com 5 estrelas.
 
-É a dúvida que mais chega aqui antes da compra, então o retorno dela vale por muita descrição.
+Se você está na mesma decisão, os detalhes do produto estão na página.
 
-Se você está na mesma decisão, os detalhes que ela menciona estão na página do produto.
+Para a legenda dar contexto de verdade, me mande o texto do depoimento: aí eu destaco o
+ponto que ela citou e ligo à dúvida que ele resolve.
 ```
-Removido: "incrível", "os melhores". A legenda agora acrescenta contexto ao print em vez de
-narrá-lo, e o CTA tem razão. O que a cliente disse fica preservado — nada de inflar o
-depoimento nem pôr aspas em texto que não é dela.
+Removido: "incrível", "os melhores", "corre pro link". Eu não leio o print, então a legenda
+não cita o que a cliente disse, não dá nome a ela (só com o nome que ela autorizou) e não diz
+que "é a dúvida que mais chega" sem esse dado. Nada de inflar o depoimento nem pôr aspas em
+texto que não é dela.
 
 > Referência: a legenda preenche o gap com a arte (não repete), a profundidade acompanha o
 > conteúdo (de uma linha a um parágrafo), hook e CTA entram só quando agregam, e nada de claim
-> ("os melhores") ou depoimento inflado.
+> ("os melhores"), atributo, popularidade, nome de cliente ou depoimento inventado — o que
+> falta vira pedido fora da legenda.

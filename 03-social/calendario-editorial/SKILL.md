@@ -57,6 +57,8 @@ Sem alguns desses, a skill infere um plano enxuto e marca as dependências — e
 - **Dependências e conflitos mapeados**; antecedência de produção respeitada.
 - **KPI segue o objetivo** (não medir tudo por likes nem só por "quantos posts saíram"); experimento só com hipótese.
 - **Persuasão ética** (a mesma do Arsenal): sem "melhor do mundo", "imperdível", "última chance", urgência/escassez falsa; sem abrir pela culpa da pessoa.
+- **Data fixa manda na publicação**: gravação e publicação são etapas diferentes; a data real não se move para caber na agenda.
+- **O plano confere consigo mesmo**: a nota de mix bate com a tabela; replanejamento não usa um dia "livre" que já tinha post.
 - **Voz da marca, não da Performa.**
 
 ### Calendar Quality Gate (silencioso)

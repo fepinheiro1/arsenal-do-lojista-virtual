@@ -20,7 +20,7 @@ Regra de ouro: **conteúdo bom nasce de uma ideia relevante + verdade factual + 
 - `[produto ou tema]` — o que este post comunica.
 - `[objetivo]` — o que ele deve gerar (conhecer, educar, considerar, lançar, prova social, comunidade, converter, reter...).
 - `[tom da marca]` — como a loja fala (e o que ela nunca diria).
-- `[dados reais]` (quando houver) — oferta, depoimento, número. Sem isso, vira `[preencher]`, nunca invenção.
+- `[dados reais]` (quando houver) — oferta, depoimento, número. Sem isso, o post sai sem eles e a falta vira pedido no fim — nunca invenção.
 
 Público, plataforma e formato são inferidos quando você não informa (default Instagram) — e a skill só pergunta 1–2 coisas se faltar algo que trave a qualidade.
 
@@ -50,7 +50,11 @@ Público, plataforma e formato são inferidos quando você não informa (default
 5. Rode o **Quality Gate** e entregue só os blocos que o post precisa; hashtags só se agregarem.
 
 ## Regras de qualidade
-- **Verdade acima de tudo**: sem inventar benefício, resultado, oferta, número de vendas, avaliação ou depoimento. Faltou o dado → `[preencher]`.
+- **Verdade acima de tudo**: sem inventar benefício, resultado, oferta, número de vendas, avaliação ou depoimento.
+- **Lacuna fora do texto publicável**: o que falta não vira `[preencher]` no meio da legenda/slide/fala — vira uma lista curta no fim, fora do material que vai ao ar.
+- **Sem popularidade, atributo ou cliente inventados**: "o mais vendido", "o que mais repõem", "a dúvida que mais chega" só com dado; nome de cliente só com autorização; nunca dado pessoal.
+- **Imagem que a IA não vê não é descrita**: print, arte ou vídeo citado e não lido → pede o texto, não cita o conteúdo.
+- **Lote**: cada item só com os próprios dados; conferir recebido × entregue; item sem dado fica pendente; diversidade real de abertura.
 - **Uma ideia, um trabalho**: não peça quatro comportamentos no mesmo post.
 - **Hook honesto**: relevância real, não clickbait; primeira linha que funciona truncada.
 - **Sem engagement bait nem promessa de performance** ("vai bombar", "comente para o alcance").

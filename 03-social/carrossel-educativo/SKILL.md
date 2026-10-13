@@ -38,7 +38,7 @@ Regra de ouro: **um bom carrossel não é um texto quebrado em cards; é uma exp
 
 **7. Controla a carga e usa o visual para explicar.** Legível no celular sem zoom (nada de parágrafo, fonte minúscula ou rodapé longo), com margem segura e contraste. E, por slide, a pergunta: *isso fica mais claro com texto ou com um visual?* — seta, fluxo, comparação, timeline, foto anotada, checklist. O visual **explica ou organiza**, não decora, e não repete literalmente o texto. Comparação usa critérios equivalentes; passo a passo tem ordem e verbos claros; checklist é acionável (não "seja estratégico"); erro comum vira *prática → por que falha → alternativa*, sem culpar quem lê; "mito" só quando é de fato falso.
 
-**8. Verdade, fonte e produto honesto.** Fato/número/regra precisam ser sustentados — estatística sem fonte não entra (pesquisar quando dá, pedir a fonte, ou omitir; e nunca deixar `[preencher]` no material final sem avisar). O produto entra quando **ajuda a aplicar** o aprendizado (ensino → critério → o produto como solução legítima que atende aqueles critérios), nunca como um anúncio colado no fim.
+**8. Verdade, fonte e produto honesto.** Fato/número/regra precisam ser sustentados — estatística sem fonte não entra (pesquisar quando dá, pedir a fonte, ou omitir; o que falta vai numa lista fora dos slides, nunca como `[preencher]` no material final). Fato técnico do nicho (numeração, medida, conversão, norma) só com certeza: na dúvida, ensina a medir e manda usar a tabela da loja. O produto entra quando **ajuda a aplicar** o aprendizado (ensino → critério → o produto como solução legítima que atende aqueles critérios), nunca como um anúncio colado no fim.
 
 ## Instruções (o cérebro da skill)
 1. Identifique o **modo** (criar / otimizar / adaptar a plataforma-profundidade / repurposar uma fonte / minerar FAQ-reviews / auditar / testar capa / série / lote) e fixe o **Learning Truth Lock** (objetivo, conhecimento do público, verdade do tema, fonte/atualidade, marca, produto).
@@ -56,6 +56,9 @@ Regra de ouro: **um bom carrossel não é um texto quebrado em cards; é uma exp
 - **Carga e acessibilidade**: legível no celular, margem segura, contraste, visual que explica (não decora).
 - **CTA opcional e honesto**: "salve" só se há valor de consulta; "compartilhe" só se ajuda outra pessoa de verdade; "siga" só se a conta dá continuidade ao tema — sem fórmula automática.
 - **Claims sensíveis** (saúde, beleza, suplemento, infantil, financeiro): rigor elevado.
+- **Serviço da loja não informado não é prometido** ("a gente converte", "troca grátis").
+- **Sem popularidade, atributo ou cliente inventados**: "o mais vendido", "o que mais repõem", "a dúvida que mais chega" só com dado; nome de cliente só com autorização; nunca dado pessoal.
+- **Imagem que a IA não vê não é descrita**: print, arte ou vídeo citado e não lido → pede o texto, não cita o conteúdo.
 - **Voz da marca, não da Performa**; legenda complementa; emojis com parcimônia.
 
 ### Carousel Quality Gate (silencioso)

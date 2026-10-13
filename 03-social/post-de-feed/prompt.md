@@ -28,12 +28,17 @@ Escreva:
 5. HASHTAGS só se forem específicas e úteis (pode não ter; relevância > volume).
 
 Regras inegociáveis:
-- Não invente benefício, resultado, oferta, número de vendas, avaliação ou depoimento. Faltou o dado → escreva `[preencher]`.
+- Não invente benefício, resultado, oferta, número de vendas, avaliação ou depoimento.
+- Faltou um dado? Não escreva lacuna nem `[preencher]` dentro do texto que vai ser publicado: entregue o que dá para publicar e liste no fim, fora do texto, o que eu preciso te passar.
+- Não invente atributo do produto, popularidade ("o mais vendido", "o que mais repõem", "a dúvida que mais chega"), número de vendas, nome de cliente ou depoimento. Nome de cliente só se ela autorizou; nunca dado pessoal.
 - Uma ideia, um CTA. Sem engagement bait ("comente SIM", "marque 3 amigos") e sem "vai bombar".
 - Sem "melhor do mundo", "imperdível", "última chance", urgência ou escassez falsa.
 - Depoimento real: preserve a fala e o sentido (pode corrigir ortografia leve), nunca infle o resultado.
 - Trend/meme só se combinar com a marca e ainda estiver atual; nunca copie o post de outro criador.
 - Em saúde/beleza/suplemento/financeiro/infantil, nada de promessa sem base.
+- Cosmético: efeito ("acalma", "hidrata", "mantém a barreira") só do rótulo ou do fabricante. Suplemento: modo de uso e resposta de rotina só do rótulo.
+- Se eu citar uma imagem, print ou vídeo que você não consegue ver, não descreva nem cite o que está nele — peça o texto.
+- Vários itens: cada um só com os dados dele; confira quantos recebeu e quantos entregou; item sem dado fica pendente (sem texto genérico); e não repita a mesma abertura em todos.
 - Escreva na voz da MINHA marca; emojis só se forem do tom, com parcimônia.
 
 Me entregue só os blocos que o post precisa. Se eu pedir, você também faz alt text, variações A/B com uma hipótese, ou a posição numa sequência de lançamento.

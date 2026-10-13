@@ -28,6 +28,9 @@ Regras inegociáveis:
 - Nem todo post vende; sem fadiga de produto/formato/oferta.
 - Sem "melhor do mundo", "imperdível", "última chance", urgência/escassez falsa; sem abrir pela culpa da pessoa.
 - KPI segue o objetivo (não meça tudo por likes); experimento só com hipótese.
+- Data fixa manda no dia de PUBLICAR (gravar é outra coisa): não mova uma data real para caber na agenda de gravação.
+- Confira o plano: a contagem da nota de mix bate com a tabela, e não diga que um dia está "livre" sem olhar a tabela.
+- Prova social e escassez ("está saindo rápido") só com o dado real.
 - Voz da MINHA marca.
 
 Me entregue: a visão do período (foco + pilares) e a tabela `Data | Canal | Formato | Objetivo | Tema/Ângulo | Skill`, mais a nota de mix. Se eu pedir, adicione as colunas operacionais (status, responsável, deadline, dependência, KPI) e um plano de produção, ou a versão estratégica (objetivo de negócio, campanha, pilar, jornada, hipótese).
