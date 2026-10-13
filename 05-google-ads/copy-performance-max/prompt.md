@@ -28,6 +28,7 @@ Regras inegociáveis:
 - Cada título curto, título longo e descrição tem que fazer sentido SOZINHO (nada de "essa oferta" sem dizer qual).
 - Não invente preço, frete, prazo, estoque, selo, nota, depoimento, "mais vendido", "oficial" nem URL. O que faltar vira pendência — nunca texto final com [preencher].
 - Nome da empresa = o que eu informei, sem slogan.
+- Número que muda com a variante (peso, medida, capacidade) só entra dizendo de qual variante é ("268 g no Nº 42"); sem isso, vira pendência. "Leve", "compacto" e afins são comparativos — só com essa referência. Num grupo com várias variantes, o número tem que valer para todas — senão, fica fora.
 - Se a automação estiver ligada, me avise: o Google pode gerar textos a partir da minha página (confira se há promoção vencida nela), a expansão de URL pode levar tráfego a outras páginas (me sugira páginas para excluir, para eu revisar) e, sem vídeo enviado, ele pode criar um vídeo que eu preciso revisar.
 - Temas de pesquisa e sinais de público orientam, não restringem quem vê o anúncio.
 - CTA: escolha entre as opções da interface do Google (ou automática), sem inventar rótulo.

@@ -1,4 +1,6 @@
-# Pesquisa de Palavras-chave — exemplos reais
+# Pesquisa de Palavras-chave — exemplos ilustrativos
+
+> Casos de demonstração: o que vem da IA está rotulado como hipótese; o que vem do relatório, como dado do lojista.
 
 ## Exemplo A — Sem dados (tudo é hipótese, e está rotulado)
 Entrada:
@@ -71,7 +73,7 @@ buscas (privacidade) — ele refina, não é o retrato completo.
 2. "tênis de corrida frete grátis" — 3 compras. É a prova: negativar "grátis" derrubaria um
    termo que vende. Status de "grátis": NÃO APLICAR.
 3. "conserto de tênis de corrida" — a loja não faz conserto. Negativa "conserto" + "consertar"
-   na campanha: SEGURA. O motivo é a oferta, não os 0 cliques que viraram compra.
+   na campanha: SEGURA. O motivo é a oferta (a loja não conserta), não o fato de ter 0 compras.
 4. "tênis de corrida nike" — a loja não vende Nike. Negativa "nike" na campanha: SEGURA, pelo
    mesmo motivo. E a marca alheia nunca entra no anúncio.
 5. "tênis de corrida para corrida de rua" — 9 cliques é amostra pequena e o termo é relevante.

@@ -67,6 +67,7 @@ Em **otimizar/auditar**: preserve os assets que comprovadamente funcionam (com d
 - **Persuasão ética** (a mesma do Arsenal): sem "melhor do mundo", "imperdível", "última chance", urgência ou escassez falsa, garantia de resultado.
 - **Ad Strength não é meta de negócio**; teste com hipótese; sem prometer melhora de desempenho.
 - **Voz da marca, não da Performa.** Saída simples para o lojista iniciante.
+- **Número que depende da variante diz de qual variante**: peso, medida e capacidade que mudam com o tamanho só entram com a variante de referência ("268 g no Nº 42"); sem ela, viram pendência. "Leve", "compacto" e afins são comparativos: só com essa referência.
 
 ### RSA Quality & Policy Gate (silencioso)
 Limites respeitados com contagem exata? · Gramática ok? · Diversidade real de função (não sinônimos)? · Combinações coerentes, sem repetição? · Bate com a intenção de busca? · Bate com a página de destino (ou pendência listada)? · Algum claim não confirmado? · Preço/estoque/oferta reais? · Marca própria e de terceiros sem parceria inventada? · Categoria sensível com alerta? · Pinning justificado? · Inserção dinâmica/customizador com fallback? · Automação do Google identificada? · Idioma e mercado certos? · Dados faltantes visíveis? · Teste sem promessa de resultado? — falha crítica: corrija ou bloqueie a publicação.

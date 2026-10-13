@@ -28,6 +28,7 @@ Regras inegociáveis:
 - NUNCA coloque [preencher] dentro do título ou da descrição. O que faltar vai num bloco separado de pendências — e o item incompleto não deve ser publicado.
 - Categoria restrita: me mande para revisão de política; não reescreva para contornar.
 - Problema de imagem não se resolve com texto.
+- Cada item do feed é uma variante: número que muda com ela (peso, medida, capacidade) só entra dizendo de qual variante é ("268 g no Nº 42"); sem isso, vira pendência. "Leve", "compacto" e afins são comparativos — só com essa referência.
 
 Me entregue: título recomendado (com contagem), descrição (com contagem), 2 alternativas de título com a hipótese de cada uma, os atributos usados, as pendências separadas e os alertas por severidade (bloqueio / atenção / oportunidade). Se eu pedir: auditoria (problema | evidência | severidade | ação) ou lote (id | original | sugerido | mudanças | alertas | status).
 

@@ -1,4 +1,6 @@
-# Copy para Performance Max — exemplos reais
+# Copy para Performance Max — exemplos ilustrativos
+
+> Casos de demonstração: todo claim vale para o grupo inteiro e vem da entrada; contagens conferidas por código.
 
 ## Exemplo A — Varejo com feed, um modelo (atributo sem esticar)
 Entrada:
@@ -19,25 +21,24 @@ Escopo: um modelo só, então todo claim abaixo vale para o grupo inteiro.
 Títulos (até 30)
  1. Tênis de Corrida Masculino (26)       categoria
  2. NimbusFlow X1 (13)                    produto
- 3. Leve, com Apenas 268 g (22)           benefício
- 4. Feito com Malha Respirável (26)       característica
- 5. Entressola de Alta Absorção (27)      característica
- 6. Frete para Todo o Brasil (24)         oferta
- 7. Troca de Numeração Facilitada (29)    confiança
- 8. Garantia de 3 Meses (19)              confiança
- 9. Para Seus Treinos da Semana (27)      uso
-10. Escolha Sua Numeração (21)            ação
-11. Veja o NimbusFlow X1 (20)             ação
+ 3. Feito com Malha Respirável (26)       característica
+ 4. Entressola de Alta Absorção (27)      característica
+ 5. Frete para Todo o Brasil (24)         oferta
+ 6. Troca de Numeração Facilitada (29)    confiança
+ 7. Garantia de 3 Meses (19)              confiança
+ 8. Para Seus Treinos da Semana (27)      uso
+ 9. Escolha Sua Numeração (21)            ação
+10. Veja o NimbusFlow X1 (20)             ação
 
 Títulos longos (até 90)
- 1. NimbusFlow X1: tênis de corrida masculino leve, com apenas 268 g. (65)
+ 1. NimbusFlow X1: tênis de corrida masculino com cabedal em malha respirável. (74)
  2. Malha respirável e entressola de alta absorção para os seus treinos de corrida. (79)
  3. Frete para todo o Brasil, troca de numeração facilitada e garantia de 3 meses. (78)
- 4. Um tênis de corrida para quem treina algumas vezes por semana e quer leveza no pé. (82)
+ 4. Um tênis de corrida para quem treina algumas vezes por semana. (62)
 
 Descrições (até 90)
- 1. [curta] Tênis de corrida leve, com 268 g e malha respirável. (52)
- 2. Entressola de alta absorção e malha respirável em um tênis de corrida de 268 g. (79)
+ 1. [curta] Tênis de corrida masculino com malha respirável. (48)
+ 2. Entressola de alta absorção e cabedal em malha respirável no NimbusFlow X1. (75)
  3. Frete para todo o Brasil e troca de numeração facilitada se o tamanho não servir. (81)
  4. 3 meses de garantia contra defeito. Escolha sua numeração e peça o seu NimbusFlow X1. (85)
 
@@ -49,8 +50,9 @@ Contagem exata, tudo dentro do limite.
 
 O que ficou de fora, de propósito: "menos impacto no joelho" (efeito no corpo que a ficha não
 prova), "pé seco do início ao fim" (respirável ≠ pé seco), "estável em qualquer piso" (não
-informado), "PisoLeve Oficial" (oficial do quê?). Para mais títulos: avaliações reais, preço,
-parcelamento.
+informado), "PisoLeve Oficial" (oficial do quê?), "leve, com 268 g" (o peso muda com a
+numeração e a ficha não diz de qual é — num grupo com todas as variantes, nem vale para todas).
+Para mais títulos: avaliações reais, preço, parcelamento, a numeração de referência do peso.
 
 Pendências
 - Feed: título, preço e estoque das variantes no Merchant Center batem com a página?

@@ -1,4 +1,6 @@
-# Títulos e Descrições (Rede de Pesquisa) — exemplos reais
+# Títulos e Descrições (Rede de Pesquisa) — exemplos ilustrativos
+
+> Casos de demonstração: cada título vem de um fato da entrada; contagens conferidas por código.
 
 ## Exemplo A — Criar com só o que é verdade (fatos poucos → portfólio enxuto)
 Entrada:
@@ -17,16 +19,15 @@ Saída:
 Títulos (até 30)
  1. Tênis de Corrida Masculino (26)      busca
  2. NimbusFlow X1 (13)                   produto
- 3. Leve, com Apenas 268 g (22)          benefício (fato informado)
- 4. Frete para Todo o Brasil (24)        oferta
- 5. Troca de Numeração Facilitada (29)   confiança
- 6. Garantia de 3 Meses (19)             confiança
- 7. Para Seus Treinos da Semana (27)     caso de uso
- 8. Veja o NimbusFlow X1 (20)            ação
- 9. Escolha Sua Numeração (21)           ação
+ 3. Frete para Todo o Brasil (24)        oferta
+ 4. Troca de Numeração Facilitada (29)   confiança
+ 5. Garantia de 3 Meses (19)             confiança
+ 6. Para Seus Treinos da Semana (27)     caso de uso
+ 7. Veja o NimbusFlow X1 (20)            ação
+ 8. Escolha Sua Numeração (21)           ação
 
 Descrições (até 90)
- 1. NimbusFlow X1 com apenas 268 g: um tênis de corrida masculino leve para os seus treinos. (88)
+ 1. NimbusFlow X1: tênis de corrida masculino para os seus treinos da semana. (73)
  2. Frete para todo o Brasil e troca de numeração facilitada se o tamanho não servir. (81)
  3. 3 meses de garantia contra defeito. Escolha sua numeração e peça o seu NimbusFlow X1. (85)
  4. Confira os detalhes do modelo na página e escolha o número certo para o seu pé. (79)
@@ -37,16 +38,19 @@ Caminhos (até 15)
 
 Contagem exata, tudo dentro do limite. Nenhum título fixado (sem motivo para pin).
 
-Por que 9 títulos e não 15: os fatos informados sustentam 9 mensagens distintas. Completar
-com "Amortecimento de Verdade" ou "Pé Seco no Treino" seria inventar característica.
+Por que 8 títulos e não 15: os fatos informados sustentam 8 mensagens distintas. Completar
+com "Amortecimento de Verdade" ou "Pé Seco no Treino" seria inventar característica. E os
+268 g ficaram de fora por enquanto: peso de tênis muda com a numeração, e a entrada não diz
+de qual é — sem isso, nem "268 g" nem "leve" se sustentam.
 Para destravar mais títulos (benefício, prova, oferta), me passe se for real:
+  - de qual numeração são os 268 g (aí entra "268 g no Nº 42", por exemplo)
   - tecnologia da entressola / amortecimento e respirabilidade do cabedal
   - preço e parcelamento
   - avaliações reais (nota e quantidade)
 
 Pendências antes de publicar:
-  - Conferir na página: os 268 g, o frete para todo o Brasil, a troca e a garantia de
-    3 meses estão visíveis? O modelo está em estoque nas numerações anunciadas?
+  - Conferir na página: o frete para todo o Brasil, a troca e a garantia de 3 meses
+    estão visíveis? O modelo está em estoque nas numerações anunciadas?
   - Conferir no Google Ads se AI Max / personalização de texto está ligada — se estiver,
     o Google pode gerar textos a partir da página; revise o que ele produz.
 
@@ -83,10 +87,11 @@ Manter (verdadeiros e com função clara): "Frete para Todo o Brasil", "3 Meses 
 Resultado: o anúncio cai de 15 para cerca de 9–10 títulos — e fica mais forte, não mais
 fraco. O Ad Strength pode baixar no começo; ele mede variedade, não venda. Sem dados por
 asset, não dá para dizer qual título "ganha"; depois da limpeza, se quiser, testar
-benefício (268 g) × confiança (troca + garantia) como hipótese, com a conversão como métrica.
+oferta (frete) × confiança (troca + garantia) como hipótese, com a conversão como métrica.
 ```
 
-> Referência: o portfólio usa só fatos confirmados (9 títulos honestos > 15 com invenção),
+> Referência: o portfólio usa só fatos confirmados (8 títulos honestos > 15 com invenção;
+> número que depende da variante só com a variante de referência),
 > cada asset tem uma função e combina com qualquer outro, a contagem é exata, nada é fixado
 > sem motivo, e a página de destino vira pendência quando a IA não consegue abri-la. Na
 > auditoria, primeiro o que pode reprovar ou enganar, depois a repetição, preservando o que

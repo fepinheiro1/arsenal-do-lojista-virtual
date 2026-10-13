@@ -70,6 +70,7 @@ Em **otimizar/auditar**: preserve o que funciona com dado; priorize oferta venci
 - **CTA das opções da interface.**
 - **Persuasão ética** (a mesma do Arsenal): sem "melhor do mundo", "imperdível", "última chance", "GRÁTIS!!!", urgência/escassez falsa, garantia de resultado. Categoria sensível com revisão de política.
 - **Ad Strength não é ROAS**; nada de prometer resultado. **Voz da marca, não da Performa.**
+- **Número que depende da variante diz de qual variante**: peso, medida e capacidade que mudam com o tamanho só entram com a variante de referência ("268 g no Nº 42"); sem ela, viram pendência. "Leve", "compacto" e afins são comparativos: só com essa referência. Num grupo com várias variantes, o número precisa valer para todas.
 
 ### PMax Quality Gate (silencioso)
 Campos compatíveis com a especificação vigente? · Contagem validada por código? · Quantidade adequada aos fatos? · Nome da empresa fiel? · Oferta ou prazo inventado? · Característica inventada ou esticada? · Prova social inventada? · Cada texto funciona sozinho? · Combinações sem contradição? · Diversidade real? · Claims válidos para todos os produtos do grupo? · Feed e página não contradizem? · Expansão de URL e textos gerados tratados como dependência? · Política, idioma e mercado revisados? · Pendências claras, sem afirmar publicação nem resultado? — se falhar, corrija.

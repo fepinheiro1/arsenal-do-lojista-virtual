@@ -1,4 +1,6 @@
-# Estrutura de Campanha — exemplos reais
+# Estrutura de Campanha — exemplos ilustrativos
+
+> Casos de demonstração: orçamento, lance e ROAS de equilíbrio aparecem como hipótese; contas conferidas.
 
 ## Exemplo A — Conta nova, verba curta, dados faltando
 Entrada:

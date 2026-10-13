@@ -1,4 +1,6 @@
-# Anúncio de Shopping (feed do Merchant Center) — exemplos reais
+# Anúncio de Shopping (feed do Merchant Center) — exemplos ilustrativos
+
+> Casos de demonstração: o feed só leva atributo confirmado da entrada; contagens conferidas por código.
 
 ## Exemplo A — Otimizar um item (com a marca em dúvida)
 Entrada:
@@ -27,13 +29,12 @@ A) PisoLeve NimbusFlow X1 Tênis de Corrida Masculino Preto Nº 42 (61)
 B) Tênis de Corrida Masculino Malha Respirável PisoLeve NimbusFlow X1 Preto Nº 42 (78)
    Hipótese: o material (confirmado) ajuda quem busca por malha respirável.
 
-Descrição recomendada (208)
+Descrição recomendada (152)
 Tênis de corrida masculino NimbusFlow X1, da PisoLeve, na cor preto e numeração 42. O cabedal
-é em malha respirável e o peso é de 268 g, conforme a ficha técnica do modelo. Garantia de 3
-meses contra defeito.
+é em malha respirável. Garantia de 3 meses contra defeito.
 
-Atributos usados (confirmados): tipo, gênero, cor, numeração (BR), material do cabedal, peso,
-condição, garantia.
+Atributos usados (confirmados): tipo, gênero, cor, numeração (BR), material do cabedal,
+condição, garantia. (O peso fica fora até confirmar de qual numeração é — ver pendências.)
 
 O que saiu da descrição antiga, e por quê: "leve e estável do primeiro ao último quilômetro",
 "solta o calor e mantém o pé seco", "para asfalto e esteira", "para quem treina de verdade" —
@@ -43,7 +44,8 @@ Pendências (fora do texto publicável)
 - Confirmar a marca (marca própria ou fabricante).
 - GTIN: se o tênis tem código de barras do fabricante, informar. Se é marca própria sem código,
   seguir a regra vigente do Merchant Center para item sem identificador — nunca gerar um EAN.
-- 268 g é o peso de qual numeração? O peso muda com o tamanho; confirmar na ficha.
+- 268 g é o peso de qual numeração? O peso muda com o tamanho; confirmar na ficha. Se for
+  do Nº 42 (este item), o peso entra na descrição deste item.
 - Cada numeração e cor é um item próprio (mesmo item_group_id, ID, imagem e link próprios).
 
 Alertas: bloqueio — nenhum · atenção — marca, GTIN · oportunidade — avaliações reais, se houver.

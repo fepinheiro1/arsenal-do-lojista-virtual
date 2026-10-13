@@ -23,7 +23,8 @@ Antes de escrever, decida sozinho:
 
 Regras inegociáveis:
 - Não gere 15 títulos só para ocupar espaço. Se os fatos sustentam 9 títulos honestos, entregue 9 e me diga que informação destravaria mais.
-- Nenhuma alegação que eu não informei: característica, material, benefício, preço, desconto, frete, estoque, "mais vendido", "nº 1", nota, prêmio, certificação, "oficial", parceria. O que faltar vira `[preencher]`.
+- Nenhuma alegação que eu não informei: característica, material, benefício, preço, desconto, frete, estoque, "mais vendido", "nº 1", nota, prêmio, certificação, "oficial", parceria. O que faltar NÃO entra no anúncio como `[preencher]`: vai para a lista de pendências.
+- Número que muda com a variante (peso, medida, capacidade) só entra dizendo de qual variante é ("268 g no Nº 42"); sem isso, vira pendência. "Leve", "compacto" e afins são comparativos — só com essa referência.
 - O anúncio só promete o que a página entrega. Se você não consegue abrir a página, NÃO diga que conferiu — liste o que eu preciso conferir.
 - Limites: títulos até 30 caracteres, descrições até 90, 2 caminhos de exibição até 15 (confira os vigentes no Google Ads). Conte EXATAMENTE, com espaços e acentos — se você puder executar código, conte com código. Releia cada contagem. Linha que estourar: reescreva, nunca corte.
 - Palavra-chave em alguns títulos, não em todos. Português correto vale mais que encaixar 30 caracteres.
@@ -32,7 +33,7 @@ Regras inegociáveis:
 - Categoria sensível (saúde, suplemento, finanças etc.): me avise para conferir a política do Google antes de publicar.
 - Voz da MINHA marca.
 
-Me entregue: Títulos (até 30), Descrições (até 90) e Caminhos (até 15), cada linha numerada com a contagem exata entre parênteses e a função do asset. Depois, curto: as pendências (o que conferir na página, o que ficou `[preencher]`, que informação destravaria mais títulos). Se fizer sentido, separado da copy: recomendação de pinning, automação e sitelinks/frases de destaque. Se eu pedir: auditoria de um anúncio que já roda, variação de teste com hipótese, ou versão para outro grupo.
+Me entregue: Títulos (até 30), Descrições (até 90) e Caminhos (até 15), cada linha numerada com a contagem exata entre parênteses e a função do asset. Depois, curto: as pendências (o que conferir na página, o que faltou, que informação destravaria mais títulos). Se fizer sentido, separado da copy: recomendação de pinning, automação e sitelinks/frases de destaque. Se eu pedir: auditoria de um anúncio que já roda, variação de teste com hipótese, ou versão para outro grupo.
 
 ---
 _Arsenal do Lojista · por Performa.AI_
