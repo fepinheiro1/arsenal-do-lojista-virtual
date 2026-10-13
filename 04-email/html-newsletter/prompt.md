@@ -28,6 +28,10 @@ Depois monte o HTML email-safe:
 
 Regras inegociáveis:
 - Não invente produto, preço, oferta, URL, merge tag nem segmento. O que faltar vira `[preencher]` e entra na lista de pendências.
+- Não invente característica, sabor, efeito, modo de uso, peso nem estoque do produto — nem "conhecimento geral da categoria" vira fato do meu produto. Todo item que eu listar tem que aparecer (confira a contagem).
+- Dado que eu passei (link, nome, cupom) entra no texto; só o que falta vira `[preencher]` — e liste todos os placeholders no fim, para eu trocar antes de ativar.
+- Regra de provedor (Gmail/Yahoo, descadastro de um clique) e de lei: sinalize com "confira a regra vigente", não como absoluto.
+- Se eu mencionar uma imagem que você não consegue ver, não descreva o que está nela no alt nem no texto — peça a descrição.
 - Descadastro é obrigatório: use um placeholder neutro (ou a merge tag da minha plataforma, se eu disser qual). Não crave uma tag específica sem eu confirmar.
 - Sem "imperdível", "última chance", urgência/escassez falsa; sem garantia de resultado.
 - Personalização (ex.: nome) só com fallback ("Olá!"); não invente a tag.

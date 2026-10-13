@@ -26,6 +26,8 @@ Regras inegociáveis:
 - Incentivo (se houver) não pode depender de opinião positiva, precisa ser real, e o destino tem que PERMITIR avaliação incentivada (vários marketplaces proíbem) — com disclosure quando exigido.
 - UGC (foto/vídeo) é opcional; não condicione o review a mídia; preserve privacidade (nome, rosto, local, crianças). Não invente prazo, política, cupom nem badge de "compra verificada" — o que falta vira `[preencher]`.
 - Verifique elegibilidade e SAÍDA: quem já avaliou sai dos lembretes; cancelamento/reembolso muda o contexto mas não tira o direito de avaliar. Lembrete com limite, mudando o contexto e sem culpa ("você ainda não avaliou").
+- Política de plataforma/marketplace que você não confirmou não é afirmada: diga "confira a política vigente do destino" e, na dúvida, deixe o incentivo de fora.
+- Não invente característica, sabor, efeito, modo de uso, peso nem estoque do produto — nem "conhecimento geral da categoria" vira fato do meu produto.
 - Voz da MINHA marca.
 
 Me entregue o e-mail pronto: assunto (2 opções neutras), preheader, corpo curto, CTA que leva ao destino real, o momento de envio (a partir da entrega + janela de uso) e os placeholders a preencher. Se houver incentivo, a variação com e sem. Se eu pedir: o fluxo completo (gatilho, elegibilidade, saída, lembrete, supressões), a ramificação por tipo/destino, ou o pedido de UGC.

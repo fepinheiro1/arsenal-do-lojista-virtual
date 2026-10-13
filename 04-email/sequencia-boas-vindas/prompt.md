@@ -28,6 +28,8 @@ Regras inegociáveis:
 - Sem "imperdível", "última chance", urgência/escassez falsa nem contagem regressiva sem base; sem abrir pela culpa da pessoa.
 - Educação e prova social real convertem melhor que mais desconto; objeção só com política real.
 - Personalização (nome/interesse) só com fallback; ramificação crítica não depende de "abriu" (o open é impreciso).
+- Não invente característica, sabor, efeito, modo de uso, peso nem estoque do produto — nem "conhecimento geral da categoria" vira fato do meu produto. Em cosmético, efeito e modo de uso só do rótulo.
+- Dado que eu passei (link, nome, cupom) entra no texto; só o que falta vira `[preencher]` — e liste todos os placeholders no fim, para eu trocar antes de ativar.
 - Voz da MINHA marca.
 
 Me entregue a jornada numerada (papel, quando, assunto, preheader, corpo, CTA) e como agendar (gatilho: nova inscrição; intervalos; a saída por compra). Se eu pedir, adicione as colunas de automação (gatilho/delay/ramificação/saída/supressão) ou a versão ramificada por cliente novo x existente.

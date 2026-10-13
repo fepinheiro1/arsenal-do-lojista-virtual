@@ -30,6 +30,8 @@ Regras inegociáveis:
 - Lembrete é gentileza, nunca culpa ("você abandonou"). Sem "imperdível", "última chance", contagem regressiva fabricada.
 - Urgência só com prazo/estoque/token reais; frete grátis só com regra/mínimo reais.
 - Personalização (nome/produto) só com fallback; carrinho com muitos itens vira resumo, não e-mail gigante.
+- Não invente característica, sabor, efeito, modo de uso, peso nem estoque do produto — nem "conhecimento geral da categoria" vira fato do meu produto.
+- Dado que eu passei (link, nome, cupom) entra no texto; só o que falta vira `[preencher]` — e liste todos os placeholders no fim, para eu trocar antes de ativar.
 - Voz da MINHA marca.
 
 Me entregue o fluxo por evento (para cada mensagem: papel, quando, assunto, preheader, corpo, CTA que retoma o carrinho) e as regras de automação (gatilho por evento, janelas, SAÍDA POR COMPRA, supressões, prioridade entre fluxos). Se eu pedir, o mapa dos 4 eventos ou a coordenação com SMS/WhatsApp.

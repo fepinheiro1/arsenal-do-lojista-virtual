@@ -1,4 +1,6 @@
-# Pós-Compra e Avaliação — exemplos reais
+# Pós-Compra e Avaliação — exemplos ilustrativos
+
+> Casos de demonstração: momento, destino e incentivo vêm da entrada; política de marketplace não informada não é presumida.
 
 ## Exemplo A — Produto com curva de uso (ajuda antes, sem gating)
 Entrada:
@@ -55,8 +57,10 @@ Dois travamentos antes de escrever:
 1) READINESS LONGO PRAZO: pedir avaliação de colchão logo após a entrega não gera opinião útil.
    O pedido espera algumas noites de sono; um contato inicial pode ser só de ONBOARDING (como
    posicionar, período de adaptação), sem pedir nota ainda.
-2) POLÍTICA DE INCENTIVO: o destino é um marketplace que restringe avaliação incentivada. Então
-   o cupom NÃO entra atrelado ao review — seria contra as regras da plataforma e some com a nota.
+2) POLÍTICA DE INCENTIVO: o destino é um marketplace, e a maioria dos marketplaces restringe
+   avaliação incentivada. Você não disse qual é, e eu não confirmo a regra dele — então, até
+   você conferir a política vigente desse marketplace, o cupom NÃO entra atrelado ao review
+   (se for proibido, a avaliação pode ser removida e a conta, penalizada).
 
 E-mail — PEDIR AVALIAÇÃO (após período de adaptação)
 Assunto: Depois de algumas noites, como está o sono?
@@ -66,9 +70,9 @@ tem valor real para quem está decidindo. Se puder contar como tem sido o sono e
 ajuda muito. Foto do quarto é opcional, só se você quiser.
 CTA: Avaliar meu colchão  → [link real da página do produto no marketplace]
 
-Incentivo: NÃO incluído neste e-mail (o marketplace de destino não permite avaliação
-incentivada). Se a loja quiser recompensar o cliente, faça isso desacoplado da avaliação — um
-mimo de pós-venda, sem exigir review em troca.
+Incentivo: NÃO incluído neste e-mail (falta confirmar a política do marketplace de destino —
+e a maioria restringe). Se a loja quiser recompensar o cliente, faça isso desacoplado da
+avaliação — um mimo de pós-venda, sem exigir review em troca.
 ```
 
 > Referência: o gatilho é a ENTREGA + a janela de uso da categoria (não "dias após a compra"); a

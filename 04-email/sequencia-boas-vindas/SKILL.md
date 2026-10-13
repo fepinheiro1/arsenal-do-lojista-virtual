@@ -54,6 +54,8 @@ Regra de ouro: **um welcome bom reage ao comportamento — ele não continua ven
 - **Supressão e colisão** consideradas; personalização com fallback.
 - **Persuasão ética** (a mesma do Arsenal): sem "melhor do mundo", "imperdível", "última chance"; sem abrir pela culpa da pessoa.
 - **Voz da marca, não da Performa**; entregabilidade herdada do `html-newsletter`.
+- **Produto só com o que veio**: característica, sabor, efeito, modo de uso, peso ou estoque que o lojista não passou não entram — nem "conhecimento geral da categoria" vira fato do produto. Em cosmético, efeito e modo de uso só do rótulo.
+- **Placeholder listado**: o que falta vira `[preencher]` no template e entra numa lista "a trocar antes de ativar"; dado que veio na entrada (link, nome, cupom) entra no texto, não vira placeholder.
 
 ### Welcome Journey Quality Gate (silencioso)
 Promessa cumprida no primeiro contato? · Consentimento adequado? · Cliente existente tratado? · Existe saída por compra? · Cada e-mail tem papel? · Timing justificado? · Cupom e validade reais? · Sem pressão repetitiva? · O conteúdo ajuda a escolher? · Prova social real? · Personalização com fallback? · A ramificação usa sinal confiável? · Os fluxos podem colidir? · Supressão adequada? · KPI por papel? · Alertas de entregabilidade herdados? · A jornada é simples o bastante para manter? · Parece template genérico? — se falhar, reestruture.

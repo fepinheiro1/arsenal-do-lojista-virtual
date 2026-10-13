@@ -26,7 +26,10 @@ Regras inegociáveis:
 - Durável: não force recomprar o mesmo item — explore acessório, manutenção, complemento ou novidade. Não finja personalização; recomendação vem de compra/afinidade/curadoria real.
 - Incentivo passa por GATE (ciclo, valor, margem, histórico): cupom não é default e cupom recorrente ensina a esperar desconto. Se houver, real (validade/mínimo/exclusões) e condicional. Não invente novidade, prazo, política nem cupom — o que falta vira `[preencher]`.
 - SAÍDA e supressão: comprou → sai do fluxo (purchase exit); deu sinal relevante → sai do sunset (engagement exit). Suprima unsubscribed/complaint/bounce/inelegível/compra recente/fluxo conflitante. Contato muito antigo pode pedir re-permissão ("ainda quer receber?") ou preference center (frequência/categorias/pausa) em vez de insistir — protege a entregabilidade da base.
-- Sem urgência/escassez falsa, sem garantia de resultado. Frases curtas, mobile. Voz da MINHA marca.
+- Sem urgência/escassez falsa, sem garantia de resultado.
+- Não invente característica, sabor, efeito, modo de uso, peso nem estoque do produto — nem "conhecimento geral da categoria" vira fato do meu produto. Estação, estoque e "chegou" só se eu informar.
+- Dado que eu passei (link, nome, cupom) entra no texto; só o que falta vira `[preencher]` — e liste todos os placeholders no fim, para eu trocar antes de ativar.
+- Frases curtas, mobile. Voz da MINHA marca.
 
 Me entregue o e-mail pronto (ou o fluxo): para cada mensagem — segmento, quando (contra o ciclo, não "há X dias" cru), assunto (2 opções), preheader, corpo, CTA — mais o segmento/momento e os placeholders. Se eu pedir: o fluxo com automação (gatilho, delay, saída, supressão, ramificação), a segmentação por lifecycle/RFM/categoria, ou a etapa de sunset/re-permissão.
 

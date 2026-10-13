@@ -55,6 +55,8 @@ Regra de ouro: **recuperar compra não é pressionar — é remover fricção se
 - **Persuasão ética** (a mesma do Arsenal): lembrete é gentileza, nunca culpa; sem "imperdível", "última chance", contagem regressiva fabricada.
 - **Personalização com fallback**; multi-item vira resumo, não e-mail gigante; entregabilidade herdada do `html-newsletter`.
 - **Voz da marca, não da Performa.**
+- **Produto só com o que veio**: característica, sabor, efeito, modo de uso, peso ou estoque que o lojista não passou não entram — nem "conhecimento geral da categoria" vira fato do produto.
+- **Placeholder listado**: o que falta vira `[preencher]` no template e entra numa lista "a trocar antes de ativar"; dado que veio na entrada (link, nome, cupom) entra no texto, não vira placeholder.
 
 ### Recovery Quality Gate (silencioso)
 O evento está certo e confirmado? · A linguagem bate com ele? · Carrinho/variante/preço/estoque dinâmicos? · Prometeu reserva que não existe? · Deep link real e não expirado? · Purchase Exit presente? · Supressão e prioridade de fluxo ok? · Timing pelo evento? · O desconto é necessário (ou o lembrete basta)? · Margem/leakage considerados? · Frete/políticas reais? · Urgência verdadeira? · Objeção com evidência? · Personalização com fallback? · Multi-item enxuto? · Cross-channel coordenado? · KPI de receita recuperada (open é secundário)? · Confunde recuperado com incremental? — se falhar, corrija.

@@ -1,4 +1,6 @@
-# Recuperação de Carrinho — exemplos reais
+# Recuperação de Carrinho — exemplos ilustrativos
+
+> Casos de demonstração: objeções e apoios são os que vieram na entrada — atributo do produto não informado não entra.
 
 ## Exemplo A — Carrinho abandonado (lembrete antes de desconto)
 Entrada:
@@ -29,9 +31,11 @@ Mensagem 2 — TRANQUILIZAR / OBJEÇÃO (dia seguinte)
 Assunto: Ficou na dúvida da numeração?
 Preheader: A troca é sem custo — dá para acertar com calma.
 Corpo: Comprar sapato sem provar dá um receio, a gente entende. Se a numeração não vier
-perfeita, a troca é sem custo em até 30 dias, e o couro cede um pouco com o uso. Na dúvida
+perfeita, a troca é sem custo em até 30 dias. Na dúvida
 entre dois tamanhos, responda este e-mail ou chame no WhatsApp que a gente ajuda a escolher.
 CTA: Retomar a compra  → [deep link]
+(Não escrevi "o couro cede com o uso": é uma afirmação sobre o produto que não veio — se o
+fabricante disser isso, entra.)
 
 REGRAS DE AUTOMAÇÃO
 Gatilho: carrinho abandonado (confirmado). Janelas: M1 em ~2-4h; M2 em ~24h.

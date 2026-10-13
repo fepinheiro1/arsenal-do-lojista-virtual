@@ -1,4 +1,6 @@
-# Sequência de Boas-Vindas — exemplos reais
+# Sequência de Boas-Vindas — exemplos ilustrativos
+
+> Casos de demonstração: diferencial e produto só com o que veio na entrada — efeito e modo de uso de cosmético vêm do rótulo.
 
 ## Exemplo A — Jornada de primeira compra (com saída por compra)
 Entrada:
@@ -19,7 +21,7 @@ E-mail 1 — CUMPRIR A PROMESSA (imediato)
 Assunto: Seu cupom de boas-vindas
 Preheader: E uma palavra rápida sobre o que a gente faz por aqui.
 Corpo: Que bom ter você. Como combinado, seu cupom: [preencher código e valor]. A Raiz Verde
-faz skincare vegano, testado dermatologicamente, em lotes pequenos — fórmula fresca e cuidada.
+faz skincare vegano, testado dermatologicamente, em lotes pequenos.
 Sem pressa: dá uma olhada com calma.
 CTA: Conhecer a loja
 
@@ -27,11 +29,13 @@ E-mail 2 — EDUCAR / AJUDAR A ESCOLHER (quando teve tempo de olhar; ~2 dias)
 Assunto: Por onde começar no skincare natural
 Preheader: Dois passos simples para quem está começando.
 Corpo: Não precisa de dez produtos, precisa dos certos.
-1. Kit de limpeza facial — limpa sem ressecar, para todos os tipos de pele.
-2. Sérum de vitamina C — o passo do viço, para usar de manhã.
+1. Kit de limpeza facial — o primeiro passo de qualquer rotina.
+2. Sérum de vitamina C — o passo seguinte, quando a limpeza já virou hábito.
 Comece por um e sinta como a sua pele responde.
 CTA: Ver o kit de início
-(Este e-mail educa em vez de repetir "use o cupom" — valor antes de pressão.)
+(Este e-mail educa em vez de repetir "use o cupom" — valor antes de pressão. Efeito e modo de
+uso de cada produto — "não resseca", "para todos os tipos de pele", horário do sérum — só entram
+com o rótulo: é claim de cosmético.)
 
 E-mail 3 — LEMBRETE (só se o cupom tiver validade real; ~5 dias; SÓ para quem não comprou)
 Assunto: Seu cupom ainda está com você
@@ -42,6 +46,8 @@ CTA: Usar meu cupom
 
 COMO AGENDAR
 Gatilho: nova inscrição pelo pop-up. Intervalos: E1 imediato; E2 ~2 dias; E3 ~5 dias.
+PLACEHOLDERS A PREENCHER ANTES DE ATIVAR: código e valor do cupom (E1); validade do cupom (E3)
+— se o cupom não tiver validade real, o E3 sai do fluxo; links dos CTAs.
 SAÍDA POR COMPRA (importante): se a pessoa comprar em qualquer ponto, retire-a desta jornada —
 principalmente do E3, para não lembrar de um cupom de primeira compra a quem já comprou. Ela
 deve migrar para o fluxo de pós-compra. Se o contato JÁ for cliente, não use esta jornada —

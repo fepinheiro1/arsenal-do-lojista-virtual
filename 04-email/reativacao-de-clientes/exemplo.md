@@ -1,4 +1,6 @@
-# Reativação de Clientes — exemplos reais
+# Reativação de Clientes — exemplos ilustrativos
+
+> Casos de demonstração: a novidade e o produto só têm os atributos que vieram na entrada.
 
 ## Exemplo A — Durável/discricionário: winback pela novidade (não pelo "não abriu")
 Entrada:
@@ -18,10 +20,10 @@ complemento). A visita recente ao site é um sinal de engajamento melhor que o o
 gatilho, não "quem não abriu".
 
 E-mail 1 — DESCOBRIR (o que mudou)
-Assunto (2 opções): A) Tem equipamento novo pra sua próxima trilha  ·  B) A temporada abriu — e a loja mudou
+Assunto (2 opções): A) Tem equipamento novo pra sua próxima trilha  ·  B) Desde a sua última trilha, a loja mudou
 Preheader: Corta-vento impermeável, cargueiras novas e envio mais rápido.
 Corpo: Desde a sua última trilha com a gente, mudou bastante coisa boa por aqui.
-- Corta-vento impermeável — encara a chuva no caminho sem peso.
+- Corta-vento impermeável — para encarar a chuva no caminho.
 - Mochilas cargueiras — categoria nova, para as travessias mais longas.
 - Envio no mesmo dia — pedidos até 14h saem no mesmo dia.
 Boa hora para dar uma olhada no que é novo.
@@ -29,12 +31,14 @@ CTA: Ver as novidades  → [link real]
 
 E-mail 2 — RECOMENDAR (só para quem NÃO clicou/visitou — não "quem não abriu")
 Gatilho: sem clique nem visita após o e-mail 1 (não a abertura). Papel: outro ângulo do novo.
-Assunto: A cargueira nova já está em estoque
-Corpo: A linha de mochilas cargueiras que faltava chegou. Se a sua próxima aventura é das longas,
+Assunto: As mochilas cargueiras chegaram
+Corpo: A linha nova de mochilas cargueiras chegou. Se a sua próxima aventura é das longas,
 vale conhecer — e o envio no mesmo dia ajuda a chegar tudo a tempo.
 CTA: Conhecer as cargueiras  → [link real]
 
 REGRAS
+(Sem "leve", "em estoque" nem "a temporada abriu": peso, estoque e estação não vieram na entrada.)
+
 Segmento: 2ª compra, 150 dias, durável. SAÍDA: comprou ou clicou/visitou → sai do winback e volta
 ao lifecycle normal. Incentivo: não incluído (não há cupom real); se houver, entra condicional, não
 como isca. Se nem o e-mail 2 gerar sinal, este contato caminha para o fluxo de sunset (exemplo B).
@@ -70,8 +74,9 @@ Corpo: Faz tempo que a gente não se fala. Se ainda quiser novidades e a torra n
 abaixo. Se preferir, dá para ajustar a frequência — ou pausar, sem problema.
 CTA primário: Quero continuar recebendo   ·   Secundário: Ajustar frequência / pausar
 REGRA: se não houver clique/confirmação, este contato sai do marketing ativo (sunset) — não é
-"apagar cliente", é proteger reputação e a caixa de entrada de quem engaja. Aqui o cupom de 10%
-pode entrar como último empurrão, porque o valor de recuperar já compensa o risco de churn real.
+"apagar cliente", é proteger reputação e a caixa de entrada de quem engaja. Se você quiser usar
+o cupom de 10% (a margem permite, você disse), ele vai num e-mail à parte, ANTES desta pergunta —
+nunca dentro da re-permissão, que precisa ser só "quer continuar?". Para o Cliente 1, cupom não.
 ```
 
 > Referência: o mesmo "inativo há 90 dias" vira intervenções diferentes conforme o CICLO e o

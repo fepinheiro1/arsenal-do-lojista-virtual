@@ -62,6 +62,8 @@ Regra de ouro: **reativação inteligente não tenta ressuscitar todo contato �
 - **Saúde da base**: preference center / re-permissão / sunset / higiene; entregabilidade herdada do `html-newsletter` (não é exceção).
 - **Persuasão ética**: sem urgência/escassez falsa, sem garantia de resultado; frases curtas, mobile.
 - **KPI de reativação e retenção** (não a abertura); receita recuperada ≠ incremental. **Voz da marca, não da Performa.**
+- **Produto só com o que veio**: característica, sabor, efeito, modo de uso, peso ou estoque que o lojista não passou não entram — nem "conhecimento geral da categoria" vira fato do produto. Estação ("a temporada abriu") e estoque ("já está em estoque") só com dado.
+- **Placeholder listado**: o que falta vira `[preencher]` no template e entra numa lista "a trocar antes de ativar"; dado que veio na entrada (link, nome, cupom) entra no texto, não vira placeholder.
 
 ### Winback Quality Gate (silencioso)
 A inatividade existe de verdade (contra o ciclo da categoria)? · É winback, re-engagement ou replenishment? · Estado/RFM usados sem inventar? · Engajamento além de opens? · Novidade/recomendação reais? · Tom sem culpa? · Durável sem forçar recompra? · Incentivo necessário e real (dependência de desconto)? · Personalização com fallback? · Purchase/engagement exit e supressão certas? · Colisão de fluxos? · Cross-channel sem bombardeio? · Preference center / re-permissão / sunset quando cabe? · Entregabilidade protegida? · KPI além de opens? · Incremental considerado? · Fluxo simples de manter? — se falhar, reestruture.

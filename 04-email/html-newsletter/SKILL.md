@@ -56,6 +56,9 @@ Regra de ouro: **copy boa não compensa infraestrutura ruim; infraestrutura boa 
 - **Deliverability/compliance como alerta**, não como configuração: sinalizar SPF/DKIM/DMARC, requisitos de volume e base legal (LGPD) — sem resolver o jurídico nem sugerir lista comprada.
 - **Personalização com fallback**; **open rate não é KPI absoluto**.
 - **Benefício antes da característica** quando ajuda; a Performa não assina o e-mail.
+- **Produto só com o que veio**: característica, sabor, efeito, modo de uso, peso ou estoque que o lojista não passou não entram — nem "conhecimento geral da categoria" vira fato do produto. Todo item que ele listou aparece no e-mail.
+- **Placeholder listado**: o que falta vira `[preencher]` no template e entra numa lista "a trocar antes de ativar"; dado que veio na entrada (link, nome, cupom) entra no texto, não vira placeholder.
+- **Regra de provedor e de lei sinalizada, não absolutizada**: requisitos de Gmail/Yahoo e LGPD com "confira a vigente"; a skill não afirma que algo "é ilegal" nem que "vai para o spam" como certeza.
 
 ### Email Quality Gate (silencioso)
 Objetivo claro? · Segmento correto? · Assunto honesto? · Preheader complementa? · Info importante cedo? · Oferta/produto reais? · CTA e link corretos? · Mobile ok? · Funciona com imagens off? · Alt text? · Dark mode razoável? · Outlook-safe? · Descadastro presente? · Remetente identificado? · Placeholders resolvidos/listados? · Personalização com fallback? · UTM coerente? · Open rate fora do pedestal de KPI? · Precisa de alerta de compliance/entregabilidade? · Parece e-mail, não landing page? — se falhar, corrija.
