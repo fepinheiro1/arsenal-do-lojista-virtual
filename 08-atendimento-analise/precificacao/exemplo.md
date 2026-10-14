@@ -1,4 +1,6 @@
-# Precificação — exemplos reais
+# Precificação — exemplos ilustrativos
+
+> Casos de demonstração: só o confirmado vira afirmação; contas conferidas por código.
 
 > Todas as contas abaixo foram feitas por código, com precisão decimal, arredondando só no fim.
 

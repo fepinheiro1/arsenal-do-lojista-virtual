@@ -1,4 +1,6 @@
-# Análise de Concorrente — exemplos reais
+# Análise de Concorrente — exemplos ilustrativos
+
+> Casos de demonstração: só o confirmado vira afirmação; contas conferidas por código.
 
 ## Exemplo A — Posicionamento, só com o que o lojista observou
 Entrada:

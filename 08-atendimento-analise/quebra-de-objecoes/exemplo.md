@@ -1,4 +1,6 @@
-# Quebra de Objeções — exemplos reais
+# Quebra de Objeções — exemplos ilustrativos
+
+> Casos de demonstração: só o confirmado vira afirmação; contas conferidas por código.
 
 ## Exemplo A — Preço com comparação (categoria regulada)
 Entrada:

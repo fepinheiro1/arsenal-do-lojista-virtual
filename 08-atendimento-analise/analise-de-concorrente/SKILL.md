@@ -74,6 +74,7 @@ A skill diz em que **modo** está: com pesquisa na web (quando tem acesso) ou s�
 - **Margem e operação da própria loja** antes de mexer em preço ou frete.
 - **Hipótese testável** na própria loja; comparação entre sites não prova causa.
 - **Saída simples para o lojista**; evidência detalhada sob demanda.
+- **Print que a IA não vê não vira dado**: sem ver, pede os números digitados, com data.
 
 ### Competitive Quality Gate (silencioso — bloqueia)
 Todo fato tem fonte e data? · Alguma hipótese escrita como fato? · Algum número de venda, tráfego ou orçamento inventado? · Os produtos comparados são equivalentes e normalizados? · Preço desatualizado tratado como atual? · Total com frete inventado? · Ausência tratada como prova? · Causa inventada ("vende mais porque...")? · Recomendação de cópia ou difamação? · Acesso fora dos termos? · Margem própria considerada? · Ações proporcionais à evidência? — se falhar, corrija.

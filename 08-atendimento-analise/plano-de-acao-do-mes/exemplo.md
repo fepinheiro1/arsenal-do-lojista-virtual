@@ -1,4 +1,6 @@
-# Plano de Ação do Mês — exemplos reais
+# Plano de Ação do Mês — exemplos ilustrativos
+
+> Casos de demonstração: só o confirmado vira afirmação; contas conferidas por código.
 
 > As contas foram feitas por código. Nenhum resultado é promessa.
 
@@ -25,8 +27,9 @@ origem de cada venda — e hoje isso não é medido.
 
 Plano (cabe em ~20 h/semana da assistente + parte do tempo da lojista)
 Ação                                   | Dono       | Semana | Entrega / concluído quando       | Medir / vigiar               | Skill de apoio
-1. Conferir a medição: eventos de      | lojista    | 1      | os 4 eventos aparecem e batem    | % de abandono REAL /          | (tarefa manual)
-   carrinho, checkout e compra         |            |        | com os pedidos da plataforma     | pedidos plataforma × GA4      |
+1. Conferir a medição: eventos de      | lojista    | 1      | os 4 eventos aparecem; compras   | % de abandono REAL /          | (tarefa manual)
+   visualização, carrinho, checkout    |            |        | batem com os pedidos da          | pedidos plataforma × GA4      |
+   e compra                            |            |        | plataforma                       |                               |
 2. Ligar a recuperação de carrinho     | assistente | 1–2    | fluxo ativo, com saída na compra | carrinhos que voltaram (não é | recuperacao-de-carrinho
    (e-mail, com consentimento)         |            |        | e sem cupom por padrão           | receita a mais) / reclamações |
 3. Reescrever os 5 produtos mais       | assistente | 2–3    | 5 páginas com fatos do rótulo,   | carrinho ÷ visualização das 5 | descricao-que-converte,

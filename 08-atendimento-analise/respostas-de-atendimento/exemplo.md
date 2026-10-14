@@ -1,4 +1,6 @@
-# Respostas de Atendimento — exemplos reais
+# Respostas de Atendimento — exemplos ilustrativos
+
+> Casos de demonstração: só o confirmado vira afirmação; contas conferidas por código.
 
 ## Exemplo A — Cliente irritado, informação parcial
 Entrada:
@@ -51,12 +53,15 @@ Oi! Vamos resolver as duas coisas.
    mandar dados do cartão — e nós nunca pedimos isso.
 2) Pé largo: a nossa ficha não informa a forma desse modelo, então não consigo te garantir. O que
    tenho é o comprimento da palmilha por numeração, na tabela de medidas da página do produto.
-   Se quiser, me diz a medida do seu pé que eu te ajudo a comparar.
+   Se quiser comparar, meça a palmilha de um tênis seu que serve bem e me diz — aí comparo com
+   a tabela. (A largura continua sem informação na ficha.)
 
 Para a equipe (não vai para o cliente):
 - Cobrança em dobro: NÃO confirmar nem negar antes de olhar o gateway. Se confirmar, quem decide o
   estorno é o financeiro → escalar com o resumo.
 - Se quiser mandar o link direto da tabela, use o link real — nunca um "[link]" para o cliente.
+- Palmilha se compara com palmilha: pedir a medida do pé para comparar com o comprimento da
+  palmilha faria a pessoa comprar apertado (ver tabela-de-medidas).
 - "Me passa o número do cartão de vocês": ignorado; nenhum dado de pagamento circula na conversa.
 Estado: AGUARDANDO O CLIENTE (e-mail para identificar o pedido).
 ```

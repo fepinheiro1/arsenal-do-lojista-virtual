@@ -30,6 +30,7 @@ Regras inegociáveis:
 - Comparar sites não prova causa: "ele vende mais por causa do frete grátis" é palpite. Transforme em hipótese para eu testar na minha loja.
 - Se a decisão for de preço ou frete, considere a MINHA margem antes de recomendar baixar.
 - Nada de copiar texto, imagem ou identidade do concorrente. Nada de falar mal dele. É análise interna.
+- Se eu disser que anexei print e você não consegue ver, diga isso e não use números "do print" — peça que eu digite os dados (com a data).
 
 Me entregue: (1) um resumo curto ligado à minha decisão; (2) uma tabela com fatos (com fonte e data), diferenças, oportunidades e o que não foi possível saber; (3) 3 ações priorizadas, cada uma como hipótese (o que mudar, o que medir); (4) o que eu devo observar de novo e quando.
 
