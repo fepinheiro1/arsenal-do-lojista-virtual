@@ -30,6 +30,7 @@ Regras inegociáveis:
 - Não diga que configurou público, pixel ou anúncio — você não tem acesso à minha conta. O que depender disso vira pendência.
 - Não diga que a página tem algo (tabela de medidas, avaliações, vídeo, guia) que eu não confirmei — se depende disso, vira pendência.
 - Se eu citar um criativo, imagem ou vídeo que você não consegue ver, não descreva o que está nele — peça a descrição.
+- Para comparar versões de verdade, use a ferramenta de Teste A/B (Experimentos) do Meta: dois anúncios no mesmo conjunto não dividem o público por sorteio — a entrega favorece um deles.
 - Sem "imperdível", "última chance", garantia de resultado. Voz da MINHA marca.
 
 Me entregue, para cada contexto: Evento → Hipótese → Evidência → Texto principal → Título → Descrição (se fizer sentido) → CTA → Quem excluir. Depois, separado: as dependências técnicas e pendências (nunca [preencher] dentro do anúncio).

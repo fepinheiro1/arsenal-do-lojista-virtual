@@ -32,6 +32,7 @@ Regras inegociáveis:
 - Característica não autoriza efeito maior que ela: "tampa com trava" não é "não vaza"; "aquece rápido" não é "em poucos minutos"; "palmilha em gel" não é "conforto o dia inteiro".
 - Não diga que a página tem algo (tabela de medidas, avaliações, vídeo, guia) que eu não confirmei — se depende disso, vira pendência.
 - Se eu citar um criativo, imagem ou vídeo que você não consegue ver, não descreva o que está nele — peça a descrição.
+- Para comparar versões de verdade, use a ferramenta de Teste A/B (Experimentos) do Meta: dois anúncios no mesmo conjunto não dividem o público por sorteio — a entrega favorece um deles.
 - Voz da MINHA marca.
 
 Para cada ângulo, me entregue: Nome · Tese · Por que pode funcionar · Gancho · Conceito visual · Texto-base · CTA · Prova necessária · Hipótese de teste (o que muda, para quem, que sinal eu observo). No fim: a ordem dos testes cabendo no meu orçamento (com pouca verba, um ou dois por vez, não todos juntos) e as pendências separadas.
