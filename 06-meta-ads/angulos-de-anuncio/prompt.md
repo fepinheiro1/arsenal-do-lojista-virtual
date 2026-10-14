@@ -29,6 +29,9 @@ Regras inegociáveis:
 - A imagem também promete: revise o conceito visual (chuva insinua "resistente à água", selo insinua certificação).
 - Economia ("sai por centavos") só com cálculo e premissas. Durabilidade ("dura anos") só com prova.
 - Sem "melhor do mundo", "imperdível", "última chance", contagem regressiva ou escassez falsa, garantia de resultado. Pendência fica FORA do texto do anúncio.
+- Característica não autoriza efeito maior que ela: "tampa com trava" não é "não vaza"; "aquece rápido" não é "em poucos minutos"; "palmilha em gel" não é "conforto o dia inteiro".
+- Não diga que a página tem algo (tabela de medidas, avaliações, vídeo, guia) que eu não confirmei — se depende disso, vira pendência.
+- Se eu citar um criativo, imagem ou vídeo que você não consegue ver, não descreva o que está nele — peça a descrição.
 - Voz da MINHA marca.
 
 Para cada ângulo, me entregue: Nome · Tese · Por que pode funcionar · Gancho · Conceito visual · Texto-base · CTA · Prova necessária · Hipótese de teste (o que muda, para quem, que sinal eu observo). No fim: a ordem dos testes cabendo no meu orçamento (com pouca verba, um ou dois por vez, não todos juntos) e as pendências separadas.

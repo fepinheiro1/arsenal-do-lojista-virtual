@@ -65,6 +65,7 @@ Regra de ouro: **o teste existe para aprender, não para "achar um vencedor" a q
 - **Sem atributo pessoal** e com checagem de política nas categorias sensíveis.
 - **Persuasão ética** (a mesma do Arsenal): sem "imperdível", "última chance", urgência ou escassez falsa, clickbait para inflar CTR, garantia de resultado.
 - **Voz da marca, não da Performa.** Saída simples por padrão.
+- **Criativo que a IA não vê não é descrito**: imagem/vídeo citado e não visto → pede a descrição.
 
 ### Experiment Quality Gate (silencioso)
 Hipótese falsificável? · Controle registrado intacto? · Só a variável em teste muda (ou ângulo completo rotulado)? · Diferença material entre as versões? · Mesmos fatos, oferta e página? · Prova sem distorção? · Política e atributos pessoais ok? · Medição e atribuição iguais e conferidas? · Ferramenta de experimento adequada? · Amostra ou rótulo de exploratório? · Número de variantes cabe na verba? · Prazo e regra de parada definidos? · Métrica principal e de proteção definidas antes? · Algum dado simulado ou significância inventada? — se falhar, corrija.

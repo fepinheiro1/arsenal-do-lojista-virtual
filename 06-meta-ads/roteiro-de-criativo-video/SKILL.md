@@ -69,6 +69,8 @@ Faltou dado? A skill pergunta só o que muda o roteiro e marca o resto como pend
 - **Automação** revisada na prévia.
 - **Persuasão ética** (a mesma do Arsenal): sem "melhor do mundo", "imperdível", "última chance", urgência ou escassez falsa, garantia de resultado.
 - **Gravável** por quem tem só um celular. **Voz da marca, não da Performa.**
+- **Característica não vira efeito maior**: "tampa com trava" ≠ "não vaza"; "aquece rápido" ≠ "em poucos minutos"; "palmilha em gel" ≠ "conforto o dia inteiro".
+- **Criativo que a IA não vê não é descrito**: imagem/vídeo citado e não visto → pede a descrição.
 
 ### Video Quality Gate (silencioso)
 Produto e variante fiéis? · Alguma função ou resultado inventado? · Prova real e autorizada? · Antes/depois ou claim sensível sem evidência? · Atributo pessoal presumido? · O gancho entrega o que promete? · Cada bloco avança algo? · Funciona sem som? · Texto, rosto, produto e CTA fora da zona da interface? · Versão certa para cada posicionamento? · Música e imagem com direito de uso? · CTA existe no objetivo e no destino? · Página coerente? · Dá para gravar com os recursos informados? · Hipótese de teste definida? · Algum resultado prometido? — se falhar, corrija.

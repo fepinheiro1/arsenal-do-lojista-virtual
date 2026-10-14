@@ -1,4 +1,6 @@
-# Roteiro de Criativo em Vídeo (anúncio pago) — exemplos reais
+# Roteiro de Criativo em Vídeo (anúncio pago) — exemplos ilustrativos
+
+> Casos de demonstração: o anúncio só afirma o que veio na entrada — o que depende de confirmação fica fora do texto.
 
 ## Exemplo A — Demonstração real, com zona segura e versão para o Feed
 Entrada:

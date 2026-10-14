@@ -1,4 +1,6 @@
-# Ângulos de Anúncio — exemplos reais
+# Ângulos de Anúncio — exemplos ilustrativos
+
+> Casos de demonstração: o anúncio só afirma o que veio na entrada — o que depende de confirmação fica fora do texto.
 
 ## Exemplo A — Dados bons, com uma limitação que muda a decisão
 Entrada:
@@ -25,7 +27,7 @@ Antes dos ângulos, duas correções de verdade do produto:
 Tese: ver como é simples faz a pessoa se imaginar fazendo.
 Por que pode funcionar: o produto tem uma ação visual clara (montar, encher, levar ao fogo, o café
   subindo) e o atendimento mostra dúvida sobre como usar.
-Gancho: Água, pó, fogão. Em poucos minutos, o café sobe.
+Gancho: Água, pó, fogão. E o café sobe.
 Conceito visual: vídeo vertical, mãos montando a moka e o café subindo, em fogão a gás (o tipo de
   fogão aparece, para não insinuar compatibilidade que não existe).
 Texto-base: Sem filtro de papel e sem cápsula: só a moka, o pó e o fogão. A válvula de segurança
@@ -107,10 +109,10 @@ Hipótese: quem já pesquisa ativos responde ao ingrediente e à concentração.
 ÂNGULO 2 — Objeção real: a textura
 Gancho: Como é a textura? Veja na mão.
 Conceito visual: o sérum aplicado no dorso da mão, mostrando a textura real, sem filtro.
-Texto-base: [só depois de confirmar com o fabricante como é a textura — se for "leve, de rápida
-  absorção", isso entra; se não houver informação, o vídeo mostra e o texto não afirma]
+Texto-base: Veja a textura do sérum na mão, sem filtro. A composição completa está na página.
 Hipótese: responder a dúvida mais frequente reduz a hesitação. Sinal: conversão.
-(Observação: o texto-base do ângulo 2 NÃO está pronto para publicar — depende da confirmação.)
+(O texto mostra e não afirma: "leve" ou "de rápida absorção" só entram se o fabricante
+declarar — pendência abaixo.)
 
 Só 2 ângulos: sem prova social e sem resultado comprovado, o resto seria invenção.
 Pendências: ficha técnica com a textura; avaliações (quando houver, com autorização); revisão de
@@ -137,7 +139,8 @@ Se for o frete, ângulos novos não resolvem — e trocar o criativo agora ainda
 que mudou. Ângulos novos fazem sentido quando a frequência sobe e o CTR cai.
 ```
 
-> Referência: só entram ângulos que os fatos sustentam e que são de fato diferentes; a limitação
+> Referência: só entram ângulos que os fatos sustentam e que são de fato diferentes ("aquece
+> rápido" não vira "em poucos minutos"); a limitação
 > do produto (indução) aparece em vez de ser escondida; a prova é citada sem distorção; não existe
 > cliente inventada; o anúncio fala do produto, nunca da condição de quem vê; o visual também
 > passa pela checagem; os testes cabem no orçamento; e "o criativo cansou" é investigado antes de

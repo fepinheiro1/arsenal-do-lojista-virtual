@@ -1,4 +1,6 @@
-# Texto de Retargeting — exemplos reais
+# Texto de Retargeting — exemplos ilustrativos
+
+> Casos de demonstração: o anúncio só afirma o que veio na entrada — o que depende de confirmação fica fora do texto.
 
 ## Exemplo A — Verba curta, objeção com e sem evidência
 Entrada:
@@ -25,12 +27,13 @@ Excluir: quem comprou nos últimos 30 dias (a exclusão tem atraso; aceitar algu
 
 MENSAGEM 1 — Numeração (evidência: atendimento)
 Hipótese: a dúvida de tamanho trava parte das compras.
-Texto principal: Tênis casual de couro, com troca de numeração em até 30 dias. Na página tem a
-  tabela de medidas para escolher o número com calma. 4,7 de 5 em 800 avaliações.
+Texto principal: Tênis casual de couro, com troca de numeração em até 30 dias — dá para escolher
+  o número com tranquilidade. 4,7 de 5 em 800 avaliações.
 Título: Troca de numeração em até 30 dias
-Descrição: Tabela de medidas na página.
+Descrição: Couro, 4,7 de 5 em 800 avaliações.
 CTA: Ver produto
-Prova: a política de troca e a tabela de medidas real (conferir se está na página).
+Prova: a política de troca e as avaliações. Se a página tiver tabela de medidas, vale citar
+  ("tabela de medidas na página") — a entrada não diz que tem, então ficou fora.
 
 MENSAGEM 2 — Condições de compra (hipótese: frete/pagamento)
 Hipótese: deixar claras as condições ajuda quem estava decidindo. Ainda NÃO se sabe se o frete

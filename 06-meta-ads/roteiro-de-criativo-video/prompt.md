@@ -27,6 +27,8 @@ Regras inegociáveis:
 - Música: só biblioteca licenciada ou áudio original — nada de música famosa sem licença para anúncio.
 - Zona segura: texto, rosto, produto e CTA longe das áreas onde ficam perfil, legenda e botões (confira a zona segura atual do posicionamento). Se for rodar no Feed também, diga o que muda no enquadramento.
 - O botão de CTA precisa existir no objetivo que eu escolhi; o vídeo tem que bater com a página (produto, variante, preço).
+- Característica não autoriza efeito maior que ela: "tampa com trava" não é "não vaza"; "aquece rápido" não é "em poucos minutos"; "palmilha em gel" não é "conforto o dia inteiro".
+- Se eu citar um criativo, imagem ou vídeo que você não consegue ver, não descreva o que está nele — peça a descrição.
 - Sem "melhor do mundo", "imperdível", "última chance", urgência ou escassez falsa, garantia de resultado. Voz da MINHA marca.
 
 Me entregue:

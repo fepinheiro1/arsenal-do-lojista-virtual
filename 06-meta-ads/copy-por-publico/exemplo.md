@@ -1,4 +1,6 @@
-# Copy por Público — exemplos reais
+# Copy por Público — exemplos ilustrativos
+
+> Casos de demonstração: o anúncio só afirma o que veio na entrada — o que depende de confirmação fica fora do texto.
 
 ## Exemplo A — Mesmo produto, motivos diferentes (sem prometer alívio de dor)
 Entrada:
@@ -38,7 +40,7 @@ Argumento: características que importam para quem fica muitas horas em pé, sem
 Texto principal: Para rotinas com muitas horas em pé: palmilha em gel e solado antiderrapante, num
   tênis de couro que vai bem no trabalho. Experimente — se a numeração não servir, a troca é em
   até 30 dias.
-Título: Palmilha em gel para o dia inteiro
+Título: Palmilha em gel e solado antiderrapante
 Descrição: Troca de numeração em até 30 dias.
 CTA: Comprar agora
 Prova usada: as características (palmilha em gel, antiderrapante) e a troca.
@@ -83,7 +85,7 @@ As avaliações reais mostram dois motivos (nível de evidência: derivado de av
 
 MENSAGEM 1 — Levar bebida gelada para o trabalho
 Texto principal: Garrafa térmica de inox de 500 ml: segundo o fabricante, mantém a bebida gelada
-  por até 12 horas. A tampa tem trava, para ir na bolsa sem preocupação.
+  por até 12 horas. A tampa tem trava, para não abrir dentro da bolsa.
 Título: Gelada por até 12 h, segundo o fabricante
 Descrição: Inox, 500 ml, tampa com trava.
 CTA: Comprar agora
@@ -95,9 +97,10 @@ Texto principal: 500 ml de inox com tampa com trava, para levar na mochila do tr
 Título: Inox e tampa com trava para o treino
 Descrição: 500 ml.
 CTA: Comprar agora
-Hipótese: para quem treina, a trava (não vazar na mochila) pesa mais que o tempo térmico.
+Hipótese: para quem treina, a trava (a tampa não abrir na mochila) pesa mais que o tempo térmico.
 
-(Fora: "cabe no porta-copo do carro" e "não sua" — não foram informados.)
+(Fora: "cabe no porta-copo do carro", "não sua" e "não vaza" — não foram informados; trava
+impede a tampa de abrir, não é teste de vedação.)
 Nenhuma das duas fala da idade, do gênero ou de um papel da leitora. Funcionam para qualquer um
 que as veja.
 ```

@@ -28,6 +28,8 @@ Regras inegociáveis:
 - A copy tem que fazer sentido para QUALQUER pessoa que a veja (a Meta pode entregar fora do público que eu imaginei). Teste: tirando o nome da persona, o anúncio continua compreensível e respeitoso?
 - Não precisa um conjunto de anúncios por público — você cria as mensagens; a estrutura da campanha é outra decisão.
 - A descrição não aparece em todos os posicionamentos: nada essencial só nela. Sem limite fixo de frases; título curto e claro (confira o limite no Gerenciador). CTA entre as opções que o formato oferece.
+- Característica não autoriza efeito maior que ela: "tampa com trava" não é "não vaza"; "aquece rápido" não é "em poucos minutos"; "palmilha em gel" não é "conforto o dia inteiro".
+- Não diga que a página tem algo (tabela de medidas, avaliações, vídeo, guia) que eu não confirmei — se depende disso, vira pendência.
 - Sem "melhor do mundo", "imperdível", "última chance", escassez falsa ou garantia de resultado. Voz da MINHA marca em todas as versões.
 
 Para cada mensagem (2 a 4, só as diferentes de verdade), me entregue: Contexto/motivo (com o nível de evidência) · Argumento · Texto principal · Título · Descrição · CTA · Prova usada · Hipótese de teste. No fim, as pendências e avisos de política separados.

@@ -28,6 +28,8 @@ Regras inegociáveis:
 - Diga como rodar: a ferramenta de Teste A/B / Experimentos do Meta divide o público de verdade; dois anúncios no mesmo conjunto não são um teste justo. Não mexer no teste no meio. Mesma janela de atribuição.
 - Regra de parada definida antes; duração cobrindo a semana inteira; evitar promoção ou mudança de preço no meio.
 - Sem atributo pessoal do leitor, sem urgência falsa, sem clickbait para inflar CTR. Voz da MINHA marca.
+- Se eu citar um criativo, imagem ou vídeo que você não consegue ver, não descreva o que está nele — peça a descrição.
+- Ao ler resultado, faça as contas (custo por compra, diferença) com cuidado — se puder executar código, use código — e não declare vencedor sem volume.
 
 Me entregue: A (como está) + o que precisa corrigir · variável e por quê · B (e C só se fizer sentido), cada uma com texto completo, o que mudou e a hipótese · métrica principal e de proteção · o que fica igual · como rodar, duração e regra de parada · se o teste é exploratório (pouca verba).
 

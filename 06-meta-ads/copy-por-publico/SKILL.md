@@ -66,6 +66,8 @@ Em **lote**: cada SKU com a própria verdade, sem transplantar benefício de um 
 - **Persuasão ética** (a mesma do Arsenal): sem "melhor do mundo", "imperdível", "última chance", escassez falsa, garantia de resultado.
 - **Medição honesta**: CTR não decide sozinho, amostra pequena não declara vencedor, ROAS ≠ lucro.
 - **Voz da marca, não da Performa.**
+- **Característica não vira efeito maior**: "tampa com trava" ≠ "não vaza"; "aquece rápido" ≠ "em poucos minutos"; "palmilha em gel" ≠ "conforto o dia inteiro".
+- **Não afirma o que a página tem sem confirmar**: tabela de medidas, avaliações, vídeo ou guia só entram no texto se o lojista confirmou que existem.
 
 ### Audience Message Quality Gate (silencioso)
 Produto (SKU) correto e igual em todas as mensagens? · Oferta real? · Prova real? · Motivo de compra identificável? · Mensagens realmente diferentes? · Mesma voz de marca? · Algum atributo sensível presumido? · Algum estereótipo? · Promessa textual e visual sustentável? · CTA coerente e disponível? · Página compatível? · Leitura boa no celular? · Faz sentido sem o rótulo da persona? · Algum ganho de desempenho prometido? · Evidência separada de hipótese? — se falhar, corrija ou sinalize a dependência.

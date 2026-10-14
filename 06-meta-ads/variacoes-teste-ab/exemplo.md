@@ -1,4 +1,6 @@
-# Variações para Teste A/B — exemplos reais
+# Variações para Teste A/B — exemplos ilustrativos
+
+> Casos de demonstração: o anúncio só afirma o que veio na entrada — o que depende de confirmação fica fora do texto.
 
 ## Exemplo A — Desenhar o teste (controle com problemas, verba curta)
 Entrada:
