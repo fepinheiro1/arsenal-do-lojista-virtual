@@ -1,4 +1,6 @@
-# Otimização de Checkout — exemplos reais
+# Otimização de Checkout — exemplos ilustrativos
+
+> Casos de demonstração: cada achado diz de onde veio (visto, medido, informado, hipótese); contas conferidas por código.
 
 ## Exemplo A — Auditoria por descrição (relato, não navegação)
 Entrada:

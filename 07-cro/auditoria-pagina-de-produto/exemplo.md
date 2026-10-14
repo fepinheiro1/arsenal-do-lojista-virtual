@@ -1,4 +1,6 @@
-# Auditoria de Página de Produto — exemplos reais
+# Auditoria de Página de Produto — exemplos ilustrativos
+
+> Casos de demonstração: cada achado diz de onde veio (visto, medido, informado, hipótese); contas conferidas por código.
 
 ## Exemplo A — Só texto colado (muita coisa fica "não verificado")
 Entrada:
@@ -52,7 +54,7 @@ TESTAR (se houver tráfego): galeria com foto de escala e de uso × galeria atua
   devoluções.
 Pendências: capacidade em xícaras, desligamento automático e material da jarra (fabricante);
   frete e prazo; prints da página.
-Já está bom: preço e parcelamento claros; nota 4,7 real.
+Já está bom: preço e parcelamento claros; nota 4,7 em 12 avaliações (informada — vale mostrar com a distribuição).
 ```
 
 ## Exemplo B — Prints do celular, dados do funil e queixa do atendimento

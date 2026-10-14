@@ -31,6 +31,8 @@ Regras inegociáveis:
 - Sem fila falsa, "X pessoas vendo agora", recusa humilhante, "corra", "não perca", ameaça de arrependimento.
 - Se o dado faltar, atrasar ou se contradizer: a urgência sai e fica uma mensagem neutra. Me diga qual.
 - Todos os canais usam o MESMO fato. Pendência fica fora do texto pronto.
+- O limite de "estoque baixo" (a partir de quantas unidades mostrar o aviso) é decisão minha: se eu não disser, pergunte ou use um exemplo dizendo que é exemplo.
+- Dado que eu informei e você não conferiu (nota, número de pedidos, lote) é "informado", não "verificado" nem "real".
 
 Me entregue, para cada mensagem: o fato (com a fonte), a mensagem curta, onde usar, quando ela sai do ar, a mensagem neutra no lugar e as pendências. Se eu pedir, as regras para o desenvolvedor (atualização do dado, remoção automática, cache, fuso, casos de teste).
 

@@ -1,4 +1,6 @@
-# Oferta e Pop-up de Saída — exemplos reais
+# Oferta e Pop-up de Saída — exemplos ilustrativos
+
+> Casos de demonstração: cada achado diz de onde veio (visto, medido, informado, hipótese); contas conferidas por código.
 
 ## Exemplo A — Exibir, com consentimento separado e grupo de controle
 Entrada:

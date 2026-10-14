@@ -73,6 +73,8 @@ Sem fato confirmado, a skill avisa e propõe a alternativa (benefício, diferenc
 - **Medição com controle**, margem como métrica, sem condição inventada.
 - **Nada inventado**: número, data, hora, lote, reposição, preço anterior. Pendência fica fora do texto pronto.
 - **Voz da marca, não da Performa**, em tom calmo e confiante.
+- **Informado ≠ verificado**: nota, número de pedidos, tamanho de lote que vieram do lojista são "informados"; "verificado" só o que veio do sistema ou de fonte conferida.
+- **Limite de "estoque baixo" é da loja**: sem o número definido pelo lojista, a skill pergunta ou usa um exemplo declarado.
 
 ### Urgency Quality Gates (silenciosos)
 **Factual:** valor sem fonte? · data ou hora expirada? · estoque somado usado como se fosse da variante? · exclusividade ou "sem reposição" sem prova? · preço anterior sem histórico? · "última chance" em promoção recorrente? · expedição tratada como entrega? · carrinho tratado como reserva?

@@ -28,6 +28,9 @@ Regras inegociáveis:
 - Selo só válido e aplicável a este produto ou a esta loja. Nada de "100% seguro". Política de troca é confiança, não é depoimento.
 - Imagem feita por IA nunca como foto de cliente.
 - Não marque estrelas nos dados para o Google em página sem avaliação real.
+- Dado que eu informei e você não conferiu (nota, número de pedidos) é "informado", não "verificado" nem "real".
+- Nome ou dado que não veio (marketplace, gateway, ano, data) não vira `[colchete]` dentro do texto pronto: escreva o texto publicável sem ele e liste a pendência à parte.
+- Se eu disser que anexei print, foto ou gravação e você não consegue ver, diga isso e trate o que dependeria dele como NÃO VERIFICADO — nunca descreva o que não viu.
 
 Me entregue: (1) inventário — cada prova com estado, fonte e o que pode ser mostrado; (2) onde usar cada uma (qual dúvida responde) e o texto de apresentação; (3) o que corrigir no que já está no ar; (4) se a prova for pouca, um plano de coleta honesto; (5) pendências.
 

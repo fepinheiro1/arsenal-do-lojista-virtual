@@ -29,6 +29,7 @@ Regras inegociáveis:
 - Olhe o celular: teclado certo, botão visível com o teclado aberto, erro junto do campo, nada se apagando depois de um erro. E acessibilidade.
 - Se eu passar números de fontes diferentes (GA4, plataforma, gateway), reconcilie antes de concluir — eles quase nunca batem.
 - Não prometa "+X% de conversão".
+- Se eu disser que anexei print, foto ou gravação e você não consegue ver, diga isso e trate o que dependeria dele como NÃO VERIFICADO — nunca descreva o que não viu.
 
 Me entregue:
 1. O que você examinou + resumo simples (onde trava e com que certeza).

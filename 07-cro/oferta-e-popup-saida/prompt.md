@@ -28,6 +28,7 @@ Regras inegociáveis:
 - Receber o cupom ≠ aceitar marketing: se eu for usar o e-mail ou o WhatsApp para promoções, o consentimento é separado, claro e não pré-marcado.
 - Fechar tem que ser fácil: botão visível, funciona no toque, no teclado e no Esc. No celular, cabe na tela e não cobre o que importa.
 - Medição: primeiro testar COM pop-up × SEM pop-up (grupo de controle). Compra depois do pop-up não prova que ele causou a compra. E-mail capturado não é venda.
+- Nome ou dado que não veio (marketplace, gateway, ano, data) não vira `[colchete]` dentro do texto pronto: escreva o texto publicável sem ele e liste a pendência à parte.
 - Voz da MINHA marca.
 
 Me entregue: (1) a decisão e o porquê; (2) se exibir: quem vê, gatilho no computador e no celular, frequência e quando não mostrar, a oferta com a conta, o texto (título, apoio, botão, recusa) + 2 variações de título, o consentimento; (3) como medir (com grupo sem pop-up); (4) pendências.

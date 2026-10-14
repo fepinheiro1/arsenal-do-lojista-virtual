@@ -1,4 +1,6 @@
-# Urgência Honesta — exemplos reais
+# Urgência Honesta — exemplos ilustrativos
+
+> Casos de demonstração: cada achado diz de onde veio (visto, medido, informado, hipótese); contas conferidas por código.
 
 ## Exemplo A — Escassez real, por variante, com remoção automática
 Entrada:
@@ -20,9 +22,11 @@ Estoque do 39 = 1        | verificado | "Última unidade no 39"                 
                          |            | (só com o 39 selecionado)               | no 39"                  |
 Estoque do 40 = 2        | verificado | "Restam 2 no 40"                        | o 40 zerar ou o dado    | (nada)
                          |            |                                         | falhar                  |
-41 = 3                   | verificado | sem selo (3 não é "baixo" por padrão    | —                       | —
-                         |            | nesta loja; o limite é decisão da loja) |                         |
-Edição de 200 pares      | verificado | "Edição limitada de 200 pares"          | —                       | —
+41 = 3                   | verificado | sem selo — o limite de "estoque baixo"  | —                       | —
+                         |            | é decisão da loja e não veio; aqui usei |                         |
+                         |            | "até 2" como exemplo (confirmar)        |                         |
+Edição de 200 pares      | informado  | "Edição limitada de 200 pares" (depois  | —                       | —
+                         |            | de conferir o tamanho do lote)          |                         |
 Sem reposição            | pendente   | NÃO publicar até o lojista confirmar    | —                       | "Edição limitada de 200 pares"
 
 Carrinho: "Edição limitada · Restam 2 no 40". Nada de "você está levando uma das últimas" — o
@@ -53,9 +57,10 @@ Contador que reinicia          | bloqueio  | contador ligado ao prazo final no s
                                |           | "Oferta válida até 23h59 de 27/11 (horário de Brasília)"
 "Última chance" (promoção      | bloqueio  | remover. Se quiser destacar: "Preços desta seleção
  mensal)                       |           | válidos até 23h59 de 27/11"
-"Entrega garantida até o Natal"| bloqueio  | "Pedidos com pagamento aprovado até [data e hora de corte]
-                               |           | são expedidos até [data]. Prazo de entrega no cálculo de
-                               |           | frete pelo seu CEP." (datas confirmadas com a logística)
+"Entrega garantida até o Natal"| bloqueio  | tirar hoje. Quando a logística confirmar o corte, entra:
+                               |           | "Pedidos com pagamento aprovado até 23h59 de 18/12 são
+                               |           | expedidos até 20/12. O prazo de entrega aparece no cálculo
+                               |           | de frete pelo seu CEP." (datas de EXEMPLO — usar as reais)
 "Frete grátis" vencido no cache| bloqueio  | tirar hoje e invalidar o cache; a faixa deve sair sozinha
                                |           | quando a ação expira
 "De R$ 399" sem histórico      | bloqueio  | remover o "de". Mostrar só o preço atual, ou o "de" real

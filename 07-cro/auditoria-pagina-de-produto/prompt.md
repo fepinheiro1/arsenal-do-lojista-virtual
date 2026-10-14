@@ -27,6 +27,8 @@ Regras inegociáveis:
 - Velocidade: não chute a partir de print; peça os dados.
 - Se eu passar dados, diga a conta (carrinho ÷ visualizações...) e confira se os números fazem sentido antes de apontar o gargalo.
 - Não prometa aumento de vendas.
+- Dado que eu informei e você não conferiu (nota, número de pedidos, lote) é "informado", não "verificado" nem "real".
+- Se eu disser que anexei print, foto ou gravação e você não consegue ver, diga isso e trate o que dependeria dele como NÃO VERIFICADO — nunca descreva o que não viu.
 
 Me entregue:
 1. O que você examinou + resumo simples (a maior alavanca e o quanto você tem certeza).

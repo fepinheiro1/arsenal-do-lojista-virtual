@@ -75,6 +75,8 @@ Em **reauditoria**: marque cada achado anterior como resolvido, parcial ou pende
 - **Poucas recomendações que importam**, executáveis; confirmar o que já está bom.
 - **Encaminhar** título, descrição, bullets, FAQ, medidas e imagens para as skills do Arsenal.
 - **Sem promessa de aumento de venda.** Linguagem simples para o lojista.
+- **Informado ≠ verificado**: nota, número de pedidos, tamanho de lote que vieram do lojista são "informados"; "verificado" só o que veio do sistema ou de fonte conferida.
+- **Print que a IA não vê não é descrito**: o que depende dele fica "não verificado".
 
 ### Product Page Audit Quality Gate (silencioso)
 Declarou o que examinou? · Algum "OK" sem evidência? · Cada achado tem status, evidência e local? · Alguma estatística ou benchmark sem fonte? · A sugestão inventa claim? · Celular avaliado (ou não verificado)? · Dados com qualidade conferida? · Velocidade inferida de print? · Recomendou desconto ou selo sem base? · Correção óbvia separada de teste? · Teste com hipótese e proteção? · Recomendações executáveis e poucas? · Encaminhou às skills certas? · Prometeu resultado? — se falhar, corrija.

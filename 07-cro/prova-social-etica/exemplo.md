@@ -1,4 +1,6 @@
-# Prova Social Ética — exemplos reais
+# Prova Social Ética — exemplos ilustrativos
+
+> Casos de demonstração: cada achado diz de onde veio (visto, medido, informado, hipótese); contas conferidas por código.
 
 ## Exemplo A — Pouca prova no site: inventário, apresentação e coleta sem filtro
 Entrada:
@@ -29,10 +31,12 @@ APRESENTAÇÃO (pela dúvida de quem compra)
 - Perto do preço (decisão): "4,9 de 5 · 9 avaliações", com a distribuição ao abrir.
 - Bloco de avaliações (consideração), rótulo "Quem usa no dia a dia":
   "Uso todo dia no metrô e me sinto tranquila. O compartimento esconde bem o zíper." — Renata
-  Logo abaixo: "Também avaliada no [marketplace]: 4,7 em 130 avaliações (cores preta e cinza) →
+  Logo abaixo: "Também avaliada no marketplace: 4,7 em 130 avaliações (cores preta e cinza) →
   ver lá". É link e não soma com as notas do site.
-- Bloco de confiança (separado, sem chamar de prova social): garantia de 6 meses do fabricante;
-  pagamento processado pelo gateway [nome]. Sem "100% seguro".
+- Bloco de confiança (separado, sem chamar de prova social): "Garantia de 6 meses do fabricante."
+  e as formas de pagamento aceitas. Sem "100% seguro".
+(O nome do marketplace e o do gateway não vieram: se quiser citá-los, entram no lugar de "no
+marketplace" — o texto acima já pode ir ao ar sem eles.)
 
 CORREÇÃO NO PLANO DE COLETA
 "Quem responder bem, convide a avaliar" é review gating: só quem está satisfeito chegaria à
@@ -59,8 +63,10 @@ Na página do tênis VERMELHO:
 Saída:
 ```
 Evidência                 | Risco                                   | Correção                      | Prior.
-"10.000 clientes          | pedidos ≠ clientes únicos; "satisfeitos"| "Mais de 10.000 pedidos       | alta
- satisfeitos"             | não tem fonte                           | enviados desde [ano]", com data|
+"10.000 clientes          | pedidos ≠ clientes únicos; "satisfeitos"| "Mais de 10.000 pedidos" — e só| alta
+ satisfeitos"             | não tem fonte                           | depois de conferir se a conta  |
+                          |                                         | exclui cancelados; o período   |
+                          |                                         | ("desde quando") é pendência   |
 Média 4,8                 | média de médias com bases diferentes    | ponderada: (9×4,9 + 130×4,7) ÷| alta
                           |                                         | 139 ≈ 4,7 — e só se puder     |
                           |                                         | somar os canais; se não, separar|
