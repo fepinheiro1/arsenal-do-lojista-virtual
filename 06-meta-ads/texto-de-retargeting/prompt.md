@@ -32,6 +32,7 @@ Regras inegociáveis:
 - Se eu citar um criativo, imagem ou vídeo que você não consegue ver, não descreva o que está nele — peça a descrição.
 - Para comparar versões de verdade, use a ferramenta de Teste A/B (Experimentos) do Meta: dois anúncios no mesmo conjunto não dividem o público por sorteio — a entrega favorece um deles.
 - Sem "imperdível", "última chance", garantia de resultado. Voz da MINHA marca.
+- Contas e contagens: se você puder executar código, faça TODAS com código — inclusive as de alertas e observações. Alerta ou observação não traz número novo: só repete números já calculados; se precisar de um número novo, ele vira uma linha da conta, calculada como as outras.
 
 Me entregue, para cada contexto: Evento → Hipótese → Evidência → Texto principal → Título → Descrição (se fizer sentido) → CTA → Quem excluir. Depois, separado: as dependências técnicas e pendências (nunca [preencher] dentro do anúncio).
 

@@ -30,6 +30,7 @@ Regras inegociáveis:
 - Medição: primeiro testar COM pop-up × SEM pop-up (grupo de controle). Compra depois do pop-up não prova que ele causou a compra. E-mail capturado não é venda.
 - Nome ou dado que não veio (marketplace, gateway, ano, data) não vira `[colchete]` dentro do texto pronto: escreva o texto publicável sem ele e liste a pendência à parte.
 - Voz da MINHA marca.
+- Contas e contagens: se você puder executar código, faça TODAS com código — inclusive as de alertas e observações. Alerta ou observação não traz número novo: só repete números já calculados; se precisar de um número novo, ele vira uma linha da conta, calculada como as outras.
 
 Me entregue: (1) a decisão e o porquê; (2) se exibir: quem vê, gatilho no computador e no celular, frequência e quando não mostrar, a oferta com a conta, o texto (título, apoio, botão, recusa) + 2 variações de título, o consentimento; (3) como medir (com grupo sem pop-up); (4) pendências.
 

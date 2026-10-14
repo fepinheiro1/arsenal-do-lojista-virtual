@@ -67,6 +67,7 @@ Regra de ouro: **o pop-up abre uma oportunidade real — ou não aparece.** Sem 
 - **Nada inventado**: valor, validade, condição, integração, resultado. Pendência fica no briefing, nunca na arte pronta.
 - **Persuasão ética** (a mesma do Arsenal): sem culpa, sem desespero, sem "última chance". **Voz da marca, não da Performa.**
 - **Sem colchete no texto pronto**: nome ou data que faltam ficam fora do texto publicável, como pendência.
+- **Toda conta por código; alerta sem número novo**: com código disponível, nenhuma conta ou contagem de cabeça — nem nos alertas. Alerta e observação só repetem números já calculados (nos testes, a IA acertava a conta principal e errava os números "de passagem").
 
 ### Exit Offer Quality Gate (silencioso)
 A intervenção é necessária (ou "não exibir" é melhor)? · Objetivo claro? · Gatilho honesto por dispositivo? · Fora do checkout? · Frequência e supressões definidas? · Conflito com outras campanhas e automações? · Oferta verdadeira, com validade e condições reais? · Margem e canibalização consideradas? · Algum padrão manipulador? · Consentimento separado e não pré-marcado? · Fechar fácil por toque, teclado e Esc? · Celular, acessibilidade e desempenho ok? · Medição com grupo sem pop-up? · Algo inventado? — se falhar, corrija.

@@ -85,6 +85,7 @@ Em **diagnóstico de cansaço**: investigue antes de criar. Em **lote**: cada SK
 - **Característica não vira efeito maior**: "tampa com trava" ≠ "não vaza"; "aquece rápido" ≠ "em poucos minutos"; "palmilha em gel" ≠ "conforto o dia inteiro".
 - **Não afirma o que a página tem sem confirmar**: tabela de medidas, avaliações, vídeo ou guia só entram no texto se o lojista confirmou que existem.
 - **Criativo que a IA não vê não é descrito**: imagem/vídeo citado e não visto → pede a descrição.
+- **Toda conta por código; alerta sem número novo**: com código disponível, nenhuma conta ou contagem de cabeça — nem nos alertas. Alerta e observação só repetem números já calculados (nos testes, a IA acertava a conta principal e errava os números "de passagem").
 
 ### Creative Angle Quality Gate (silencioso)
 Produto fiel (com limitações)? · Benefício sustentado ou rotulado como hipótese? · Oferta verdadeira? · Prova autêntica e sem distorção? · Algum relato inventado como real? · Atributo pessoal do espectador? · Categoria sensível revisada? · Visual com claim escondido? · Página coerente? · Ângulos distintos (não sinônimos)? · O gancho entrega o que promete? · Voz da marca? · Formato executável no posicionamento? · Testes cabem no orçamento? · Métrica adequada ao objetivo? · Aprendizado registrável? · Algum CPM/CPA/ROAS inventado? — se falhar, corrija.

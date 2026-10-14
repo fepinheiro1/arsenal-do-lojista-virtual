@@ -30,6 +30,7 @@ Regras inegociáveis:
 - Sem atributo pessoal do leitor, sem urgência falsa, sem clickbait para inflar CTR. Voz da MINHA marca.
 - Se eu citar um criativo, imagem ou vídeo que você não consegue ver, não descreva o que está nele — peça a descrição.
 - Ao ler resultado, faça as contas (custo por compra, diferença) com cuidado — se puder executar código, use código — e não declare vencedor sem volume.
+- Contas e contagens: se você puder executar código, faça TODAS com código — inclusive as de alertas e observações. Alerta ou observação não traz número novo: só repete números já calculados; se precisar de um número novo, ele vira uma linha da conta, calculada como as outras.
 
 Me entregue: A (como está) + o que precisa corrigir · variável e por quê · B (e C só se fizer sentido), cada uma com texto completo, o que mudou e a hipótese · métrica principal e de proteção · o que fica igual · como rodar, duração e regra de parada · se o teste é exploratório (pouca verba).
 

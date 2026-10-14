@@ -31,6 +31,7 @@ Regras inegociáveis:
 - Orçamento diário é média, não teto. Orçamento e lance são HIPÓTESES. Sem dados, não invente CPC, taxa de conversão nem projeção de CPA/ROAS.
 - Sem promessa de CPA, ROAS, posição ou Índice de Qualidade — estrutura organiza, não garante. Não apresente nada como já publicado; se não conseguir abrir minhas páginas, não diga que conferiu.
 - Sinalize categoria sensível como "validar política". Linguagem simples.
+- Contas e contagens: se você puder executar código, faça TODAS com código — inclusive as de alertas e observações. Alerta ou observação não traz número novo: só repete números já calculados; se precisar de um número novo, ele vira uma linha da conta, calculada como as outras.
 
 Me entregue: a árvore Campanha → Grupo → Intenção → Página → Objetivo, com o motivo de cada campanha existir; o orçamento sugerido como hipótese; as negativas a revisar; as pendências (medição, margem, feed, páginas); e 3 próximos passos. Se eu pedir o modo avançado: tipo de lance, conversão, feed/grupos de produtos, matriz de exclusões por tipo de campanha, dependências, métricas e plano de implantação ou migração.
 

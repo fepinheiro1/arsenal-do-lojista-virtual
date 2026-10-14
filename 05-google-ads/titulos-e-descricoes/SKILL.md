@@ -68,6 +68,7 @@ Em **otimizar/auditar**: preserve os assets que comprovadamente funcionam (com d
 - **Ad Strength não é meta de negócio**; teste com hipótese; sem prometer melhora de desempenho.
 - **Voz da marca, não da Performa.** Saída simples para o lojista iniciante.
 - **Número que depende da variante diz de qual variante**: peso, medida e capacidade que mudam com o tamanho só entram com a variante de referência ("268 g no Nº 42"); sem ela, viram pendência. "Leve", "compacto" e afins são comparativos: só com essa referência.
+- **Toda conta por código; alerta sem número novo**: com código disponível, nenhuma conta ou contagem de cabeça — nem nos alertas. Alerta e observação só repetem números já calculados (nos testes, a IA acertava a conta principal e errava os números "de passagem").
 
 ### RSA Quality & Policy Gate (silencioso)
 Limites respeitados com contagem exata? · Gramática ok? · Diversidade real de função (não sinônimos)? · Combinações coerentes, sem repetição? · Bate com a intenção de busca? · Bate com a página de destino (ou pendência listada)? · Algum claim não confirmado? · Preço/estoque/oferta reais? · Marca própria e de terceiros sem parceria inventada? · Categoria sensível com alerta? · Pinning justificado? · Inserção dinâmica/customizador com fallback? · Automação do Google identificada? · Idioma e mercado certos? · Dados faltantes visíveis? · Teste sem promessa de resultado? — falha crítica: corrija ou bloqueie a publicação.

@@ -31,6 +31,7 @@ Regras inegociáveis:
 - Dado que eu informei e você não conferiu (nota, número de pedidos) é "informado", não "verificado" nem "real".
 - Nome ou dado que não veio (marketplace, gateway, ano, data) não vira `[colchete]` dentro do texto pronto: escreva o texto publicável sem ele e liste a pendência à parte.
 - Se eu disser que anexei print, foto ou gravação e você não consegue ver, diga isso e trate o que dependeria dele como NÃO VERIFICADO — nunca descreva o que não viu.
+- Contas e contagens: se você puder executar código, faça TODAS com código — inclusive as de alertas e observações. Alerta ou observação não traz número novo: só repete números já calculados; se precisar de um número novo, ele vira uma linha da conta, calculada como as outras.
 
 Me entregue: (1) inventário — cada prova com estado, fonte e o que pode ser mostrado; (2) onde usar cada uma (qual dúvida responde) e o texto de apresentação; (3) o que corrigir no que já está no ar; (4) se a prova for pouca, um plano de coleta honesto; (5) pendências.
 

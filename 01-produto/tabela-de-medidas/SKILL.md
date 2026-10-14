@@ -61,6 +61,7 @@ Uma coisa é decisiva e a skill vai querer saber: **as medidas são do corpo, da
 - **Variantes e lote**: se o tamanho identifica o SKU, preserve o valor por SKU; não consolide tamanhos distintos nem misture medidas entre itens. Em lote, mantenha ordem e identificação (SKU/URL/variante), confira o total recebido × entregue, marque pendências por item e não libere recomendação de tamanho para item com ambiguidade crítica (tipo, unidade ou sistema).
 - **Contexto regional**: sistema e equivalência dependem do país — não importe a tabela de outro mercado.
 - **Mobile-first**: tabela curta, só as colunas que importam; muitas dimensões → separe em blocos em vez de uma tabela horizontal gigante.
+- **Toda conta por código; alerta sem número novo**: com código disponível, nenhuma conta ou contagem de cabeça — nem nos alertas. Alerta e observação só repetem números já calculados (nos testes, a IA acertava a conta principal e errava os números "de passagem").
 
 ### Quality Gate (silencioso, antes de entregar)
 O tipo (corpo/peça/produto) está claro? · A grandeza manteve o nome que veio? · Unidade em tudo — informada, não presumida? · Sistema conhecido quando necessário? · Sequência e ranges plausíveis? · Falta dimensão importante? · A conversão foi só física (não comercial inventada)? · A recomendação de fit tem base? · O tamanho bate com o SKU? · As medidas combinam com a categoria? · O comprador sabe como medir? · A tabela é legível no celular? · Equivalências e fit têm fonte? — falha crítica vira pendência, não publicação.

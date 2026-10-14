@@ -33,6 +33,7 @@ Regras inegociáveis:
 - Todos os canais usam o MESMO fato. Pendência fica fora do texto pronto.
 - O limite de "estoque baixo" (a partir de quantas unidades mostrar o aviso) é decisão minha: se eu não disser, pergunte ou use um exemplo dizendo que é exemplo.
 - Dado que eu informei e você não conferiu (nota, número de pedidos, lote) é "informado", não "verificado" nem "real".
+- Contas e contagens: se você puder executar código, faça TODAS com código — inclusive as de alertas e observações. Alerta ou observação não traz número novo: só repete números já calculados; se precisar de um número novo, ele vira uma linha da conta, calculada como as outras.
 
 Me entregue, para cada mensagem: o fato (com a fonte), a mensagem curta, onde usar, quando ela sai do ar, a mensagem neutra no lugar e as pendências. Se eu pedir, as regras para o desenvolvedor (atualização do dado, remoção automática, cache, fuso, casos de teste).
 

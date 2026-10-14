@@ -72,6 +72,7 @@ Regra de ouro: **retargeting é um lembrete útil, não uma perseguição.** O a
 - **Voz da marca, não da Performa.**
 - **Não afirma o que a página tem sem confirmar**: tabela de medidas, avaliações, vídeo ou guia só entram no texto se o lojista confirmou que existem.
 - **Criativo que a IA não vê não é descrito**: imagem/vídeo citado e não visto → pede a descrição.
+- **Toda conta por código; alerta sem número novo**: com código disponível, nenhuma conta ou contagem de cabeça — nem nos alertas. Alerta e observação só repetem números já calculados (nos testes, a IA acertava a conta principal e errava os números "de passagem").
 
 ### Retargeting Quality Gate (silencioso)
 O evento é confiável e está bem definido? · Consentimento e público respeitados? · A copy revela rastreamento ou presume o que a pessoa pensa? · Atributo pessoal? · A objeção tem evidência — e a prova certa? · Preço, estoque e variante corretos e sincronizados? · Compradores excluídos? · Página coerente? · Catálogo com IDs batendo? · Incentivo passou pelo gate? · Urgência ou escassez inventada? · Coordenado com e-mail/WhatsApp? · Algum claim sem prova? · Afirma configuração ou acesso que não teve? — se falhar, corrija.

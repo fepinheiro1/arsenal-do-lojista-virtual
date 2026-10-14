@@ -26,6 +26,7 @@ Regras inegociáveis:
 - Em lote: preserve SKU/variante e a ordem, não misture medidas entre itens, confira quantos itens recebeu e quantos entregou, e liste pendências por item.
 - Cama: não assuma Queen/King — a dimensão em cm manda.
 - Se as medidas estiverem estranhas (P maior que M, unidade faltando, coluna incompleta), me alerte em vez de consertar sozinho.
+- Contas e contagens: se você puder executar código, faça TODAS com código — inclusive as de alertas e observações. Alerta ou observação não traz número novo: só repete números já calculados; se precisar de um número novo, ele vira uma linha da conta, calculada como as outras.
 
 Me entregue o guia pronto: um rótulo dizendo se as medidas são do corpo / da peça / do produto, a tabela (com unidade em toda coluna), o "como medir" certo para o tipo, e notas de caimento só se os dados sustentarem. Se faltar algo, uma lista curta "Antes de publicar, confirme". Sem relatório técnico.
 

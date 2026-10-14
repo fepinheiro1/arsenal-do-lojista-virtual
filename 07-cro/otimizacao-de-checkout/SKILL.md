@@ -69,6 +69,7 @@ Regra de ouro: **quem chegou ao checkout quer comprar — o trabalho é tirar at
 - **Ajuste rápido ≠ projeto**; teste com proteção; resultado com incerteza.
 - **Linguagem simples** para o lojista; detalhes técnicos sob demanda.
 - **Print que a IA não vê não é descrito**: o que depende dele fica "não verificado".
+- **Toda conta por código; alerta sem número novo**: com código disponível, nenhuma conta ou contagem de cabeça — nem nos alertas. Alerta e observação só repetem números já calculados (nos testes, a IA acertava a conta principal e errava os números "de passagem").
 
 ### Checkout Quality Gate (silencioso)
 Declarou o que examinou? · Cada achado tem nível de evidência e fonte? · Taxas com denominador e dados conferidos? · Desistência separada de falha? · Pix pendente tratado como não pago? · Falha de pagamento sem cobrança dupla? · Algum campo removido sem investigar? · Frete, prazo ou taxa inventados? · Total completo antes de confirmar? · Prometeu reserva ou selo inexistente? · Dado pessoal e de cartão protegidos? · Celular e acessibilidade vistos? · Capacidade da plataforma confirmada? · Ajuste rápido separado de projeto? · Teste com métricas de proteção? · Prometeu aumento de conversão? — se falhar, corrija.

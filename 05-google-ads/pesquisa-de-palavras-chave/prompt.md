@@ -30,6 +30,7 @@ Regras inegociáveis:
 - Com relatório de termos: corte por incompatibilidade com a minha oferta, não por poucos cliques sem venda. Termo caro sem conversão: confira a medição antes de culpar a palavra.
 - Palavras de Pesquisa não viram segmentação de Shopping ou Performance Max.
 - Linguagem simples.
+- Contas e contagens: se você puder executar código, faça TODAS com código — inclusive as de alertas e observações. Alerta ou observação não traz número novo: só repete números já calculados; se precisar de um número novo, ele vira uma linha da conta, calculada como as outras.
 
 Me entregue: (1) tabela Palavra-chave | Intenção | Grupo | Correspondência | Página | Prioridade (alta/média/baixa, como hipótese) | Fonte | Confiança | Motivo; (2) tabela de negativas: Termo | Correspondência negativa | Escopo | Buscas boas que poderia bloquear | Status; (3) curto: lacunas de página e o que eu preciso confirmar. Se eu pedir: auditoria do meu relatório de termos de pesquisa.
 

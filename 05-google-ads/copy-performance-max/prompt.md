@@ -34,6 +34,7 @@ Regras inegociáveis:
 - CTA: escolha entre as opções da interface do Google (ou automática), sem inventar rótulo.
 - Sem CAIXA ALTA, "!!!", emojis, "melhor do mundo", "imperdível", "última chance", urgência ou escassez falsa, garantia de resultado. Categoria sensível: me avise para revisar a política.
 - Voz da MINHA marca.
+- Contas e contagens: se você puder executar código, faça TODAS com código — inclusive as de alertas e observações. Alerta ou observação não traz número novo: só repete números já calculados; se precisar de um número novo, ele vira uma linha da conta, calculada como as outras.
 
 Me entregue: uma linha com o escopo do grupo; Títulos (até 30), Títulos longos (até 90), Descrições (até 90, com a curta até 60) e Nome da empresa (até 25), cada linha numerada com a contagem exata e o papel; 1 CTA sugerida; e as pendências (feed, página, automação, o que destravaria mais textos). Se eu pedir: auditoria do grupo atual, variações de teste com hipótese, ou lista de exclusões de URL.
 

@@ -68,6 +68,7 @@ Faltou dado? A skill **não trava num questionário longo**: monta um cenário p
 - **Conta existente**: auditar antes; migração faseada com volta atrás; preservar o que funciona.
 - **Nomenclatura legível** (ex.: `PAÍS | CANAL | OBJETIVO | TEMA | SEGMENTO | VERSÃO`, campos opcionais; manter o padrão atual se ele funciona).
 - **Linguagem simples para o lojista**; jargão só no modo avançado.
+- **Toda conta por código; alerta sem número novo**: com código disponível, nenhuma conta ou contagem de cabeça — nem nos alertas. Alerta e observação só repetem números já calculados (nos testes, a IA acertava a conta principal e errava os números "de passagem").
 
 ### Campaign Architecture Quality Gate (silencioso)
 Objetivo comercial explícito? · Mercado e moeda certos? · Algum dado financeiro inventado? · Conversão e valor tratados como pré-requisito? · Estrutura cabe no orçamento? · Cada campanha tem motivo próprio? · Cada grupo tem intenção e página coerentes? · Tipos de campanha elegíveis? · Controles por tipo, sem extrapolar? · Negativas/marca sem bloqueio acidental? · Feed e estoque verificados ou pendentes? · Promessa de CPA/ROAS em algum lugar? · Nomes consistentes? · Migração com volta atrás (se conta existente)? · Próximas ações claras e executáveis? · Algo apresentado como publicado? — se falhar, corrija.

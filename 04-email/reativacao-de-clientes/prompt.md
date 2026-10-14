@@ -32,6 +32,7 @@ Regras inegociáveis:
 - Personalização (nome, produto) só com fallback; não escreva a sintaxe de merge tag da plataforma sem eu confirmar — use `[nome]` e liste como placeholder.
 - Duração e consumo são estimativa: para o cliente, "deve estar acabando" — nunca "acabou" nem "o pacote dura X dias" como fato (depende do uso dele).
 - Frases curtas, mobile. Voz da MINHA marca.
+- Contas e contagens: se você puder executar código, faça TODAS com código — inclusive as de alertas e observações. Alerta ou observação não traz número novo: só repete números já calculados; se precisar de um número novo, ele vira uma linha da conta, calculada como as outras.
 
 Me entregue o e-mail pronto (ou o fluxo): para cada mensagem — segmento, quando (contra o ciclo, não "há X dias" cru), assunto (2 opções), preheader, corpo, CTA — mais o segmento/momento e os placeholders. Se eu pedir: o fluxo com automação (gatilho, delay, saída, supressão, ramificação), a segmentação por lifecycle/RFM/categoria, ou a etapa de sunset/re-permissão.
 

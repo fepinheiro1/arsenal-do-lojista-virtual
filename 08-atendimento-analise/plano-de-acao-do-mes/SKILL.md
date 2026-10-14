@@ -83,6 +83,7 @@ Tarefa sem skill correspondente vira **tarefa manual** — a skill não inventa 
 - **Encaminhamento só para skills que existem**; planejar ≠ executar.
 - **Revisão semanal, replanejamento e critério de parada.**
 - **Sem promessa de crescimento**; sem apelo motivacional vazio. Menor saída que permite agir.
+- **Toda conta por código; alerta sem número novo**: com código disponível, nenhuma conta ou contagem de cabeça — nem nos alertas. Alerta e observação só repetem números já calculados (nos testes, a IA acertava a conta principal e errava os números "de passagem").
 
 ### Plan Quality Gate (silencioso)
 Algum número inventado? · A matemática confere? · Cada dado tem estado e fonte? · Divergência entre fontes registrada? · Período comparável? · A medição funciona — ou é a primeira ação? · Hipóteses com o dado que as separa? · Algo crítico (checkout, pagamento) ficou atrás de ação de crescimento? · Algum produto indisponível na campanha? · Meta de receita com margem negativa sem alerta? · Cabe na capacidade e no caixa? · Toda ação tem dono, entrega e métrica? · Dependências e caminho crítico ditos? · Skills encaminhadas existem? · Promessa de resultado? — se falhar, corrija.

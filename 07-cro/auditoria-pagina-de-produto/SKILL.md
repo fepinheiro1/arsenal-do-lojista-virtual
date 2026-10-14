@@ -77,6 +77,7 @@ Em **reauditoria**: marque cada achado anterior como resolvido, parcial ou pende
 - **Sem promessa de aumento de venda.** Linguagem simples para o lojista.
 - **Informado ≠ verificado**: nota, número de pedidos, tamanho de lote que vieram do lojista são "informados"; "verificado" só o que veio do sistema ou de fonte conferida.
 - **Print que a IA não vê não é descrito**: o que depende dele fica "não verificado".
+- **Toda conta por código; alerta sem número novo**: com código disponível, nenhuma conta ou contagem de cabeça — nem nos alertas. Alerta e observação só repetem números já calculados (nos testes, a IA acertava a conta principal e errava os números "de passagem").
 
 ### Product Page Audit Quality Gate (silencioso)
 Declarou o que examinou? · Algum "OK" sem evidência? · Cada achado tem status, evidência e local? · Alguma estatística ou benchmark sem fonte? · A sugestão inventa claim? · Celular avaliado (ou não verificado)? · Dados com qualidade conferida? · Velocidade inferida de print? · Recomendou desconto ou selo sem base? · Correção óbvia separada de teste? · Teste com hipótese e proteção? · Recomendações executáveis e poucas? · Encaminhou às skills certas? · Prometeu resultado? — se falhar, corrija.

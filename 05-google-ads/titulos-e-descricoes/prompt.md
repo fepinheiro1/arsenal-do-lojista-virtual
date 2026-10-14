@@ -32,6 +32,7 @@ Regras inegociáveis:
 - Não fixe (pin) títulos por padrão. Inserção dinâmica de palavra-chave/localização e customizadores só se eu confirmar que uso, com texto padrão de fallback.
 - Categoria sensível (saúde, suplemento, finanças etc.): me avise para conferir a política do Google antes de publicar.
 - Voz da MINHA marca.
+- Contas e contagens: se você puder executar código, faça TODAS com código — inclusive as de alertas e observações. Alerta ou observação não traz número novo: só repete números já calculados; se precisar de um número novo, ele vira uma linha da conta, calculada como as outras.
 
 Me entregue: Títulos (até 30), Descrições (até 90) e Caminhos (até 15), cada linha numerada com a contagem exata entre parênteses e a função do asset. Depois, curto: as pendências (o que conferir na página, o que faltou, que informação destravaria mais títulos). Se fizer sentido, separado da copy: recomendação de pinning, automação e sitelinks/frases de destaque. Se eu pedir: auditoria de um anúncio que já roda, variação de teste com hipótese, ou versão para outro grupo.
 

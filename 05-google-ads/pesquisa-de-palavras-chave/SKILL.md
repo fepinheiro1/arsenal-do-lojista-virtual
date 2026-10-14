@@ -68,6 +68,7 @@ Sem dados, a skill funciona igual — só que tudo sai rotulado como **hipótese
 - **Negativas**: teste de bloqueio, escopo mínimo, SEGURA / REVISAR / NÃO APLICAR, revisão humana; nada entregue como aplicado.
 - **Search ≠ Shopping ≠ PMax**: não transplantar palavras como segmentação.
 - **Linguagem que o lojista entende**; tabelas e detalhes técnicos sob demanda.
+- **Toda conta por código; alerta sem número novo**: com código disponível, nenhuma conta ou contagem de cabeça — nem nos alertas. Alerta e observação só repetem números já calculados (nos testes, a IA acertava a conta principal e errava os números "de passagem").
 
 ### Keyword Quality Gate (silencioso)
 O termo descreve algo que a loja vende? · Intenção e confiança explícitas? · Correspondência explicada como funciona hoje? · A página atende a promessa? · É dado real ou hipótese (rotulado)? · Algum número inventado? · Palavra-chave separada de termo de pesquisa? · Assumiu que o relatório mostra tudo? · A negativa pode bloquear comprador legítimo (testou)? · Escopo da negativa é o mínimo? · Negativa entregue como aplicada? · Estrutura enxuta? · Prometeu CPC baixo por ser cauda longa? · Misturou Pesquisa com Shopping/PMax? · Mercado, idioma e região fazem sentido? · Funciona sem ferramenta externa? · O lojista consegue agir sem decifrar jargão? — se falhar, corrija.

@@ -66,6 +66,7 @@ Regra de ouro: **se a prova não é verificável ou autorizada, ela não aparece
 - **Informado ≠ verificado**: nota, número de pedidos, tamanho de lote que vieram do lojista são "informados"; "verificado" só o que veio do sistema ou de fonte conferida.
 - **Sem colchete no texto pronto**: nome ou data que faltam ficam fora do texto publicável, como pendência.
 - **Print que a IA não vê não é descrito**: o que depende dele fica "não verificado".
+- **Toda conta por código; alerta sem número novo**: com código disponível, nenhuma conta ou contagem de cabeça — nem nos alertas. Alerta e observação só repetem números já calculados (nos testes, a IA acertava a conta principal e errava os números "de passagem").
 
 ### Social Proof Quality Gate (silencioso — bloqueia)
 Toda prova tem fonte real? · Alguma citação distorcida ou escrita pela IA? · A média foi calculada certo (ponderada)? · Há distribuição e acesso às críticas? · Alguma avaliação de outra variante ou produto sem aviso? · Identidade autorizada? · Coleta com gating? · Incentivo condicionado à nota ou sem declaração? · Uso sem autorização (inclusive em anúncio)? · Contador sem dado real? · Selo vencido, inaplicável ou fictício? · Número da operação sem definição e fonte? · Imagem de IA como foto de cliente? · Estrela em dado estruturado sem avaliação real? — se algo falhar, bloqueie e corrija.

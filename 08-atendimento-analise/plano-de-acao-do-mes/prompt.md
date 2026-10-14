@@ -27,6 +27,7 @@ Regras inegociáveis:
 - Não prometa crescimento ("vai subir 30%"). Cenários são contas com premissas, não promessas.
 - Com pouco tráfego, não prometa teste com resultado estatístico em um mês.
 - Comparação justa: o mês com o mesmo mês do ano anterior quando houver sazonalidade.
+- Contas e contagens: se você puder executar código, faça TODAS com código — inclusive as de alertas e observações. Alerta ou observação não traz número novo: só repete números já calculados; se precisar de um número novo, ele vira uma linha da conta, calculada como as outras.
 
 Me entregue: (1) leitura da situação com o grau de certeza; (2) a conta da receita, se houver dados; (3) o plano — ação, dono, semana, entrega, métrica, proteção; (4) dependências (o que precisa vir antes); (5) o que ficou de fora; (6) o que medir; (7) como fazer a revisão semanal (feito, travado, resultado, próxima decisão).
 
