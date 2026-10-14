@@ -79,6 +79,7 @@ Contas com precisão decimal; arredondamento só na apresentação, com a regra 
 - **Teto não sai do custo**; premium só com diferencial comprovado e teste.
 - **Nunca mudar preço sem autorização.** Apoio à decisão, não consultoria financeira, contábil ou jurídica.
 - **Sem "preço imperdível"**: preço é conta, não grito.
+- **Toda conta conferida**: alertas, exemplos e simulações também — um "e se o imposto for 8%" com número errado desfaz a confiança na conta principal. Alerta não traz número novo: só repete o que já foi calculado.
 
 ### Pricing Quality Gate (silencioso — bloqueia)
 Algum campo crítico ausente com preço final entregue? · Taxa percentual somada ao custo? · Base de incidência definida? · Imposto ou custo contado duas vezes? · Convenção (margem × markup) dita? · Denominador positivo? · Arredondamento só no fim? · Contribuição apresentada como lucro? · Desconto respeita o piso? · Preço "de" com histórico? · Canal e meio de pagamento separados? · Dados com data? · Teto deduzido do custo ou do concorrente? — se falhar, corrija ou bloqueie.

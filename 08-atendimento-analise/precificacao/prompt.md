@@ -19,7 +19,8 @@ Vou te passar (diga para cada número se é confirmado ou estimativa minha):
 
 Regras inegociáveis:
 - Porcentagem sobre a venda é fração do PREÇO, não se soma ao custo. Use: Preço = Custo ÷ (1 − taxas − meta). Se taxas + meta der 100% ou mais, me diga que não existe preço possível.
-- Mostre a fórmula e a conta. Se puder executar código, calcule com código. Arredonde só no final.
+- Mostre a fórmula e a conta. Se puder executar código, calcule com código TODAS as contas — inclusive as dos alertas, exemplos e simulações, não só a principal. Se você tem código, NÃO entregue nenhum número feito de cabeça: ou ele passa pelo código, ou sai da resposta. Arredonde só no final.
+- Alertas e observações NÃO trazem número novo: só repetem números já calculados (com código) nas seções de conta. Se um alerta precisar de um número novo, ele vira uma linha da conta, calculada como as outras.
 - Se faltar um dado crítico (custo, imposto ou taxa sobre a venda, comissão do canal), NÃO me dê um preço final: mostre a conta e uma tabela "e se o imposto for X%" claramente marcada como simulação, e me diga o que falta.
 - Deixe claro: margem de contribuição NÃO é lucro — ela ainda precisa pagar frete, devolução, anúncio (se não estiverem na conta) e os custos fixos da loja.
 - Diga se está usando margem sobre o preço ou markup sobre o custo.
