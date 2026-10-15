@@ -27,15 +27,22 @@ O Arsenal é dividido em **8 frentes**. Cada frente é uma pasta; cada skill den
 
 ## Como usar
 
-Cada skill vem em **dois formatos** — use o que combina com a sua ferramenta:
+Cada skill vem em **dois formatos** — use o que combina com a sua ferramenta.
 
-**1. Em qualquer IA (ChatGPT, Gemini, Claude no navegador)**
-Abra o `prompt.md` da skill, copie o conteúdo, troque o que está entre `[colchetes]` pelos seus dados e cole na conversa. Pronto.
+**1. Em qualquer IA (ChatGPT, Gemini, Claude no navegador) — o jeito mais simples**
 
-**2. No Claude (Claude Code, Claude Desktop com skills)**
-Aponte para a pasta da skill. O `SKILL.md` é reconhecido automaticamente e a IA passa a operar naquele modo.
+1. Na tabela acima, clique na frente (ex.: `08-atendimento-analise`) e depois na skill (ex.: `precificacao`).
+2. Clique no arquivo `prompt.md`.
+3. Copie o texto que está **entre as duas linhas** — no canto do arquivo há um botão de copiar.
+4. Cole na sua IA e troque o que está entre `[colchetes]` pelos seus dados (custo, imposto, produto...).
+5. Mande. A partir daí, converse normalmente: peça ajustes ou mande o próximo caso.
 
-Todas trazem também um `exemplo.md` — um caso real de entrada e saída, pra você ver o resultado antes de rodar.
+Se a IA puder executar código (ChatGPT e Claude costumam poder), as contas saem conferidas. Se faltar um dado importante, ela vai perguntar ou deixar a pendência separada — em vez de inventar.
+
+**2. No Claude como skill (Claude Code, Claude Desktop com skills)**
+Instale a pasta da skill no Claude. O `SKILL.md` é reconhecido e o Claude passa a usar a skill sozinho quando o assunto aparecer — sem precisar colar nada.
+
+Todas trazem também um `exemplo.md` — exemplos ilustrativos de entrada e saída, pra você ver o tipo de resultado antes de rodar.
 
 ---
 
@@ -45,7 +52,7 @@ Todas trazem também um `exemplo.md` — um caso real de entrada e saída, pra v
 nome-da-skill/
 ├── SKILL.md      → a skill no formato Claude (invocável)
 ├── prompt.md     → o mesmo poder em prompt copia-e-cola (qualquer IA)
-└── exemplo.md    → um caso real: entrada → saída
+└── exemplo.md    → exemplos ilustrativos: entrada → saída
 ```
 
 O molde padrão que toda skill segue está em [`_template/`](_template/).

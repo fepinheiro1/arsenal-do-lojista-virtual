@@ -1,4 +1,4 @@
-# [Nome da Skill] — exemplo real
+# [Nome da Skill] — exemplos ilustrativos
 
 Um caso completo de entrada e saída, pra mostrar o resultado esperado.
 
